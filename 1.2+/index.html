@@ -7,7 +7,7 @@
     <title>TagsI'llUseRarely</title>
 </head>
 <body>
-    <h1 align="center">Редко использумые теги</h1>
+    <h1 align="center"><a name="returnToStart">Редко</a> использумые теги</h1>
 
     <ol>
         <li><a href="index.html#dldtdd">&lt;dl&gt;,&lt;dt&gt;,&lt;dd&gt;</a></li>
@@ -34,8 +34,7 @@
         стилем является закрывать все теги.
     </p>
     <h3><b>Синтаксис</b></h3>
-    <p>
-
+    
     <pre><code>
 &lt;dl&gt;
     &lt;dt&gt;Термин 1&lt;/dt&gt;
@@ -44,8 +43,8 @@
         &lt;dd&gt;Определение термина 2&lt;/dd&gt;
 &lt;/dl&gt;
     </code></pre>
+    
 
-    </p>
     <h3><b>Отображение на странице</b></h3>
     <dl>
         <dt>Термин 1</dt>
@@ -133,7 +132,7 @@
         </code>
     </p>
     <h3><b>Пример</b></h3>
-    <pre><p>&lt;body&gt; 
+    <pre>&lt;body&gt; 
     &lt;p&gt;Код программы&lt;/p&gt;
         &lt;code&gt;
             function checkParent (src, dest)
@@ -146,9 +145,9 @@
                return null
             }
         &lt;/code&gt;              
-&lt;/body&gt;</p></pre>
+&lt;/body&gt;</pre>
     <h3><b>Отображение на странице</b></h3>
-<pre><p>Код программы</p>
+<pre>Код программы
         function checkParent (src, dest)
         {
             while (src != null)
@@ -198,13 +197,13 @@
     </code>
 </p>
 <h3><b>Пример</b></h3>
-<p><code><pre>&lt;body&gt;
+<pre><code>&lt;body&gt;
     &lt;p&gt;
         Use the command &lt;kbd&gt;help mycommand&lt;/kbd&gt; to view documentation
         for the command "mycommand".   
     &lt;/p&gt;
 &lt;/body&gt; 
-</pre></code></p>
+</code></pre>
 
 <h3><b>Отображение на странице</b></h3>
 <p>
@@ -253,18 +252,18 @@
 </p>
 
 <h3><b>Пример</b></h3>
-<p><pre>&lt;body&gt;
+<pre>&lt;body&gt;
     &lt;p&gt;
         &lt;i&gt;X&lt;sub&gt;1&lt;/sub&gt;+Y&lt;sub&gt;1&lt;/sub&gt;=2&lt;sup&gt;2&lt;/sup&gt;&lt;/i&gt;
     &lt;/p&gt;
 &lt;/body&gt;
-</pre></p>
+</pre>
 
 <h3><b>Отображение на странице</b></h3>
 
-<pre><p> <i>X<sub>1</sub>+Y<sub>1</sub>=2<sup>2</sup></i>
-</p></pre><br>
-
+<pre> <i>X<sub>1</sub>+Y<sub>1</sub>=2<sup>2</sup></i>
+</pre><br>
+<!-- <q>, <blockquote> -->
 <h2><b> <a name="qblockquote">Теги</a> &lt;q&gt;, &lt;blockquote&gt;</b></h2>
 <p align="justify">
     Тег &lt;q&gt; используется для выделения в тексте цитат. Содержимое контейнера
@@ -276,26 +275,28 @@
 </p>
 
 <h3><b>Синтаксис</b></h3>
-
+<p>
 <code>
     &lt;q&gt;Текст&lt;/q&gt;<br>
     &lt;blockquote&gt;Текст&lt;/blockquote&gt;
 </code>
+</p>
 
 <h3><b>Пример</b></h3>
-<pre>
-&lt;p&gt;Станислав Лец утверждал: &lt;q&gt;Чаще всего выход там, где был вход&lt;/q&gt;.&lt;/p&gt;
+<pre>&lt;body&gt;
+    &lt;p&gt;Станислав Лец утверждал: &lt;q&gt;Чаще всего выход там, где был вход&lt;/q&gt;.&lt;/p&gt;
 
-&lt;hr&gt;      &lt;&#33;&#45;&#45; тег &lt;hr&gt; отображает горизонтальную линию, для наглядности &#45;&#45;&gt;
-&lt;blockquote&gt;
-    &lt;p&gt;
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-        sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
-        volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper 
-        suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
+    &lt;hr&gt;      &lt;&#33;&#45;&#45; тег &lt;hr&gt; отображает горизонтальную линию, для наглядности &#45;&#45;&gt;
+    &lt;blockquote&gt;
+        &lt;p&gt;
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+            sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
+            volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper 
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        &lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;hr&gt;
+&lt;/body&gt;
 </pre>
 
 <h3><b>Отображение на странице</b></h3>
@@ -311,5 +312,112 @@
 <hr>
 <br><br>
 
+<!-- <ins>, <del> -->
+<h2><b> <a name="insdel">Теги</a> &lt;ins&gt;, &lt;del&gt;</b></h2>
+<p align="justify">
+    Тег &lt;ins&gt; предназначен для выделения текста, который был добавлен в новую версию документа.
+    Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.
+    Браузеры обычно помечают текст в контейнере &lt;ins&gt; как подчеркнутый.<br><br>
+    Тег &lt;del&gt; используется для выделения текста, который был удален в новой версии документа.
+    Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.
+    Браузеры обычно помечают текст в контейнере &lt;del&gt; как перечеркнутый.   
+</p>
+
+<h3><b>Синтаксис</b></h3>
+<p>
+<code>
+    &lt;ins&gt;Текст&lt;/ins&gt;<br>
+    &lt;del&gt;Текст&lt;/del&gt;
+</code>
+</p>
+
+<h3><b>Пример</b></h3>
+<pre><code>&lt;body&gt; 
+    &lt;p&gt;
+        в последующих версиях &lt;del&gt;этот недостаток был устранен&lt;/del&gt;
+        &lt;ins&gt;подход разработчиков этого браузера был изменен&lt;/ins&gt;.
+    &lt;/p&gt;    
+&lt;/body&gt;</code></pre>
+
+<h3><b>Отображение на странице</b></h3>
+
+    <p>в последующих версиях <del>этот недостаток был устранен</del>
+    <ins>подход разработчиков этого браузера был изменен</ins>.</p>
+<br>
+<!-- <adress> -->
+<h2><b> <a name="adress">Тег</a> &lt;adress&gt;</b></h2>
+<p align="justify">
+    Тег &lt;adress&gt; предназначен для хранения информации об авторе и может включать в себя любые элементы HTML
+    вроде ссылок, текста, выделений и т.д. Планируется, что поисковые системы будут анализировать содержимое
+    этого тега для сбора информации об авторах сайтов.<br>
+    По умолчанию текст внутри контейнера &lt;adress&gt; отображается курсивным начертанием. Если эта особенность
+    не требуется, используйте стили для изменения начертания шрифта.
+</p>
+
+<h3><b>Синтаксис</b></h3>
+<p>
+<code>
+    &lt;adress&gt;Текст&lt;/adress&gt;
+</code>
+</p>
+
+<h3><b>Пример</b></h3>
+<pre><code>&lt;/body&gt;
+    &lt;p&gt;
+        Официальный сайт Юникода располагается по адресу www.unicode.org.&lt;br&gt;
+        &lt;adress&gt;Официальный сайт Юникода располагается по адресу www.unicode.org.&lt;/adress&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h3><b>Отображение на странице</b></h3>
+
+<p>
+    Официальный сайт Юникода располагается по адресу www.unicode.org.
+</p>
+    <address>Официальный сайт Юникода располагается по адресу www.unicode.org.</address>
+
+<br><br>
+
+<!-- <nobr>, <wbr> -->
+<h2><b> <a name="nobrwbr">Теги</a> &lt;nobr&gt;, &lt;wbr&gt;</b></h2>
+<p align="justify">
+    Тег &lt;nobr&gt; уведомляет браузер отображать текст без переносов. Если этого тега в коде документа нет, а также
+    имеются переводы строки, они игнорируются и текст выравнивается по левому краю окна браузера или родительского
+    элемента. При этом браузер переводы строк расставляет автоматически, чтобы текст полностью поместился по ширине
+    окна. Использование тега &lt;nobr&gt; заставляет отображать текст без переносов, одной строкой, что может привести к
+    появлению горизонтальной полосы прокрутки. Пользователям придется прокручивать текст по горизонтали, чтобы
+    увидеть его полностью, чего обычно делать никто не любит.<br>
+    Тег &lt;wbr&gt; указывает браузеру место, где допускается делать перенос строки в тексте, если этого требует ширина
+    родительского элемента.
+</p>
+
+<h3><b>Синтаксис</b></h3>
+    <p><code>
+        &lt;nobr&gt;Текст&lt;/nobr&gt;<br><br>
+        Текст&lt;wbr&gt;Текст
+    </code></p>
+
+<h3><b>Пример</b></h3>
+<pre>&lt;body&gt;
+    &lt;p&gt;&lt;nobr&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore 
+    magna aliguam erat volutpat. Ut wisis enim ad minim veniam, 
+    quis nostrud exerci tution ullamcorper suscipit lobortis nisl 
+    ut aliquip ex ea commodo consequat.&lt;/nobr&gt;&lt;/p&gt;<br>
+    &lt;p class="word"&gt;метоксихлор&lt;wbr&gt;диэтиламино&lt;wbr&gt;метилбутил&lt;wbr&gt;аминоакридин_&lt;wbr&gt;метоксихлор&lt;wbr&gt;диэтиламино&lt;wbr&gt;
+    метилбутил&lt;wbr&gt;аминоакридин_&lt;wbr&gt;метоксихлор&lt;wbr&gt;диэтиламино&lt;wbr&gt;метилбутил&lt;wbr&gt;аминоакридин&lt;/p&gt;
+&lt;/body&gt;
+</pre>
+
+<h3><b>Отображение на странице</b></h3>
+<p><nobr>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore 
+    magna aliguam erat volutpat. Ut wisis enim ad minim veniam, 
+    quis nostrud exerci tution ullamcorper suscipit lobortis nisl 
+    ut aliquip ex ea commodo consequat.</nobr></p>
+<p class="word">метоксихлор<wbr>диэтиламино<wbr>метилбутил<wbr>аминоакридин_<wbr>метоксихлор<wbr>диэтиламино<wbr>метилбутил<wbr>аминоакридин_<wbr>метоксихлор<wbr>диэтиламино<wbr>метилбутил<wbr>аминоакридин</p>
+<br><br>
+<a href="index.html#returnToStart">К началу</a>
 
 </html>
