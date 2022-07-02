@@ -10,14 +10,17 @@
     <h1 align="center">Редко использумые теги</h1>
 
     <ol>
-        <li><a href="index.html#dldtdd">dl,dt,dd</a></li>
-        <li><a href="index.html#pre">pre</a></li>
-        <li><a href="index.html#code">code</a></li>
-        <li><a href="index.html#tt">tt</a></li>
-        <li><a href="index.html#kbd">kbd</a></li>
-        <li><a href="index.html#var">var</a></li>
-        <li><a href="index.html#supsub">sup,sub</a></li>
-        <li><a href="index.html#code">code</a></li>
+        <li><a href="index.html#dldtdd">&lt;dl&gt;,&lt;dt&gt;,&lt;dd&gt;</a></li>
+        <li><a href="index.html#pre">&lt;pre&gt;</a></li>
+        <li><a href="index.html#code">&lt;code&gt;</a></li>
+        <li><a href="index.html#tt">&lt;tt&gt;</a></li>
+        <li><a href="index.html#kbd">&lt;kbd&gt;</a></li>
+        <li><a href="index.html#var">&lt;var&gt;</a></li>
+        <li><a href="index.html#supsub">&lt;sup&gt;,&lt;sub&gt;</a></li>
+        <li><a href="index.html#qblockquote">&lt;q&gt;, &lt;blockquote&gt;</a></li>
+        <li><a href="index.html#insdel">&lt;ins&gt;, &lt;del&gt;</a></li>
+        <li><a href="index.html#adress">&lt;adress&gt;</a></li>
+        <li><a href="index.html#nobrwbr">&lt;nobr&gt;, &lt;wbr&gt;</a></li>
     </ol>
 
 
@@ -207,11 +210,106 @@
 <p>
     Use the command <kbd>help mycommand</kbd> to view documentation
     for the command "mycommand". 
+</p><br>
+<!-- <var> -->
+<h2><b> <a name="var">Тег</a> &lt;var&gt;</b></h2>
+<p align="justify">
+    Тег &lt;var&gt; используется для выделения переменных компьютерных программ. Браузеры
+    обычно помечают текст в контейнере &lt;var&gt; курсивным начертанием. Закрывающий тег
+    обязателен.
+</p>
+<h3><b>Синтаксис</b></h3>
+<p>
+    <code>
+        &lt;var&gt;Текст&lt;/var&gt;<br>
+    </code>
+</p>
+<h3><b>Пример</b></h3>
+<pre>&lt;body&gt;
+    &lt;p&gt;Переменная &lt;var&gt;a&lt;/var&gt; должна быть равна переменной &lt;var&gt;select&lt;/var&gt;,
+    тогда выполнится следующий код: &lt;code&gt;Hello world !!!&lt;/code&gt; &lt;/p&gt;
+&lt;/body&gt;</pre>
+
+<h3><b>Отображение на странице</b></h3>
+<p>
+    Переменная <var>a</var> должна быть равна переменной <var>select</var>, <br>
+    тогда выполнится следующий код: <code>Hello world !!!</code>
+</p>
+<br>
+
+<!-- <sup>, <sub> -->
+<h2><b> <a name="supsub">Теги</a> &lt;sup&gt;, &lt;sub&gt;</b></h2>
+<p align="justify">
+    &lt;sup&gt; &#40; &lt;sub&gt; &#41; отображают шрифт в виде верхнего &#40;нижнего&#41; индекса соответственно.
+    Текст при этом отображается выше &#40;ниже&#41; базовой линии текста соответственно и уменьшенного размера.
 </p>
 
-<h2><b> <a name="var">Тег</a> &lt;var&gt;</b></h2>
+<h3><b>Синтаксис</b></h3>
+<p>
+    <code>
+        &lt;sup&gt;Текст&lt;/sup&gt;<br>
+        &lt;sub&gt;Текст&lt;/sub&gt;<br>
+    </code>
+</p>
+
+<h3><b>Пример</b></h3>
+<p><pre>&lt;body&gt;
+    &lt;p&gt;
+        &lt;i&gt;X&lt;sub&gt;1&lt;/sub&gt;+Y&lt;sub&gt;1&lt;/sub&gt;=2&lt;sup&gt;2&lt;/sup&gt;&lt;/i&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+</pre></p>
+
+<h3><b>Отображение на странице</b></h3>
+
+<pre><p> <i>X<sub>1</sub>+Y<sub>1</sub>=2<sup>2</sup></i>
+</p></pre><br>
+
+<h2><b> <a name="qblockquote">Теги</a> &lt;q&gt;, &lt;blockquote&gt;</b></h2>
+<p align="justify">
+    Тег &lt;q&gt; используется для выделения в тексте цитат. Содержимое контейнера
+    автоматически отображается в браузере в кавычках.<br>
+    Тег &lt;blockquote&gt; предназначен для выделения длинных цитат внутри документа.
+    Текст, обозначенный этим тегом, традиционно отображается как выровненный блок
+    с отступами слева и справа (примерно по 40 пикселов), а также с отбивкой сверху
+    и снизу.
+</p>
+
+<h3><b>Синтаксис</b></h3>
+
+<code>
+    &lt;q&gt;Текст&lt;/q&gt;<br>
+    &lt;blockquote&gt;Текст&lt;/blockquote&gt;
+</code>
+
+<h3><b>Пример</b></h3>
+<pre>
+&lt;p&gt;Станислав Лец утверждал: &lt;q&gt;Чаще всего выход там, где был вход&lt;/q&gt;.&lt;/p&gt;
+
+&lt;hr&gt;      &lt;&#33;&#45;&#45; тег &lt;hr&gt; отображает горизонтальную линию, для наглядности &#45;&#45;&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+        sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
+        volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper 
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</pre>
+
+<h3><b>Отображение на странице</b></h3>
+
+<p>Станислав Лец утверждал: <q>Чаще всего выход там, где был вход</q>.</p>
+<hr>
+<blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
+    volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper 
+    suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</blockquote>
+<hr>
+<br><br>
 
 
-
-</body>
 </html>
