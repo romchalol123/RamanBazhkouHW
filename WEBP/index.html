@@ -4,37 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebP</title>
 </head>
 <body>
     <h1 align="center">WebP: что это, и с чем его едят</h1>
     
-    <p>
+    <p align="justify">
         <b>WebP</b> — это формат файлов изображений, разработанный Google и предназначенный для
         замены форматов файлов JPEG, PNG и GIF. Он поддерживает как сжатие с потерями, так и без
         потерь, а также анимацию и альфа-прозрачность.
     </p>
 
-    <h3>Преимущества и недостатки WebP</h3>
-
     <h3>Поддержка</h3>
-    <p>
-        В настоящее время просмотр изображений в формате WebP поддерживается браузерами семейства
-        Chromium (Google Chrome, Microsoft EDGE), Opera, Firefox, Android-браузером, Chrome и MS EDGE
-        для Android.
-
-
-        С помощью специальной JavaScript-библиотеки возможно отображение в браузерах, поддерживающих видео
-        в формате WebM, в частности, в Firefox 4.0 и более новых
-
-        Существует также порт библиотеки libwebp под названием libwebpjs/libwebpas на JavaScript и
-        ActionScript, позволяющий использовать WebP во всех популярных браузерах (поддержка IE6+
-        осуществляется с помощью дополнительного модуля Adobe Flash
-
-        
+    <p align="justify">
+        В настоящее время просмотр изображений в формате WebP поддерживают все браузеры семейства
+        <a href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_Chromium">Chromium</a>
+        (Google Chrome, Microsoft EDGE и другие), а также Opera, Firefox (и основанные на нём Pale Moon и Waterfox), Safari,
+        <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.54f918bb-62c6f164-5dec7cce-74722d776562/https/en.wikipedia.org/wiki/GNOME_Web">GNOME Web</a>,
+        <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.54f918bb-62c6f164-5dec7cce-74722d776562/https/en.wikipedia.org/wiki/Midori_(web_browser)">Midori</a>
+        и <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.54f918bb-62c6f164-5dec7cce-74722d776562/https/en.wikipedia.org/wiki/Falkon">Falkon</a>.
+        WebP также может отображаться во всех основных браузерах с использованием библиотеки JavaScript WebPJS, хотя поддержка в Internet Explorer 6 и выше достигается с помощью Flash.
+        <br><br>
+        Есть также <a href="https://webgroupco.com/developers/webp?ysclid=l5d7ftmdar221234642">плагин</a> для работы с WebP в Adobe Photoshop.
     </p>
 
+    <p>
+        <b>Преимущества:</b> <br>
+        <ul>
+            <li>Меньший размер файла</li>
+            <li>Улучшенный алгоритм сжатия</li>
+            <li>Более качественный переходы цвета</li>
+            <li>Маска альфа-канала</li>
+        </ul>
+        <b>Недостатки:</b> <br>
+        <ul>
+            <li>Не всеми браузерами поддерживается</li>
+            <li>Искажение имеет пластиковый вид (лично я не считаю, что это плохо,<br> т к, например, изображение имеет более четкие границы переходов между<br>
+                цветами, в отличие от JPEG)</li>
+            <li>Неудобный интерфейс экспорта</li>
+        </ul>
+    </p>
 
+    <h3>Сравнение с другими форматами</h3>
+    <p>Сравним PNG, JPEG и WebP при качестве в 100%.</p>
+    <table border=1>
+        <tr>
+            <th>PNG</th>
+            <th>JPEG</th>
+            <th>WebP</th>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/mers0.png"></td>
+            <td><img src="img/mers1.jpg"></td>
+            <td><img src="img/mers3.webp"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>230 кб</td>
+            <td>115 кб</td>
+            <td>135 кб</td>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/bunny0.png"></td>
+            <td><img src="img/bunny1.jpg"></td>
+            <td><img src="img/bunny3.webp"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>226 кб</td>
+            <td>126 кб</td>
+            <td>87,6 кб</td>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/lake0.png"></td>
+            <td><img src="img/lake1.jpg"></td>
+            <td><img src="img/lake3.webp"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>445 кб</td>
+            <td>176 кб</td>
+            <td>123 кб</td>
+        </tr>
+    </table>
+    <p>
+        Как видно из таблицы, WebP неплохо справляется со своей задачей: алгоритм сжатия работает довольно эффективно.<br>
+        Однако давайте посмотрим, что получится при уменьшении качества. PNG в этом случае оказывается бесполезным, т к 
+        размер файла в любом случае будет больше, чем у других форматов. Посему есть смысл сравнивать только WebP и JPEG.
+    </p>
+
+    <table border=1>
+        <tr>
+            <th>WebP качество 20%</th>
+            <th>JPEG качество 20%</th>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/mers3-20.webp"></td>
+            <td><img src="img/mers1-20.jpg"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>11,5 кб</td>
+            <td>10,3 кб</td>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/bunny3-20.webp"></td>
+            <td><img src="img/bunny1-20.jpg"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>8,68 кб</td>
+            <td>9,44 кб</td>
+        </tr>
+        <tr style="text-align: center">
+            <td><img src="img/lake3-20.webp"></td>
+            <td><img src="img/lake1-20.jpg"></td>
+        </tr>
+        <tr style="text-align: center">
+            <td>14,2 кб</td>
+            <td>13,8 кб</td>
+        </tr>
+    </table>
+    <p>
+        Мы видим, что при ухудшении качества изображения безоговорочную победу одерживает WebP. Из-за того, что алгоритм сжатия в JPEG работает с градиентами,
+        изображение становится менее чётким, появляются нежелательные ореолы (яркий пример - вторая картинка), мелкие объекты как, например, лодка с человеком на третьем изображении в формате JPEG
+        жутко размывается.<br>
+        К слову, сравниваемые файлы в последнем случае имеют +/- одинаковый размер.<br><br>
+        В изображениях с большим разрешением может оказаться так, что файл изображения в WebP будет занимать гораздо больше пространства, нежели в иных форматах.
+    </p>
+
+    <h2>Выводы</h2>
+    <p align="justify">
+        WebP - отличная альтернатива JPEG и PNG, т к изображения в среднем занимают до 64% веб-страницы.
+        В общем и целом формат показал себя в хорошем ключе, т к для при сохранившемся качестве изображения
+        файл изображения будет занимать пространство на носителе в гораздо меньшем объёме, что свидетельствует
+        об эффективной работе алгоритма сжатия. Однако я не стал бы преобразовывать изображения с большим разрешением
+        в данный формат, т к без потерь в качестве может увеличиться объём файла, но это скорее исключение из правил.
+        <br>
+        При одинаковом размере файла изображение в WebP зачастую выигрывает в качестве - нет проблем с замыливанием, засвечиванием изображения, как в случае с JPEG.
+        <br>
+        Со временем, я думаю, этот формат преобретёт гораздо большее распространение, т к его поддержка всё стремительнее включается в различные программные продукты
+        (будь это браузер или image viewer).
+    </p>
 
 </body>
 </html>
