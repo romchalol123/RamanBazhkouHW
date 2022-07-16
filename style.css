@@ -1,0 +1,19 @@
+h1{
+    font-family: Raleway;
+    font-size: 45px;
+}
+
+h2{
+    font-family: Cormorant;
+    font-weight: 500;
+}
+p{
+    font-family: Raleway;
+    font-weight: 100;
+}
+a{ 
+    text-decoration: none;
+    text-decoration-color: black;
+    font-family: Raleway;
+    font-weight: 300;
+}
