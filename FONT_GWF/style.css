@@ -1,10 +1,10 @@
 h3{
     text-indent: 2cm;
-    font-family: Cormorant SC;
+    font-family: 'Cormorant SC', serif;
     font-size: 2em;
     font-weight: 600;
 }
 pre{
-    font-family: Nickainley-Normal;
+    font-family: 'Nickainley-Normal', regular;
     font-size: 1.5em;
 }

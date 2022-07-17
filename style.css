@@ -2,13 +2,13 @@ body{
     background-color:rgb(254, 255, 188);
 }
 h1{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color:rgb(97, 96, 43)
 }
 
 h2{
-    font-family: Cormorant;
+    font-family: 'Cormorant', serif;
     font-weight: 500;
 }
 ul{
@@ -21,7 +21,7 @@ li{
 a{ 
     text-decoration: none;
     color: black;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
