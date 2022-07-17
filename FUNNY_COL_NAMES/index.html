@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Colours</title>
 </head>
 <body>
-    
+    <h1>Почему цвета <font color="candy">CANDY</font>, <font color="BruceWillis">BruceWillis</font> и другие отображаются именно в таком виде?</h1>
+
+    <p align="justify">
+        Весь фокус состоит в том, как считывается HEX-код. Все символы, которые не являются символами шеснадцатиричной системы
+        исчисления заменяются на нуль, далее весь код дополняется нулями до числа, кратного трём,затем делится на три части, и
+        отбрасывваются аргументы таким образом, чтобы от каждой из трёх частей остались только два перых символа. Из трёх
+        образовавшихся пар символов и cкладывается код получаемого цвета.<br><br>Объяснение данного преобразования было взято с
+        сайта <a href="https://habr.com/ru/post/173727/">habr.com</a>.<br>
+    </p>
+
 </body>
 </html>
