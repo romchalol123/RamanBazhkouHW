@@ -1,0 +1,32 @@
+/*div{
+    background: url('img/ramka.png') no-repeat left top,
+                url('img/ramka.png') no-repeat left bottom,
+                url('img/ramka.png') no-repeat right top,
+                url('img/ramka.png') no-repeat right bottom,
+                url('img/ramka.png') repeat-x top center,
+                url('img/ramka.png') repeat-y left center,
+                url('img/ramka.png') repeat-y right center,
+                url('img/ramka.png') repeat-x bottom center;
+                
+    background-size:        100px 100px,
+                            100px 100px,
+                            100px 100px,
+                            100px 100px,
+                            20px 40px,
+                            40px 20px,
+                            40px 20px,
+                            20px 40px; 
+
+    background-position:    0px 0px,
+                            0px 100px,
+                            100px 0px,
+                            100px 100px,
+                            -110px 0px,
+                            0px -110px,
+                            40px -110px,
+                            -110px 40px;
+}*/
+div {
+    border: 100px solid;
+    border-image: url('img/ramka.png') 100 repeat;
+}

@@ -1,0 +1,10 @@
+div{
+    background: url('img/LeftTopCorner.png') no-repeat left top,
+                url('img/LeftBottomCorner.png') no-repeat left bottom,
+                url('img/RightTopCorner.png') no-repeat right top,
+                url('img/RightBottomCorner.png') no-repeat right bottom,
+                url('img/HorizontalLineTop.png') repeat-x,
+                url('img/VerticalLineLeft.png') repeat-y,
+                url('img/VerticalLineRight.png') repeat-y right,
+                url('img/HorizontalLineBottom.png') repeat-x bottom;
+}
