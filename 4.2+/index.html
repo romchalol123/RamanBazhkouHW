@@ -6,117 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>AREA</title>
 </head>
-<body style="background-color: rgb(241, 241, 165);">
-    <h1 style="text-align: center; text-transform: uppercase;">Тег &lt;area&gt;</h1>
-    <hr>
-    <div style="text-align: justify; font-size: 1.5em;">
-        <b>Тег &lt;area&gt;</b> определяет активные области изображения, которые являются ссылками. <br><br>
-        Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением.
-        Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может
-        быть разбито на невидимые зоны разной формы, где каждая из областей служит ссылкой. Элемент
-        &lt;area&gt; задаёт форму области, её размеры, устанавливает адрес документа, на который следует
-        сделать ссылку. &lt;area&gt; всегда располагается в контейнере &lt;map&gt;, который связывает
-        координаты областей с изображением.<br><br>
-
-        Несколько областей могут перекрывать друг друга, сверху будет та, которая в коде HTML располагается выше.
+<body>
+    <h1>Тег &lt;area&gt;</h1>
+    <div>
+        <img src="img/banner.png" alt="site_navigation" style="width: 100%;" usemap="#navigation">
     </div>
-    <br>
-    
-    <h2>Синтаксис</h2>
-    <pre>    &lt;map&gt;
-        &lt;area href="адрес" /&gt;
-    &lt;/map&gt;
-    </pre>
-    <p>Закрывающий тег не требуется.</p>
+    <p>
+        <map name="navigation">
+            <area
+                shape="circle"
+                coords="1119, 255, 50"
+                href="https://www.lavazza.com/en.html"
+                alt="coffee">
+            <area
+                shape="circle"
+                coords="1015, 197, 44"
+                href="https://www.oma.by/lenty-kleykie-c"
+                alt="scotch tape">
+            <area
+                shape="poly"
+                coords="1176,351,1166,357,1163,368,1162,533,1163,542,1170,546,1173,547,1247,549,1254,546,1255,545,1257,542,1260,365,1255,357,1251,353"
+                href="https://i-store.by/iphone"
+                alt="iPhone">
+            <area
+                shape="poly"
+                coords="274,0,1211,0,1130,114,859,115,858,128,851,143,838,153,829,155,640,156,621,146,614,135,610,124,609,114,337,114"
+                href="https://i-store.by/mac/imac"
+                alt="iMac">
+            <area
+                shape="poly"
+                coords="1052,356,1053,471,1055,479,1060,485,1069,491,1090,493,1110,492,1123,486,1130,472,1134,457,1136,412,1134,363,1130,347,1119,336,1102,329,1090,330,1073,331,1061,337,1055,346"
+                href="https://i-store.by/accessories/accessories-for-mac/klaviatury-myshi?filter=1711%7C%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BC%D1%8B%D1%88%D1%8C~128686592*%D0%9C%D1%8B%D1%88%D1%8C~124789040"
+                alt="mouse">
+            <area
+                shape="poly"
+                coords="402,325,402,488,1019,488,1021,326"
+                href="https://i-store.by/accessories/accessories-for-mac/klaviatury-myshi?filter=1711%7C%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D1%82%D0%B0%D1%87%D0%BF%D0%B0%D0%B4~128019103*%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0~128590894*%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0~129875463*Gaming%20Keyboard~129875210"
+                alt="keyboard">
+            <area
+                shape="poly"
+                coords="783,207,892,165,909,166,922,174,927,180,937,196,943,228,945,243,946,261,941,282,936,260,938,244,938,215,934,231,925,244,917,249,908,253,897,264,882,270,865,270,847,259,835,233,834,214,838,200,837,198,836,211,827,216,810,240,811,248,804,254,794,255,786,240,793,233,802,233,820,212,831,200,802,210,802,219,797,226,788,229,777,218"
+                href="https://i-store.by/accessories/acoustics/apple-airpods"
+                alt="AirPods">
+            <area
+                shape="poly"
+                coords="749,293,770,287,1014,290,1015,302,770,300"
+                href="https://oz.by/pencils/?availability=1"
+                alt="pencil">
+            <area
+                shape="poly"
+                coords="342,334,340,361,342,398,346,459,361,492,350,517,350,526,316,527,299,493,315,462,314,366,311,363,312,344,313,335,314,326,343,325"
+                href="https://www.ziko.by/catalog/naruchnye-chasy/"
+                alt="clock">
 
-<div>
-    <table style=   'border-collapse: collapse;
-                    font-size: 20px;' border="1">
-        <tr>
-            <td colspan="3" style="text-align: center;">Атрибуты</td>
-        </tr>
-        <tr>
-            <th>accesskey</th>
-            <td>Атрибут accesskey позволяет перейти к активной области изображения с помощью некоторого
-                сочетания клавиш с заданной в атрибуте буквой или цифрой. Браузеры при этом используют
-                различные комбинации клавиш. Например, для accesskey="s" работают следующие сочетания.</td>
-            <th>&lt;area accesskey="c"&gt;</th>
-        </tr>
-        <tr>
-            <th>alt</th>
-            <td>Атрибут alt устанавливает альтернативный текст для области изображения.
-                Такой текст не отображается в браузере, но поисковые системы его могут прочитать.</td>
-            <th>&lt;area alt="&lt;текст&gt;"/&gt;</th>
-        </tr>
-        <tr>
-            <th>coords</th>
-            <td>Атрибут coords устанавливает координаты области, она также называется «горячая область».
-                Такая область может быть ссылкой на файл или связана с действием, определяемым скриптом.
-                <br>
-                Значения координат представляют собой набор чисел, разделённых запятыми. Если две области
-                перекрываются между собой, приоритет имеет та, которая определена в коде HTML выше.
-                <br>
-                Для окружности <code>(shape="circle")</code> определяется три координаты — координаты центра окружности <code>(X, Y)</code> и ее радиус (R)
-                <br>
-                Для полигона (многоугольника) <code>(shape="poly")</code> последовательно указываются координаты каждой вершины<code>(X1, Y1, X2, Y2, :)</code>
-                <br>
-                Для прямоугольника <code>(shape="rect")</code> определяется четыре координаты — <code>X1, Y1, X2, Y2</code>
-            </td>
-            <th><pre>&lt;area coords="&lt;координата 1&gt;, &lt;
-    координата 2&gt;, &lt;координата 3&gt;, ..."/&gt;
-            </pre>
-            </th>
+            <area
+                shape="poly"
+                coords="331,251, 403,248,476,249,478,252,478,264,475,268,408,269,405,263, 330,264,"
+                href="https://oz.by/pens/?availability=1"
+                alt="pen">
+            <area
+                shape="poly"
+                coords="174,367, 174,593,186,592, 187,370"
+                href="https://oz.by/pencils/?availability=1"
+                alt="pencil2">
+            <area
+                shape="poly"
+                coords="304,335,291,347,269,363,244,372,208,374, 207,377,223,377,222,387,207,387,206,395,223,395,223,405,206,406,206,413,223,413,223,423,206,423,206,431,223,431,223,441,206,441,206,449,223,449,223,459,206,459,206,468,223,468,223,478,206,478,206,487,223,487,223,496,206,496,206,505,223,505,223,514,206,514,206,523,223,523,223,531,207,531,206,536,223,541,223,558,383,558,382,334, 342,334,340,361,342,398,346,459,361,492,350,517,350,526,316,527,299,493,315,462,314,366,311,363,312,344,313,335"
+                href="https://oz.by/notebooks/?ti1=2;4;5;6;9&availability=1;2"
+                alt="notepad">
+            <area
+                shape="poly"
+                coords="290,179,309,197,318,211,325,228, 737,231,736,178"
+                href="https://oz.by/search/?c=1105233&q=%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0"
+                alt="ruller">
+            <area
+                shape="poly"
+                coords="144,352,113,318,99,282,96,251,15,251,14,441,136,443,141,439,144,432"
+                href="https://portmonebiznes.shopbel.by/?etext=2202.odbd0dPi7TlIQQlwh2EVbWprY2hnYW1mbnJlZmt0dmM.fc73a08c99c5f93d809f3c00fd5a065e7d1f5133&yclid=4188567407056704308"
+                alt="wallet">
+            <area
+                shape="poly"
+                coords="1303,0,1303,42,1311,42,1311,57,1329,57,1329,41,1336,41,1336,0"
+                href="https://catalog.onliner.by/usbflash"
+                alt="usbMemStick">
+            <area
+                shape="poly"
+                coords="1225,219,1242,219,1248,189,1264,187,1270,167,1257,156,1247,136,1220,135,1208,142,1207,151,1216,175,1227,188"
+                href="https://oz.by/search/?q=%D0%90%D0%BD%D1%82%D0%B8%D1%81%D1%82%D0%B5%D0%BF%D0%BB%D0%B5%D1%80"
+                alt="anti-stapler">
+
+            <area
+                shape="poly"
+                coords="1163,68,1180,74,1192,86,1202,80,1235,78,1307,81,1363,90,1346,106,1319,107,1212,108,1168,129,1167,147,1142,165,1118,161,1109,145,1112,129,1124,121,1102,115,1131,115"
+                href="https://oz.by/search/?q=%D0%BD%D0%BE%D0%B6%D0%BD%D0%B8%D1%86%D1%8B"
+                alt="scissors">
             
-        </tr>
-        <tr>
-            <th>download, href</th>
-            <td>Задаёт адрес документа, на который следует перейти.</td>
-            <th>&lt;area href="&lt;адрес&gt;" /&gt;</th>
-        </tr>
-        <tr>
-            <th>hreflang</th>
-            <td>Указывает язык документа, на который ведёт ссылка активной области изображения.</td>
-            <th><pre>&lt;map&gt;
-    &lt;area href="адрес" hreflang="&lt;язык&gt;" /&gt;
-&lt;/map&gt;
-            </pre></th>
-        </tr>
-        <tr>
-            <th>nohref</th>
-            <td>Область без ссылки на другой документ.</td>
-            <th>&lt;area nohref&gt;</th>
-        </tr>
-        <tr>
-            <th>media, rel, shape</th>
-            <td>Форма области.</td>
-            <th></th>
-        </tr>
-        <tr>
-            <th>tabindex</th>
-            <td>Задает последовательность перехода между элементами с помощью клавиши Tab.</td>
-            <th></th>
-        </tr>
-        <tr>
-            <th>target</th>
-            <td>Имя фрейма, куда браузер будет загружать документ.</td>
-            <th></th>
-        </tr>
-        <tr>
-            <th>type</th>
-            <td>Устанавливает MIME-тип документа, на который ведёт ссылка.</td>
-            <th></th>
-        </tr>
-        <tr>
-            <td colspan="3">Также для этого элемента доступны <a href="https://hcdev.ru/html/uni-attr/">универсальные атрибуты.</a></td>
-        </tr>
-    </table>
-</div>
-    <code></code>
+            <area
+                shape="poly"
+                coords="1321,234,1242,234,1232,237,1223,280,1232,325,1243,330,1322,328,1324,347,1356,347,1368,357,1411,350,1413,311,1408,292,1420,292,1420,259,1408,256,1408,216,1420,188,1405,168,1367,155,1347,156,1321,166,1303,174,1300,202,1322,210"
+                href="https://photo-shop.by/fotoapparaty/zerkalnye_fotokamery/"
+                alt="camera">
 
-
+            <area
+                shape="poly"
+                coords="500,250,622,252,698,258,696,283,710,295,693,302,687,297,679,308,664,310,634,310,612,295,602,277,591,277,574,301,553,305,519,302,512,292,502,299,489,292,509,277,498,269"
+                href="https://optika-fielmann.by/"
+                alt="glasses">
+            
+        </map>
+    </p>
+    <p style="">*Наведите курсор на любой элемент</p>
 </body>
 </html>

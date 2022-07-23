@@ -1,11 +1,16 @@
-th{
-    text-align: left;
-    font-family: 'Source Code Pro', monospace;
-    background-color: black;
-    color: rgb(102, 199, 5);
-    font-size: small;
-
+body{
+    background-color: coral;
+    margin: 0;
 }
-td{
-
+h1{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    text-indent: 1cm;
+    margin: 7px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
