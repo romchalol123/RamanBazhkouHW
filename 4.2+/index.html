@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>AREA</title>
 </head>
-<body>
+<body style="background-color: rgb(241, 241, 165);">
     <h1 style="text-align: center; text-transform: uppercase;">Тег &lt;area&gt;</h1>
     <hr>
     <div style="text-align: justify; font-size: 1.5em;">
@@ -29,18 +33,87 @@
     </pre>
     <p>Закрывающий тег не требуется.</p>
 
-    <h2>Атрибуты</h2>
 <div>
-    <code>alt</code><br>
-    <code>coords</code><br>
-    <code>download <br>
-    href</code><br>
-    <code>hreflang</code><br>
-    <code>media<br>
-    rel<br>
-    shape</code><br>
-    <code>target</code><br>
-    <code>type</code>
+    <table style=   'border-collapse: collapse;
+                    font-size: 20px;' border="1">
+        <tr>
+            <td colspan="3" style="text-align: center;">Атрибуты</td>
+        </tr>
+        <tr>
+            <th>accesskey</th>
+            <td>Атрибут accesskey позволяет перейти к активной области изображения с помощью некоторого
+                сочетания клавиш с заданной в атрибуте буквой или цифрой. Браузеры при этом используют
+                различные комбинации клавиш. Например, для accesskey="s" работают следующие сочетания.</td>
+            <th>&lt;area accesskey="c"&gt;</th>
+        </tr>
+        <tr>
+            <th>alt</th>
+            <td>Атрибут alt устанавливает альтернативный текст для области изображения.
+                Такой текст не отображается в браузере, но поисковые системы его могут прочитать.</td>
+            <th>&lt;area alt="&lt;текст&gt;"/&gt;</th>
+        </tr>
+        <tr>
+            <th>coords</th>
+            <td>Атрибут coords устанавливает координаты области, она также называется «горячая область».
+                Такая область может быть ссылкой на файл или связана с действием, определяемым скриптом.
+                <br>
+                Значения координат представляют собой набор чисел, разделённых запятыми. Если две области
+                перекрываются между собой, приоритет имеет та, которая определена в коде HTML выше.
+                <br>
+                Для окружности <code>(shape="circle")</code> определяется три координаты — координаты центра окружности <code>(X, Y)</code> и ее радиус (R)
+                <br>
+                Для полигона (многоугольника) <code>(shape="poly")</code> последовательно указываются координаты каждой вершины<code>(X1, Y1, X2, Y2, :)</code>
+                <br>
+                Для прямоугольника <code>(shape="rect")</code> определяется четыре координаты — <code>X1, Y1, X2, Y2</code>
+            </td>
+            <th><pre>&lt;area coords="&lt;координата 1&gt;, &lt;
+    координата 2&gt;, &lt;координата 3&gt;, ..."/&gt;
+            </pre>
+            </th>
+            
+        </tr>
+        <tr>
+            <th>download, href</th>
+            <td>Задаёт адрес документа, на который следует перейти.</td>
+            <th>&lt;area href="&lt;адрес&gt;" /&gt;</th>
+        </tr>
+        <tr>
+            <th>hreflang</th>
+            <td>Указывает язык документа, на который ведёт ссылка активной области изображения.</td>
+            <th><pre>&lt;map&gt;
+    &lt;area href="адрес" hreflang="&lt;язык&gt;" /&gt;
+&lt;/map&gt;
+            </pre></th>
+        </tr>
+        <tr>
+            <th>nohref</th>
+            <td>Область без ссылки на другой документ.</td>
+            <th>&lt;area nohref&gt;</th>
+        </tr>
+        <tr>
+            <th>media, rel, shape</th>
+            <td>Форма области.</td>
+            <th></th>
+        </tr>
+        <tr>
+            <th>tabindex</th>
+            <td>Задает последовательность перехода между элементами с помощью клавиши Tab.</td>
+            <th></th>
+        </tr>
+        <tr>
+            <th>target</th>
+            <td>Имя фрейма, куда браузер будет загружать документ.</td>
+            <th></th>
+        </tr>
+        <tr>
+            <th>type</th>
+            <td>Устанавливает MIME-тип документа, на который ведёт ссылка.</td>
+            <th></th>
+        </tr>
+        <tr>
+            <td colspan="3">Также для этого элемента доступны <a href="https://hcdev.ru/html/uni-attr/">универсальные атрибуты.</a></td>
+        </tr>
+    </table>
 </div>
     <code></code>
 
