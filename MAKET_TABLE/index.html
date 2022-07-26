@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>MAKET_TABLE</title>
 </head>
 <body>
-    <table>
+    <table style="border-collapse: collapse;">
         <tr>
-            <th colspan="2" style="background-color: rgb(173, 217, 230);">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</th>
+            <th colspan="2" >ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</th>
         </tr>
         <tr>
-            <td style="background-color: rgb(240, 231, 140); width: 170px;">
-                <p>Виды спорта:</p>
+            <td rowspan="2" style=" background-color: rgb(240, 231, 140);
+                                    width: 150px;
+                                    vertical-align: top;">
+                <p style="  padding-top: 10px;
+                            font-weight: 800;">Виды спорта:</p>
                 <ul>
-                    <li><a href="">конькобежный спорт</a></li>
-                    <li><a href="">биатлон</a></li>
-                    <li><a href="">футбол</a></li>
-                    <li><a href="">стрельба из лука</a></li>
-                    <li><a href="">прыжки в длину</a></li>
-                    <li><a href="">прыжки в высоту</a></li>
-                    <li><a href="">фигурное катание</a></li>
-                    <li><a href="">синхронное плавание</a></li>
-                    <li><a href="">шахматы</a></li>
-                    <li><a href="">шашки</a></li>
+                    <li><a href="http://skating.by/">конькобежный спорт</a></li>
+                    <li><a href="https://biathlon.by/">биатлон</a></li>
+                    <li><a href="https://football.by/">футбол</a></li>
+                    <li><a href="http://www.archery.by/">стрельба из лука</a></li>
+                    <li><a href="http://www.athletics.by/info-center/dystsipliny/prizhki/">прыжки в длину</a></li>
+                    <li><a href="http://www.athletics.by/info-center/dystsipliny/prizhki/">прыжки в высоту</a></li>
+                    <li><a href="http://skating.by/event/">фигурное катание</a></li>
+                    <li><a href="https://synchro.by/about/news/">синхронное плавание</a></li>
+                    <li><a href="https://sportlider.by/2021/04/04/respublikanskiy-turnir-po-shashkam-i-sha/">шахматы</a></li>
+                    <li><a href="https://sportlider.by/2021/04/04/respublikanskiy-turnir-po-shashkam-i-sha/">шашки</a></li>
                 </ul>
             </td>
-            <td>
-                <p style="font-weight: bold; text-align: center;">ФУТБОЛ</p>
-                <img src="img/cup.png" style="float: left;">
-                <p>Футбол — командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или
-                    другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
-                <p>Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов.
+        </tr>
+        <tr style=" background: url(img/ball1.png);
+        background-position: right top;
+        background-repeat: repeat-y;">
+            <td style="
+                        vertical-align: top;">
+                <p style="  text-align: center;
+                            font-size: 25px;
+                            font-weight: 800;
+                            padding: 10px;">ФУТБОЛ</p>
+                <img src="img/cup.png" alt="cup" style="float: left; margin-right: 10px;">
+                <p class="text">Футбол — командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или
+                    другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p><br>
+                <p class="text">Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов.
                     Эти правила предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для
                     таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы
                     очень часто формулировались в общих чертах, которые позволяют упростить их применения в зависимости
@@ -40,7 +55,7 @@
             </td>
         </tr>
         <tr>
-            <th colspan="2" style="text-align: center; background-color:rgb(173, 217, 230)">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</th>
+            <th colspan="2">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</th>
         </tr>
     </table>
 </body>
