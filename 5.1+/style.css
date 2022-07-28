@@ -3,6 +3,7 @@
     padding: 0;
 }
 .menu{
+    text-align: justify;
     width: 20%;
     float: left;
     background: url('img/ball.png') top left no-repeat,
@@ -13,6 +14,7 @@
     height: 100vh;
 }
 .banner{
+    text-align: justify;
     width:200px;
     float: right;
     background: url('img/ball.png') top left no-repeat,
@@ -23,6 +25,7 @@
     height: 100vh;
 }
 .content{
+    text-align: justify;
     margin-left: 20%;
     margin-right: 200px;
     background: url('img/ball.png') top left no-repeat,
