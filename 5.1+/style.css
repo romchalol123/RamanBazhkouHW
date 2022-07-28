@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.menu,.banner,.content{
+    height: 100vh;
+}
 .menu{
     text-align: justify;
     width: 20%;
@@ -11,7 +14,6 @@
                 url('img/ball.png') bottom left no-repeat,
                 url('img/ball.png') bottom right no-repeat,
                 url('img/menuBG.png');
-    height: 100vh;
 }
 .banner{
     text-align: justify;
@@ -22,7 +24,6 @@
                 url('img/ball.png') bottom left no-repeat,
                 url('img/ball.png') bottom right no-repeat,
                 url('img/bannerBG.png');
-    height: 100vh;
 }
 .content{
     text-align: justify;
@@ -33,5 +34,4 @@
                 url('img/ball.png') bottom left no-repeat,
                 url('img/ball.png') bottom right no-repeat,
                 url('img/contentBG.png');
-    height: 100vh;
 }
