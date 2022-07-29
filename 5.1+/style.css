@@ -7,8 +7,6 @@
 }
 .clearfix{
     clear: both;
-    height: 10px;
-    background-color: blue;
 }
 .menu{
     text-align: justify;
