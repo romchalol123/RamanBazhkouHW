@@ -2,39 +2,43 @@
     margin: 0;
     padding: 0;
 }
-.menu .banner .content{
-    height: 100vmax;
+.mainDiv{
+    background: url('img/ball.png') top left no-repeat,
+                url('img/ball.png') top right no-repeat,
+                url('img/ball.png') bottom left no-repeat,
+                url('img/ball.png') bottom right no-repeat,
+                
+                url('img/ball.png') top right 100px no-repeat,
+                url('img/ball.png') bottom right 100px no-repeat,
+                url('img/ball.png') top right 200px no-repeat,
+                url('img/ball.png') bottom right 200px no-repeat,
+
+                url('img/ball.png') top right 80vw no-repeat,
+                url('img/ball.png') bottom right 80vw no-repeat,
+                
+                url('img/ball.png') top left 20vw no-repeat,
+                url('img/ball.png') bottom left 20vw no-repeat,
+
+                url('img/bgbluepx.png') top right repeat-y,
+                url('img/bgred.png') top left 20vw repeat-y,
+                url('img/bggreen.png') top left repeat-y;
+                
 }
 .clearfix{
     clear: both;
 }
 .menu{
-    text-align: justify;
     width: 20%;
+    height: 100%;
     float: left;
-    background: url('img/ball.png') top left no-repeat,
-                url('img/ball.png') top right no-repeat,
-                url('img/ball.png') bottom left no-repeat,
-                url('img/ball.png') bottom right no-repeat,
-                url('img/menuBG.png');
 }
 .banner{
-    text-align: justify;
     width:200px;
+    height: 100%;
     float: right;
-    background: url('img/ball.png') top left no-repeat,
-                url('img/ball.png') top right no-repeat,
-                url('img/ball.png') bottom left no-repeat,
-                url('img/ball.png') bottom right no-repeat,
-                url('img/bannerBG.png');
 }
 .content{
-    text-align: justify;
     margin-left: 20%;
     margin-right: 200px;
-    background: url('img/ball.png') top left no-repeat,
-                url('img/ball.png') top right no-repeat,
-                url('img/ball.png') bottom left no-repeat,
-                url('img/ball.png') bottom right no-repeat,
-                url('img/contentBG.png');
+    height: 100%;
 }
