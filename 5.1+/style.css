@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.menu,.banner,.content{
-    height: 100vh;
+.menu .banner .content{
+    height: 100vmax;
+}
+.clearfix{
+    clear: both;
+    height: 10px;
+    background-color: blue;
 }
 .menu{
     text-align: justify;
