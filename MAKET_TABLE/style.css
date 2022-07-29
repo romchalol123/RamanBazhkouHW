@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 th{
-    padding:12px;
+    padding:10px;
     color: blue;
     background-color: rgb(173, 217, 230);
     text-align: center;
@@ -15,8 +15,8 @@ td{
     padding: 10px;
 }
 ul{
-    padding: 20px;
-    
+    padding-left: 30px;
+    padding-right: 30px;
 }
 li{
     font-size: 15px;

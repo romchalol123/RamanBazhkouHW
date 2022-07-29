@@ -11,20 +11,25 @@
     background-color: rgb(173, 217, 230); 
 }
 .menu{
-    width: 160px;
-    padding: 5px;
+    width: 170px;
 }
 p{
     padding: 10px;
 }
+.cup{
+    margin-left: 170px;
+    padding: 10px;
+}
+.cup p{
+    padding: 0;
+    text-align: justify;
+}
 ul{
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 li{
     font-size: 15px;
-}
-.cup{
-    text-align: justify;
 }
 .content{
     background: url('img/ball1.png');
