@@ -7,15 +7,12 @@
                 url('img/ball.png') top right no-repeat,
                 url('img/ball.png') bottom left no-repeat,
                 url('img/ball.png') bottom right no-repeat,
-                
                 url('img/ball.png') top right 100px no-repeat,
                 url('img/ball.png') bottom right 100px no-repeat,
                 url('img/ball.png') top right 200px no-repeat,
                 url('img/ball.png') bottom right 200px no-repeat,
-
                 url('img/ball.png') top right 80vw no-repeat,
                 url('img/ball.png') bottom right 80vw no-repeat,
-                
                 url('img/ball.png') top left 20vw no-repeat,
                 url('img/ball.png') bottom left 20vw no-repeat,
 
@@ -29,16 +26,13 @@
 }
 .menu{
     width: 20%;
-    height: 100%;
     float: left;
 }
 .banner{
     width:200px;
-    height: 100%;
     float: right;
 }
 .content{
     margin-left: 20%;
     margin-right: 200px;
-    height: 100%;
 }
