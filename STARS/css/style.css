@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    float: left;
+}
+.star{
+    float: right;
+    width: 32px;
+    height: 30px;
+    background: url('../img/star0.png');
+}
+.star:hover{
+    background: url('../img/star1.png')
+}
+.star:hover ~ a{
+    background: url('../img/star1.png')
+}
