@@ -1,0 +1,95 @@
+*{ margin: 0px; padding: 0px}
+
+.clearfix{clear: both; height: 0.1px;}
+
+a{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+div{
+    margin: 25px;
+}
+
+/*  Variant 1  */
+.var1{
+    height: 30px;
+}
+.var1 a{
+    display: inline-block;
+}
+.var1 a:after{
+    content: '';
+    display: block;
+    background-color: red;
+    float: right;
+    height: 30px;
+    width: 5px;
+    margin-left: 26px;
+    margin-right: 20px;
+}
+.var1 a:last-child::after{
+    content: '';
+    visibility: hidden;
+}
+
+/*  Variant 2  */
+.var2{
+    height: 30px;
+}
+.var2 a{
+    display: inline;
+    float: left;
+}
+.var2 a:before{
+    content: '';
+    display: block;
+    background-color: red;
+    height: 30px;
+    width: 5px;
+    float: left;
+    margin-left: 26px;
+    margin-right: 24px;
+}
+.var2 a:first-child:before{
+    content: '';
+    display: none;
+}
+
+/*  Variant 3  */
+.var3{
+    height: 30px;
+    clear: both;
+}
+.var3 a{
+    background: url('img/1.png') right repeat-y;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 25px;
+    padding-right: 30px;
+    display: block;
+    float: left;
+}
+.var3 a:first-child{
+    padding-left: 0;
+}
+.var3 a:last-child{
+    background: none;
+}
+
+/*  Variant 4  */
+.var4{
+    height: 30px;
+}
+.var4 a{
+    display: inline-table;
+    border-right: 5px solid red;
+    padding: 8px 26px 12px 20px;
+}
+.var4 a:first-child{
+    padding-left: 0;
+}
+.var4 a:last-child{
+    border: none;
+}
