@@ -1,14 +1,9 @@
 .board table{
     border-collapse: collapse;
 }
-tr:first-child td, tr:last-child td{
-    background-color: green !important;
-    height: 20px;
-}
-td:first-child, td:last-child{
-    background-color: green !important;
-    height: 20px;
-    width: 20px;
+td{
+    width: 60px;
+    height: 60px;
 }
 tr:nth-child(odd) td:nth-child(even){
     background-color: black;
@@ -16,7 +11,11 @@ tr:nth-child(odd) td:nth-child(even){
 tr:nth-child(even) td:nth-child(odd){
     background-color: black;
 }
-td{
-    width: 60px;
-    height: 60px;
+div.board tr:first-child td, div.board tr:last-child td{
+    background-color: green;
+    height: 20px;
+}
+div.board td:first-child, div.board td:last-child{
+    background-color: green;
+    width: 20px;
 }
