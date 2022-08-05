@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.container{
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.top-red-line{
+    height: 42px;
+    background-color: #FC0D1B;
+}
+
+
+/* header */
+.header{
+    height: 196px;
+}
+
+.header h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    float: left;
+}
+
+.header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    float: right;
+    padding-top: 23px;
+}
+
+.header .container{
+    padding: 37px;
+}
+
+
+/*wrapper*/
+.wrapper{
+    height: 2100px;
+    padding-top: 0.1px;
+    background-image: linear-gradient(180deg,#FC0D1B,#FC0D1B 51.35%,#fff 51.35%,#fff 76.65%,#181818 76.65%,#181818);
+}
+
+.wrapper .container{
+    height: 1992px;
+    border: 8px solid #000000;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+
+.header-top{
+    height: 92px;
+    background-color: #fff;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px; 
+}
+
+.header-top h4{
+    padding-top: 20px;
+    padding-left: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    float: left;
+    position: absolute;
+}
+
+.header-top ul{
+    float: left;
+    padding-top: 35px;
+    padding-left: 231px;
+}
+
+.header-top ul li{
+    float: left;
+    padding-right: 40px;
+}
+
+.header-top ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.header-icons{
+    float:right;
+    margin-top: 29px;
+    margin-right: 61px;
+}
+
+.header-icons img{
+    padding-left: 15px;
+}
+
+/* boots imgs */
+.catalog-items{
+    background-color: #FFFFFF;
+    padding: 32px 14px 45px;
+}
+
+.catalog-items .catalog-item{
+    float:left;
+}
+
+.bg-gray{
+    width: 416px;
+    height: 416px;
+    background-color: #F3F3F3;
+    margin-right: 10px;
+}
+
+.catalog-item:first-child{
+    padding: 27px;
+}
+
+.catalog-item:nth-child(2){
+    padding: 10px;
+}
+
+.other-item{
+    width: 216px;
+    height: 204px;
+    background-color: #FFD325;
+}
+
+.other-item h6{
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.other-item h3{
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.12em;
+}
+
+.other-item p{
+    margin-top: 29px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.catalog-item.other{
+    width: 442px;
+    margin-left: 10px;
+}
+
+.catalog-item div{
+    float: left;
+}
+
+.catalog-item.other div:first-child{
+    margin-right: 10px;
+} 
+
+.catalog-item.other div:nth-child(2){
+    margin-bottom: 3px;
+}
+
+.catalog-item.other div:last-child{
+    margin-left: 10px;
+}
+
+/* .sale */
+.sale{
+    height: 407px;
+    background: url('../img/sale.svg') top 63px left 100px no-repeat;
+}
+
+.sale-content{
+    float: right;
+    color:#FFFFFF;
+}
+
+.sale-content h3{
+    margin-top: 70px;
+    margin-right: 91px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.sale-content h2{
+    margin-top: 36px;
+    margin-right: 88px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.04em;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.sale-content h2 span{
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.sale-content button{
+    width: 227px;
+    height: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    float: right;
+    border: none;
+    margin-top: 28px;
+    margin-right: 91px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* gebder bar */
+.gender{
+    padding-top: 45px;
+    padding-left: 328px;
+    height: 125px;
+}
+
+.gender button{
+    width: 244px;
+    height: 48px;
+    background: #181818;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.gender button:last-child{
+    margin-left: 216px;
+}
+
+/* new-collection */
+.new-collection{
+    height: 408px;
+    background: url('../img/new-collection.jpg') left top no-repeat;
+}
+
+.new-collection h2{
+    padding-top: 156px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.new-collection button{
+    margin-top: 45px;
+    margin-left: 506px;
+    width: 325px;
+    height: 65px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #FFFFFF;
+    border: none;
+}
+
+/* .footer */
+.footer{
+    height: 442px;
+    color: #FFFFFF;
+    padding: 40px 80px 80px;
+}
+
+.footer h2{  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.footer > ul{
+    margin-top: 59px;
+    padding-right: 100px;
+    float: left;
+}
+
+.footer > ul li{
+    padding-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    flex-grow: 0;
+}
+
+.footer > ul li a{
+    color: #FFFFFF;
+}
+
+.footer > #ul2 li{
+    font-size: 18px;
+}
+
+.footer > #ul2 li:first-child{
+    font-size: 16px;
+}
+
+.footer > ul li:first-child{
+    padding-bottom: 34px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+/* .subscribe */
+.subscribe{
+    float: right;
+}
+
+.subscribe h4{
+    padding-top: 38px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.subscribe button{
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 292px;
+    height: 32px;
+    background: #E8E8E8;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+}
+
+.subscribe .subscribe-ics{
+    margin-top: 68px;
+}
+
+.subscribe .subscribe-ics ul li{
+    float: left;
+    margin-right: 60px;
+}
+.subscribe .subscribe-ics ul li:last-child{
+    margin-right: 0;
+}
