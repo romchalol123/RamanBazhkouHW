@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -252,6 +253,7 @@ ul li{
 }
 
 .sale-content button{
+    cursor: pointer;
     width: 227px;
     height: 50px;
     font-family: 'Fira Sans', sans-serif;
@@ -276,6 +278,7 @@ ul li{
 }
 
 .gender button{
+    cursor: pointer;
     width: 244px;
     height: 48px;
     background: #181818;
@@ -286,6 +289,7 @@ ul li{
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.04em;
+    border: none;
 }
 
 .gender button:last-child{
@@ -310,6 +314,7 @@ ul li{
 }
 
 .new-collection button{
+    cursor: pointer;
     margin-top: 45px;
     margin-left: 506px;
     width: 325px;
@@ -390,6 +395,7 @@ ul li{
 }
 
 .subscribe button{
+    cursor: pointer;
     margin-top: 20px;
     font-family: 'Fira Sans', sans-serif;
     width: 292px;
