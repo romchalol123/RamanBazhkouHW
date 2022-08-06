@@ -8,6 +8,15 @@
     <title>LINKS</title>
 </head>
 <body>
+    <!--
+        строка display: inline-block
+        разделитель: селектор :after,  display: block красного цвета
+        лишний блок убираем first-child {visibility: hidden} (можно и opacity: 0, 
+            в обоих случаях будет оставаться место для элемента, но он будет скрыт)
+
+        не растягивается на всю доступную ширину, имеет лишь достаточную высоту и
+        ширину только для того, чтобы вместить контент.
+    -->
     <div class="var1">
         <a href="http://htmlbook.ru/html">первая ссылка</a>
         <a href="http://htmlbook.ru/html">вторая ссылка</a>
@@ -15,6 +24,17 @@
         <a href="http://htmlbook.ru/html">четвертая ссылка</a>
         <a href="http://htmlbook.ru/html">пятая ссылка</a>
     </div>
+    <!--
+        строка display: inline 
+        разделитель: селектор :before, display: block красного цвета
+        лишний блок убираем last-child {display: none}, элемент не отображается, другие
+            элементы смещаются в сторону освободившегося места
+
+        в строке разделитель неудобно настраивать, т к у строчного элемента
+        не регулируются отступы сверху и снизу. 
+        также строчные элементы расположены по умолчанию с новой строки, 
+        посему без float: left не обойтись.
+    -->
     <div class="var2">
         <a href="http://htmlbook.ru/html">первая ссылка</a>
         <a href="http://htmlbook.ru/html">вторая ссылка</a>
@@ -22,6 +42,15 @@
         <a href="http://htmlbook.ru/html">четвертая ссылка</a>
         <a href="http://htmlbook.ru/html">пятая ссылка</a>
     </div>
+    <!--
+        строка display: block, float: left;
+        разделитель background: url('img/1.png') right repeat-y
+        лишний блок убираем last-child {background: none}
+
+        расположены по умолчанию с новой строки, посему без float: left не обойтись.
+        автоматически растягивается на всю ширину контейнера, и имеет такую высоту, 
+        которая необходима для содержимого.
+    -->
     <div class="var3">
         <a href="http://htmlbook.ru/html">первая ссылка</a>
         <a href="http://htmlbook.ru/html">вторая ссылка</a>
@@ -29,6 +58,15 @@
         <a href="http://htmlbook.ru/html">четвертая ссылка</a>
         <a href="http://htmlbook.ru/html">пятая ссылка</a>
     </div>
+     <!--
+        строка display: inline-table
+        разделитель display: граница красного цвета
+        лишний блок убираем last-child {border: none}
+
+        самый удобный, на мой взгляд
+        элементы отображаются в строку
+        лёгок в регулировках и корректно адаптируется
+    -->
     <div class="var4">
         <a href="http://htmlbook.ru/html">первая ссылка</a>
         <a href="http://htmlbook.ru/html">вторая ссылка</a>

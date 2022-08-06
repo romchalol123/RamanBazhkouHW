@@ -81,6 +81,7 @@ div{
 /*  Variant 4  */
 .var4{
     height: 30px;
+    clear: both;
 }
 .var4 a{
     display: inline-table;
