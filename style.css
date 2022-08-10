@@ -119,12 +119,6 @@ body{
     font-size: 16px;
 }
 
-.contacts li a{
-    text-decoration: none;
-    padding-bottom: 5px;
-    font-size: 16px;
-}
-
 /* .footer .logo */
 
 .logo{
@@ -133,7 +127,7 @@ body{
     height: 125px;
 }
 
-.logo a img{
+.logo img{
     float: right;
     width: 120px;
     height: 120px;
