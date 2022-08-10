@@ -12,7 +12,7 @@
 body{
     background-color:rgb(248, 242, 152);
     margin: 5px;
-    min-width: 315px;
+    min-width: 321px;
 }
 
 /*  .container  */
@@ -83,19 +83,19 @@ body{
     height: 140px;
 }
 
+.footer h2{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 25px;
+}
+
 /*  .footer .contacts  */
 
 .contacts{
     padding-top: 20px;
     padding-left: 20px;
     float: left;
-}
-
-.contacts h2{
-    font-family: 'Cormorant Infant', serif;
-    font-weight: 600;
-    font-size: 30px;
-    padding-bottom: 25px;
 }
 
 .contacts ul{
@@ -112,7 +112,7 @@ body{
     font-size: 16px;
 }
 
-.footer .contacts ul:first-child li{
+.footer ul:first-child li{
     font-weight: bold;
 }
 
