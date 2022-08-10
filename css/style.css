@@ -34,7 +34,6 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     text-decoration: none;
-    color: rgb(97, 96, 43)
 }
 
 .container li{
@@ -44,7 +43,6 @@ body{
 
 .container a{ 
     text-decoration: none;
-    color: rgb(97, 96, 43)
 }
 
 /* HW  */
@@ -60,7 +58,6 @@ body{
     border: 2px solid rgb(206, 200, 125);
     border-radius: 15px;
     float: right;
-    text-align: justify;
     background-color:rgb(248, 242, 152);
 }
 
