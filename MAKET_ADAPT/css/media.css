@@ -1,0 +1,34 @@
+@import url('style.css');
+@media all and (max-width: 866px){
+    .menu, .banner{
+        height: 450px;
+    }
+}
+@media all and (max-width: 732px){
+    .menu, .banner{
+        height: 625px;
+    }
+}
+@media all and (max-width: 618px){
+    .menu, .banner{
+        height: 935px;
+    }
+}
+@media all and (max-width: 516px){
+    .content, .headers{
+        min-width: 360px;
+    }
+    .banner{
+        float: left;
+        width: 30%;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu, .banner{
+        height: 260px;
+    }
+    .cup{
+       margin: 0; 
+    }
+}
