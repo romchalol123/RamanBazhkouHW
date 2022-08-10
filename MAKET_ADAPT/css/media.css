@@ -16,7 +16,7 @@
 }
 @media all and (max-width: 516px){
     .content, .headers{
-        min-width: 360px;
+        min-width: 340px;
     }
     .banner{
         float: left;
