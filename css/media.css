@@ -1,0 +1,8 @@
+@import url(style.css);
+
+@media all and (max-width: 542px){
+    .layouts{
+        float: left;
+        width: 100%;
+    }
+}
