@@ -1,15 +1,17 @@
 @import url(style.css);
 
-@media all and (max-width: 625px){
-    .logo{
-        float: left;
-        padding-left: 90px;
-    }
-}
-
-@media all and (max-width: 560px){
+@media all and (max-width: 630px){
     .layouts{
         float: left;
         width: 100%;
+    }
+    .logo{
+        padding-top: 120px;
+    }
+}
+
+@media all and (max-width: 619px){
+    .logo{
+        padding-top: 0px;
     }
 }
