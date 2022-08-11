@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(217, 236, 148);
+}
+h1{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    width: 40%;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 450px;
+    max-width: 1100px;
+}
+
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.code{
+    width: 650px;
+    white-space: pre;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(22, 182, 1);
+    background: #000;
+    border: 2px solid rgb(33, 109, 3);
+}
