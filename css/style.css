@@ -80,7 +80,7 @@ body{
 /*  .footer  */
 
 .footer{
-    padding: 25px;
+    padding: 25px 5px 5px 25px;
 }
 
 /*  .footer .container  */
@@ -120,6 +120,7 @@ body{
 /*  .logo  */
 
 .logo{
+    padding-top: 10px;
     float: right;
 }
 
