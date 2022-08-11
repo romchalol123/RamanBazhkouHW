@@ -1,0 +1,14 @@
+@import url(style.css);
+
+@media print{
+    a[href^="https://"]::before {
+        content: " (ссылка ";
+    }
+
+    a[href^="https://"]::after {
+        content: " на " attr(href) ")";
+    }
+}
+
+
+

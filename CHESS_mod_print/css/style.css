@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.name{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.birthday{
+    color: green;
+}
+.champInfo{
+    color: red;
+    font-weight: bold;
+}
+.infoLink::before{
+    content: url('../img/extref.png');
+    margin-right: 3px;
+}
+.content{
+    font-style: italic;
+    color: blue;
+    margin-bottom: 20px;
+}
