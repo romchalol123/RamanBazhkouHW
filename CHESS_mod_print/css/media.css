@@ -8,6 +8,10 @@
     a[href^="https://"]::after {
         content: " на " attr(href) ")";
     }
+
+    .infoLink::before{
+        display: none;
+    }
 }
 
 
