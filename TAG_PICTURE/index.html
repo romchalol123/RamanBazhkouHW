@@ -21,13 +21,6 @@
         вариантов отображения нам нужны разные картинки.
     </p>
     
-    <p class="code">
-    &lt;picture&gt;
-        &lt;source srcset="320.jpg" media="(max-width: 800px)"&gt;
-        &lt;img src="640.jpg" alt="Абстрактное изображение"&gt;
-    &lt;/picture&gt;
-    </p>
-
     <p class="text">
         Одна и та же страница может быть открыта на разных устройствах и в
         браузерных окнах разной ширины. У телефона небольшой экран, и было бы
@@ -47,7 +40,7 @@
 
     <p class="code">
     &lt;picture&gt;
-        &lt;source srcset="750x400.png" media="(min-width: 1000px)"&gt;
+        &lt;source srcset="750x400.png" media="(min-width: 800px)"&gt;
         &lt;img src="650x300.png" alt="Картинка с размерами"&gt;
     &lt;/picture&gt;
     </p>
@@ -61,7 +54,7 @@
     </p>
 
     <picture>
-        <source srcset="img/1366x768.jpg" media="(min-width: 1000px)">
+        <source srcset="img/1366x768.jpg" media="(min-width: 800px)">
         <img src="img/640x360.jpg" alt="img"> 
     </picture>
 
