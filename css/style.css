@@ -12,7 +12,7 @@
 body{
     background-color:rgb(248, 242, 152);
     margin: 5px;
-    min-width: 350px;
+    min-width: 385px;
 }
 
 /*  .container  */
@@ -87,8 +87,7 @@ body{
 
 .container2{
     float: left;
-    width: 335px;
-    height: 120px;
+    width: 145px;
 }
 
 .container2 h3{
@@ -97,20 +96,8 @@ body{
     padding-bottom: 10px;
 }
 
-.container2 > ul{
-    list-style-type: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    float: left;
-}
-
-.container2 > ul li{
-    padding-top: 10px;
-    padding-right: 10px;
-}
-
-.container2 > #ul1 li{
-    font-weight: bold;
+.container2 .contact-me a{
+    padding-left: 10px;
 }
 
 .container2 a{
