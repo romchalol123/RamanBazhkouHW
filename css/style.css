@@ -96,6 +96,11 @@ body{
     padding-bottom: 10px;
 }
 
+.container2 .contact-me{
+    margin-left: 18px;
+    width: 95px;
+}
+
 .container2 .contact-me a{
     padding-left: 10px;
 }
