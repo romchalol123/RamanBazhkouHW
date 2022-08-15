@@ -1,8 +1,27 @@
 *{
     margin: 0;
     padding: 0px;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix{
+    clear: both;
+}
+
+p{
+    padding: 10px;
+}
+
+ul{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li{
+    font-size: 15px;
+}
+
 .headers{
     font-size: 30px;
     font-weight: 600;
@@ -10,29 +29,43 @@
     color: blue;
     background-color: rgb(173, 217, 230); 
 }
+
+.container{
+    background: url('../img/menuBG.png') repeat-y,
+                url('../img/ball1.png') top right repeat-y;
+}
+
+/*  .menu  */
+
 .menu{
+    float: left;
     width: 170px;
 }
-p{
-    padding: 10px;
+
+.menu p{
+    font-weight: bold;
 }
-.cup{
+
+/*  .content  */
+
+.content{
     margin-left: 170px;
     padding: 10px;
 }
-.cup p{
+
+.content > img{
+    float: left;
+    margin-right: 10px;
+}
+
+.content p{
     padding: 0;
     text-align: justify;
 }
-ul{
-    padding-left: 30px;
-    padding-right: 30px;
-}
-li{
-    font-size: 15px;
-}
-.content{
-    background: url('../img/ball1.png');
-    background-position: top right;
-    background-repeat: repeat-y;
+
+.content p:first-child{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
 }
