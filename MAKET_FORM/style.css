@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    margin: 20px;
+}
+
+.container .content{
+    margin: 15px 0px 10px 10px;
+}
+
+textarea{
+    width: 100%;
+}

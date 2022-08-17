@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.cloud-block{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 120px;
+    height: 65px;
+    background-color: rgb(127, 255, 212);
+    border: 1px solid  rgb(34, 185, 135);
+    text-align: center;
+}
+
+.cloud-block a{
+    color: rgb(25, 114, 84);
+}
+
+p{
+    padding: 10px;
+}
+
+ul{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li{
+    font-size: 15px;
+}
+
+.headers{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+    background-color: rgb(173, 217, 230); 
+}
+
+.container{
+    background: url('../img/menuBG.png') repeat-y,
+                url('../img/ball1.png') top right repeat-y;
+}
+
+/*  .menu  */
+
+.menu{
+    float: left;
+    width: 170px;
+}
+
+.menu p{
+    font-weight: bold;
+}
+
+/*  .content  */
+
+.content{
+    margin-left: 170px;
+    padding: 10px;
+}
+
+.content > img{
+    float: left;
+    margin-right: 10px;
+}
+
+.content p{
+    padding: 0;
+    text-align: justify;
+}
+
+.content p:first-child{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
+}

@@ -1,0 +1,37 @@
+@import url('style.css');
+
+@media all and (min-width: 755px){
+    .content{
+        height: 342px;
+    }
+}
+
+@media all and (max-width: 560px){
+    .content > img{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 420px){
+    .menu{
+        float: none;
+        width: 100%;
+        background: url('../img/menuBG.png');
+        padding-bottom: 10px;
+    }
+
+    .container{
+        background: url('../img/ball1.png') top right repeat-y;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 375px){
+    .headers{
+        font-size: 20px;
+    }
+}

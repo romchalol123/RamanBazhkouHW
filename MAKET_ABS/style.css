@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 20px 0px 20px;
+    text-align: justify;
+}
+
+p:first-child{
+    margin-top: 0;
+}
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 450px;
+}
+
+/*  biohazard  */
+.back-img1{
+    position: absolute;
+}
+
+/*  Man-and-woman  */
+.back-img2{
+    position: absolute;
+    right: 0;
+}
+
+/*  Yin_and_Yang  */
+.back-img3{
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+}
+
+/*  No_smoking  */
+.img-main{
+    position: relative;
+    top: 90px ;
+    left: 95px;
+}
+
+.back-img1:hover, .back-img2:hover, .back-img3:hover{
+    z-index: 1;
+}
