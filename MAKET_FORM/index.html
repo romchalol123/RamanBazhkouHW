@@ -10,27 +10,38 @@
 <body>
     <div class="container">
     
-        Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        
 
         <div class="content">
             <form action="#" method="get">
 
-                Название статьи:
+                
                 <div class="header">
-                    <input type="text" name="header" id="header"> <br>
+                    <div class="proj-name">
+                        <span>Название статьи:</span>
+                    </div>
+                    
+                    <div class="content-box">
+                        <input type="text" name="header" id="header">
+                    </div>
+
+                    <div class="clearfix"></div>
                 </div>
                 
-                Рубрика:
+                
                 <div class="category">
-                    <select name="ingnrngType">
+                    <span>Рубрика:</span>
+                    <select name="cat-type">
                         <option value="prog">Программирование</option>
                         <option value="tech">Компьютерная техника</option>
                         <option value="graphics">Графика и дизайн</option>
                     </select> <br>
                 </div>
                 
-                Публикация:
+                
                 <div class="radio">
+                    <span>Публикация:</span>
                     <ul>
                         <li><input type="radio" name="publType" value="sait">на сайте</li>
                         <li><input type="radio" name="publType" value="mag">в журнале</li>
@@ -38,17 +49,20 @@
                     </ul>
                 </div>
 
-                Разрешить комментарии: <input type="checkbox">
-
-        
+                <div class="comm">
+                    <span>Разрешить комментарии:</span><input type="checkbox">
+                </div>
+                
+                
                 <div class="textbox">
-                    Текст статьи: <br>
+                    <span>Текст статьи:</span> <br>
                     <textarea name=""></textarea> <br>
                 </div>
                 
         
                     <input type="submit" name="Опубликовать">
             </form>
+
         </div>
         
         

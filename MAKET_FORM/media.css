@@ -1,5 +1,36 @@
 @import url('style.css');
 
-@media all and (min-width: 410px) {
+@media all and (max-width: 560px) {
+
+    .container{
+        min-width: 290px;    
+    }
+
+    .container > p{
+        width: 300px;
+    }
+
+    .header .content-box{
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    .category select{
+        width: 180px;
+        margin-bottom: 5px;
+    }
+
+    .category > span{
+        display: block;
+    }
+
+    .radio ul{
+        display: block;
+    }
+
+    .radio ul li{
+        display: block;
+    }
 
 }

@@ -5,6 +5,12 @@
     list-style-type: none;
 }
 
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .container{
     margin: 20px;
 }
@@ -15,4 +21,48 @@
 
 textarea{
     width: 100%;
+}
+
+span{
+    margin-bottom: 5px;
+}
+
+form div > span{
+    display: inline-block;
+    width: 175px;
+}
+
+/*  .header  */
+.header .proj-name{
+    float: left;
+    width: 175px;
+}
+
+.header .content-box{
+    margin-left: 175px;
+    padding-left: 4px;
+}
+
+.header .content-box input{
+    width: 100%;
+}
+
+
+/*  .radio  */
+.radio ul{
+    display: inline-block;
+}
+
+
+.radio ul li{
+    display: inline;
+}
+
+.radio ul li input{
+    margin: 0 2px;
+}
+
+/*  .category  */
+.category select{
+    width: 250px;
 }
