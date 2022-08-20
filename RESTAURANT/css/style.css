@@ -1099,7 +1099,7 @@ body{
     margin-right: 19px;
 }
 
-.form .str input[value]{
+.form .str input{
     padding-left: 25px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
