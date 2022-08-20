@@ -1158,7 +1158,7 @@ body{
 
 .footer .subscribe > img{
     float: left;
-    margin-left: 362px;
+    margin-left: 322px;
     margin-top: 129px;
 }
 
@@ -1213,17 +1213,18 @@ body{
 .contacts .cont ul{
     margin-top: 34px;
 }
+
 .contacts .cont ul li{
     font-family: 'Josefin Sans',sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #E1B168;
+    color: #FFFFFF;
 }
 
-.contacts .cont ul li:first-child{
-    color: #FFFFFF;
+.contacts .cont ul li > a{
+    color: #E1B168;
 }
 
 .contacts .cont ul li:nth-child(2){
@@ -1236,13 +1237,145 @@ body{
     clear: both;
 }
 
-.working-hours ul{
-    padding-top: 34px;
-}
-
-.working-hours ul li{
+.working-hours .timetable{
+    margin-top: 34px;
     float: right;
     clear: both;
 }
 
+.working-hours .timetable ul{
+    float: right;
+}
+.working-hours .timetable ul li{
+    float: right;
+    clear: both;
+}
 
+.working-hours .timetable ul:first-child li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    padding-left: 10px;
+}
+
+.working-hours .timetable ul:last-child li{
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+}
+
+.mail p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-left: 122px;
+    margin-top: 12px;
+}
+
+.mail .email-bar{
+    width: 664px;
+    height: 68px;
+    margin-left: 121px;
+    margin-top: 25px;
+}
+
+.mail .email-bar input{
+    float: left;
+    width: 456px;
+    height: 68px;
+    background: none;
+
+    border: 1px solid #858585;
+    border-radius: 0px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.mail .email-bar input[value]{
+    padding-left: 24px;
+}
+
+.mail .email-bar button{
+    float: right;
+    width: 208px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 0px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.footer hr{
+    width: 1440px;
+    margin-left: -40px;
+    margin-top: 25px;
+
+    border: none;
+    background: #575B62;
+    height: 1px;
+}
+
+/*  .designedby  */
+.designedby .copyright{
+    float: left;
+    display: block;
+}
+
+.designedby .copyright p{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 26px;
+    margin-left: -22px;
+}
+
+.designedby .copyright p > a{
+    color: #E1B168;
+}
+
+.designedby .faq{
+    float: right;
+}
+
+.designedby .faq ul{
+    margin-top: 25px;
+}
+
+.designedby .faq ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+.designedby .faq ul li > a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+}
