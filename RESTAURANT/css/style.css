@@ -191,8 +191,8 @@ body{
 
 .greeting .interior img:last-child{
     position: absolute;
-    top: 26px;
-    right: 0;
+    top: 20px;
+    right: 12px;
 }
 
 /*  .find-us  */
@@ -305,6 +305,7 @@ body{
     border: 1px solid #E1B168;
     border-left: none;
     border-right: none;
+    font-weight: 400;
 }
 
 /*  .dish-menu .offer  */
@@ -449,6 +450,7 @@ body{
     border: 1px solid #E1B168;
     border-left: none;
     border-right: none;
+    font-weight: 400;
 }
 
 /*  .feedback .header  */
@@ -595,12 +597,13 @@ body{
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    padding: 5px 3px 0;
+    padding: 6px 3px 0;
     border: 1px solid #E1B168;
     border-left: none;
     border-right: none;
     display: block;   
     width: 80px;
+    font-weight: 400;
 }
 
 .pop-dishes h6:first-child{
@@ -627,9 +630,10 @@ body{
     letter-spacing: 0.2px;
 }
 
-/*  food-container  */
+/*  .off-box  */
 .off-box{
     margin-top: 40px;
+    position: relative;
 }
 
 .off-box .burg{
@@ -647,4 +651,303 @@ body{
     height: 409px;
     position: relative;
 }
+
+.burg img{
+    position: absolute;
+    top: 88px;
+    right: 40px;
+}
+
+.pizza img{
+    position: absolute;
+    top: 67px;
+    right: 40px;
+}
+
+.try .cloud{
+    margin-top: 69px;
+    margin-left: 37px;
+    width: 191px;
+    height: 110px;
+}
+
+.try.burg .cloud{
+    background: url('../img/pad-burg.png') left bottom no-repeat;
+}
+
+.try.pizza .cloud{
+    background: url('../img/pad-pizza.png') left bottom no-repeat;
+}
+
+.cloud p.off{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.pizza .cloud p, .pizza .cloud h2{
+    color: #FFFFFF;
+}
+
+
+.cloud h2.off{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+}
+
+.try .cloud .block{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 112px;
+    height: 88px;
+    text-align: center;
+}
+
+.try .boxie{
+    margin-top: 41px;
+    margin-left: 40px;
+}
+
+.try .boxie h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    display: inline-block;
+    padding: 3px 2px 0;
+    border: 1px solid #292E36;;
+    border-left: none;
+    border-right: none;
+}
+
+.try .boxie h2{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 8px;
+}
+
+.try .boxie p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+}
+
+/*  pop-box  */
+.pop-box{
+    margin-top: 50px;
+}
+
+.pop-box .slide{
+    width: 318px;
+    color: #292E36;
+    margin-right: 29px;
+    float: left;
+}
+
+.pop-box .slide:nth-child(4){
+    margin-right: 0;
+}
+
+.pop-box .slide h4{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    float: left;
+}
+
+.pop-box .slide:first-child h4{
+    font-weight: 700;
+}
+
+.pop-box .slide h4.costsum{
+    float: right;
+}
+
+.pop-box .slide hr{
+    border: none;
+    background: #DCDCDC;
+    height: 1px;
+    margin: 11px 0 13px;
+}
+
+.pop-box .slide p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.spec-off button{
+    width: 255px;
+    height: 73px;
+    border: 2px solid #E1B168;
+    border-radius: 0px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #FFFFFF;
+    color: #E1B168;
+    margin-top: 65px;
+    margin-left: 550px;
+}
+
+/*  .services  */
+.services{
+    padding: 0 40px 0;
+    height: 515px;
+    background: #292E36;
+    color: #FFFFFF;
+}
+
+.services .description{
+    width: 438px;
+    float: left;
+}
+
+.services .description h6{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #E1B168;
+    border-left: none;
+    border-right: none;
+    margin-top: 146px;
+    padding: 7px 3px 0;
+    font-weight: 400;
+}
+
+.services .description h2{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 11px;
+}
+
+.services .description p{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 13px;
+}
+
+.serv{
+    margin-top: 140px;
+    float: right;
+}
+
+.serv .tab{
+    width: 254px;
+    height: 235px;
+    border: 20px solid #323841;
+    border-radius: 0px;
+    float: left;
+    margin-right: 30px;
+}
+
+.serv .tab:nth-child(3){
+    margin-right: 0;
+}
+
+.serv .tab img{
+    margin-top: 45px;
+    margin-left: 77px;
+}
+
+.serv .tab h6{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+}
+
+/*  .news  */
+.news{
+    height: 1214px;
+    color: #292E36;
+}
+
+.news > h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 146px;
+
+    border: 1px solid #E1B168;
+    border-left: none;
+    border-right: none;
+    padding: 5px 2px 0px 5px;
+    display: inline-block;
+    margin-left: 692px;
+}
+
+.news > h2{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 11px;
+}
+
+.news > p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
