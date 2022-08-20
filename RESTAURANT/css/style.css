@@ -937,15 +937,209 @@ body{
     margin-top: 8px;
 }
 
+.news .widebox{
+    margin: 40px 55px 0;
+}
 
+.widebox .tab{
+    width: 642px;
+    border: 1px solid #C4C4C4;
+}
 
+.news .widebox .tab:first-child{
+    float: left;
+}
 
+.news .widebox .tab:nth-child(2){
+    float: right;
+}
 
+.tab .view{
+    width: 640px;
+    height: 384px;
+    display: block;
+    content: '';
+}
 
+.tab.delicious .view{
+    background: url('../img/delicious.png') top left no-repeat;
+}
 
+.tab.cooking .view{
+    background: url('../img/cooking.png') top left no-repeat;
+}
 
+.tab .view button{
+    width: 227px;
+    height: 73px;
+    margin-top: 156px;
+    margin-left: 202px;
 
+    background: #E1B168;
+    border: 2px solid #E1B168;
+    border-radius: 0px;
 
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.44px;
+}
+
+.textview{
+    margin: 50px;
+}
+
+.news .tab h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    border: 1px solid #E1B168;
+    border-left: none;
+    border-right: none;
+    padding: 5px 2px 0px 5px;
+}
+
+.news .tab h3{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 26px;
+}
+
+.news .tab p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-top: 24px;
+}
+
+/*  .reserv-table  */
+.reserv-table{
+    position: relative;
+    height: 977px;
+    background: url('../img/bg-reservation.png');
+    color: #FFFFFF;
+}
+
+.reserv-table .fill-form{
+    width: 920px;
+    height: 697px;
+    background: rgba(41, 46, 54, 0.95);
+    position: absolute;
+    top: 140px;
+    left: 260px;
+}
+
+.reserv-table .fill-form h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    border: 1px solid #E1B168;
+    border-left: none;
+    border-right: none;
+    padding: 5px 2px 0px 5px;
+    display: inline-block;
+    margin-top: 146px;
+    margin-left: 389px;
+}
+
+.reserv-table .fill-form h3{
+    font-family: 'Cormorant Infant', s;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 11px;
+}
+
+.fill-form .form{
+    margin-top: 38px;
+    margin-left: 140px;
+    width: 640px;
+}
+
+.fill-form .form input{
+    background: none;
+    border: 1px solid #858585;
+    border-radius: 0px;
+    height: 70px;
+}
+
+.form .str{
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.form .first-str input{
+    width: 307px;
+}
+
+.form .second-str input{
+    width: 198px;
+    margin-right: 19px;
+}
+
+.form .str input[value]{
+    padding-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.form .second-str input:last-child{
+    margin-right: 0;
+}
+
+.form .first-str input:first-child{
+    float: left;
+}
+
+.form .first-str input:last-child{
+    float: right;
+}
+
+.fill-form button{
+    width: 242px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-left: 339px;
+}
+
+/*  .footer  */
+.footer{
+    height: 655px;
+}
 
 
 
