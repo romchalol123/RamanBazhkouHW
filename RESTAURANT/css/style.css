@@ -1153,19 +1153,18 @@ body{
     color: #FFFFFF;
     float: left;
     margin-top: 239px;
-    margin-left: 40px;
 }
 
 .footer .subscribe > img{
     float: left;
-    margin-left: 322px;
+    margin-left: 363px;
     margin-top: 129px;
 }
 
 .footer .subscribe ul{
     float: right;
     margin-top: 185px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 .footer .subscribe ul li{
@@ -1316,7 +1315,7 @@ body{
     width: 208px;
     height: 68px;
     background: #FFFFFF;
-    border-radius: 0px;
+    border: none;
 
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
