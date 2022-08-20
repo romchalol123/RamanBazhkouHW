@@ -1138,10 +1138,111 @@ body{
 
 /*  .footer  */
 .footer{
+    padding: 0 40px;
     height: 655px;
+    background: #292E36;
+    color: #FFFFFF;
 }
 
+.footer .subscribe > p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 239px;
+    margin-left: 40px;
+}
 
+.footer .subscribe > img{
+    float: left;
+    margin-left: 362px;
+    margin-top: 129px;
+}
 
+.footer .subscribe ul{
+    float: right;
+    margin-top: 185px;
+    margin-right: 50px;
+}
+
+.footer .subscribe ul li{
+    float: left;
+    margin-left: 21px;
+}
+
+.footer .subscribe ul li:first-child{
+    margin-top: 35px;
+}
+
+.footer .subscribe ul li:nth-child(2){
+    margin-top: 55px;
+}
+
+.footer .subscribe ul li:nth-child(3){
+    margin-top:82px;
+}
+
+.contacts .cont, .contacts .mail{
+    float: left;
+}
+
+.contacts h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    border: 1px solid #E1B168;
+    border-left: none;
+    border-right: none;
+    padding: 5px 2px 0px 5px;
+    display: inline-block;
+
+    margin-top: 88px;
+}
+
+.contacts .working-hours{
+    float: right;
+}
+
+.contacts .cont ul{
+    margin-top: 34px;
+}
+.contacts .cont ul li{
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+}
+
+.contacts .cont ul li:first-child{
+    color: #FFFFFF;
+}
+
+.contacts .cont ul li:nth-child(2){
+    font-size: 19px;
+}
+
+.working-hours h6{
+    margin-top: 27px;
+    float: right;
+    clear: both;
+}
+
+.working-hours ul{
+    padding-top: 34px;
+}
+
+.working-hours ul li{
+    float: right;
+    clear: both;
+}
 
 
