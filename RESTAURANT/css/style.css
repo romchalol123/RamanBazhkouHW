@@ -55,31 +55,24 @@ body{
     text-align: center;
     letter-spacing: 0.44px;
     border: 2px solid #E1B168;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    position: absolute;
+    top: 108px;
 }
 
 .header .reservation button:first-child{
     background-color: #292E36;
-    font-size: 22px;
-    line-height: 33px;
-    text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-
-    position: absolute;
-    top: 108px;
     left: 40px;
 }
 
 .header .reservation button:nth-child(2){
     background-color: #E1B168;
-    font-size: 22px;
-    line-height: 33px;
-    text-align: center;
     letter-spacing: 0.44px;
     color: #292E36;
-
-    position: absolute;
-    top: 108px;
     right: 40px;
 }
 
@@ -154,6 +147,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    width: 600px;
 }
 
 .greeting button{

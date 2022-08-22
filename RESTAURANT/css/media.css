@@ -1,1 +1,100 @@
 @import url('style.css');
+
+@media all and (max-width: 1460px){
+    .wrapper{
+        width: 980px;
+    }
+
+    .header .reservation button{
+        width: 220px;
+        height: 55px;
+        font-size: 19px;
+    }
+
+    .header .reservation img{
+        top: 50px;
+        left: 326px;
+        width: 334px;
+    }
+
+    .header .menu ul li{
+        margin-right: 32px;
+    }
+
+    .greeting{
+        height: 580px;
+    }
+
+    .greeting .interior{
+        width: 480px;
+        height: 525px;
+    }
+
+    .greeting .interior img:first-child{
+        height: 480px;
+        right: 17px;
+    }
+
+    .greeting .interior img:last-child{
+        width: 210px;
+    }
+
+
+    .greeting h1{
+        margin-top: 115px;
+        font-size: 80px;
+        line-height: 75px;
+    }
+
+    .greeting p{
+        width: 420px;
+    }
+
+    .greeting button{
+        height: 55px;
+        width: 190px;
+        font-size: 19px;
+    }
+
+    .find-us .frame .cont-box{
+        width: 315px;
+    }
+
+    .find-us .frame .cont-box img{
+        width: 60px;
+    }
+
+    .find-us .frame .cont-box h4{
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: -3px;
+    }
+
+    .find-us .frame .cont-box p{
+        font-size: 15px;
+        margin-left: 80px;
+        line-height: 20px;
+    }
+
+    .story img:first-child{
+        width: 45%;
+    }
+
+
+    .story .tab{
+        width: 415px;
+    }
+
+}
+
+@media all and (max-width: 1000px){
+    .wrapper{
+        width: 640px;
+    }
+}
+
+@media all and (max-width: 690px){
+    .wrapper{
+        width: 300px;
+    }
+}
