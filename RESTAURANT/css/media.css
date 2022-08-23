@@ -76,14 +76,365 @@
         line-height: 20px;
     }
 
+    .story{
+        height: 620px;
+    }
+
     .story img:first-child{
         width: 45%;
     }
 
+    .story img:last-child{
+        width: 150px;
+    }
 
     .story .tab{
         width: 415px;
     }
+
+    .story .tab h3{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .story .tab p{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .story .tab div:nth-child(2){
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .dish-menu{
+        height: 1680px;
+    }
+
+    .dish-menu > p{
+        margin-top: 80px;
+    }
+
+    .dish-menu .offer h2{
+        font-size: 35px;
+    }
+
+    .dish-menu .offer p{
+        font-size: 18px;
+        line-height: 24px;
+        width: 385px;
+    }
+
+    .dish-menu .offer button{
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .dish-menu .offer img{
+        width: 75%;
+    }
+
+    .dish-menu .dish-list{
+        margin-left: 425px;
+    }
+
+    .dish-menu .dish-list .dishclass h3{
+        font-size: 34px;
+    }
+
+    .dishclass ul{
+        margin: 40px 0 60px;
+    }
+
+    .dishclass ul li > h4{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .dishclass ul li > p{
+        font-size: 15px;
+        line-height: 15px;
+        width: 180px;
+        padding-right: 0;
+    }
+
+    .dishclass ul li > p.cost{
+        font-size: 25px;
+        width: 40px;
+    }
+
+    .dishclass hr{
+        margin-top: 32px;
+    }
+
+    .feedback{
+        height: 820px;
+    }
+
+    .feedback > p{
+        margin-top: 120px;
+    }
+
+    .feedback .title h2{
+        font-size: 35px;
+    }
+
+    .feedback .title p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .feedback .cards{
+        width: 1371px;
+    }
+
+    .cards .card{
+        width: 437px;
+    }
+
+    .card p:last-child{
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .feedback input + .cont-sw > label{
+        top: 445px;
+        left: 445px;
+    }
+
+    .spec-off{
+        height: 1990px;
+    }
+
+    .spec-off .dishes h6{
+        margin: 105px auto 0;
+    }
+
+    .spec-off button{
+        margin-top: 45px;
+        margin-left: 350px;
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .off-box .try{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pop-box .slide{
+        width: 211px;
+        margin-right: 18px;
+    }
+
+    .pop-box .slide h4{
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+
+    .pop-box .slide p{
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .services{
+        height: 454px;
+    }
+
+    .services .description{
+        width: 284px;
+    }
+
+    .services .description h6{
+        margin-top: 105px;
+    }
+
+    .services .description h2{
+        font-size: 36px;
+    }
+
+
+    .services .description p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .serv .tab{
+        width: 182px;
+        height: 169px;
+        border: 14px solid #323841;
+        margin-right: 20px;
+    }
+
+    .serv .tab img{
+        margin-top: 24px;
+        margin-left: 56px;
+        width: 46px;
+    }
+
+    .serv .tab h6{
+        font-size: 20px;
+    }
+    
+    .news > h6{
+        margin-top: 105px;
+        margin-left: 480px;
+    }
+
+    .widebox .tab{
+        width: 420px;
+    }
+
+    .tab .view{
+        height: 252px;
+    }
+
+    .tab .view button{
+        width: 205px;
+        height: 55px;
+        margin-top: 108px;
+        margin-left: 110px;
+    }
+
+    .news{
+        height: 1060px;
+    }
+
+    .news .tab h6{
+        font-size: 14px;
+        margin-right: 22px;
+    }
+
+    .news .tab h3{
+        font-size: 24px;
+    }
+
+    .news .tab p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .reserv-table{
+        height: 780px;
+        background-position-y: -160px;
+    }
+
+    .reserv-table .fill-form{
+        width: 770px;
+        height: 590px;
+        top: 80px;
+        left: 110px;
+    }
+
+    .reserv-table .fill-form h6{
+        margin-left: 310px;
+    }
+
+    .fill-form .form{
+        margin-top: 20px;
+    }
+
+    .fill-form button{
+        width: 216px;
+        height: 60px;
+        margin-left: 278px;
+        font-size: 19px;
+    }
+
+    .form .str{
+        margin-bottom: 24px;
+    }
+
+    .footer{
+        height: 520px;
+    }
+
+    .footer .subscribe > img{
+        margin-left: 172px;
+        width: 34%;
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
+
+    .footer .subscribe > p{
+        margin-top: 162px;
+        font-size: 20px;
+    }
+
+    .footer .subscribe ul{
+        margin-top: 138px;
+    }
+
+    .contacts h6{
+        margin-top: 24px;
+    }
+
+    .contacts .cont h6{
+        margin-top: 42px;
+    }
+
+    .contacts .cont ul li{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .contacts .cont ul li:nth-child(2){
+        font-size: 16px;
+    }
+
+    .mail{
+        margin-left: 42px;
+        width: 450px;
+    }
+    .mail .email-bar, .mail p{
+        margin-left: 0;
+    }
+
+    .mail .email-bar input, .mail .email-bar button{
+        height: 45px;
+    } 
+
+    .mail .email-bar button{
+        width: 140px;
+        font-size: 19px;
+    }
+
+    .working-hours .timetable > ul li{
+        font-size: 16px;
+    }
+
+    .mail .email-bar input{
+        width: 280px;
+        padding-top: 3px;
+        padding-left: 12px;
+        font-size: 19px;
+        margin-left: 15px;
+    }
+
+    .footer hr{
+        width: 980px;
+    }
+
+    .designedby .copyright p{
+        font-size: 16px;
+        line-height: 10px;
+        margin-top: 32px;
+    }
+
+    .designedby .faq ul li{
+        margin-left: 17px;
+    }
+
+    .designedby .faq ul li > a{
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+
+
 
 }
 
@@ -91,6 +442,50 @@
     .wrapper{
         width: 640px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media all and (max-width: 690px){
