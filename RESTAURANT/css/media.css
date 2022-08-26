@@ -460,66 +460,367 @@
         width: 350px;
     }
 
+    .greeting{
+        height: 480px;
+    }
+
     .greeting .interior img:first-child{
-        height: 290px;
+        height: 350px;
         right: 10px;
     }
 
     .greeting .interior img:last-child{
-        width: 120px;
+        width: 152px;
         top: 7px;
         right: 8px;
     }
 
     .greeting .interior{
-        width: 258px;
-        height: 283px;
-        border-width: 15px;
+        width: 338px;
+        height: 380px;
+        border-width: 18px;
     }
 
     .greeting h1{
         margin-top: 0;
-        padding-top: 100px;
+        padding-top: 65px;
         font-size: 40px;
         line-height: 42px;
         float: none;
     }
 
+    .greeting p{
+        width: 235px;
+    }
 
+    .greeting button{
+        height: 45px;
+        width: 160px;
+        font-size: 17px;
+    }
 
+    .find-us{
+        height: 300px;
+    }
 
+    .find-us .frame{
+        position: relative;
+        top: 40px;
+        left: 170px;
+    }
 
+    .find-us .frame .cont-box{
+        margin-bottom: 20px;
+        width: 330px;
+        float: left;
+        clear: both;
+    }
 
+    .find-us .frame .cont-box h4{
+        margin-top: 7px;
+    }
 
+    .story{
+        height: 950px;
+    }
+    .story img:first-child{
+        width: 100%;
+        top: 20px;
+        left: unset;
+    }
 
+    .story .tab{
+        float: none;
+        top: 50px;
+        right: unset;
+        left: 40px;
+        width: 88%;
+    }
 
+    .story .tab div:nth-child(2), .tab .story div:nth-child(3){
+        width: 45%;
+    }
 
+    .story img:last-child{
+        margin-top: 20px;
+    }
 
+    .dish-menu{
+        height: 2350px;
+    }
 
+    .dish-menu > p{
+        margin-top: 60px;
+    }
 
+    .dish-menu .offer{
+        float: none;
+    }
 
+    .dish-menu .offer p{
+        width: 100%;
+    }
 
+    .dish-menu .offer img{
+        transform: rotate(90deg);
+        margin-top: -100px;
+        margin-left: 77px;
+        width: 72%;
+    }
 
+    .dish-menu .offer button{
+        margin-top: -20px;
+        margin-left: 132px;
+        width: 300px;
+    }
 
+    .dishclass ul li > p{
+        width: auto;
+    }
 
+    .dish-menu .dish-list{
+        clear: both;
+        margin-left: 0;
+        margin-top: 110px;
+    }
 
+    .dishclass ul li > h4{
+        padding-top: 10px;
+    }
 
+    .dishclass ul li > p{
+        margin-top: 10px;
+        padding-right: 5px;
+    }
 
+    .dishclass hr{
+        margin-top: 23px;
+    }
 
+    .dishclass ul li > p.cost{
+        padding-left: 5px;
+        width: 33px;
+        bottom: -2px;
+    }
 
+    .feedback > p{
+        margin-top: 100px;  
+    }
 
+    .cards .card{
+        width: 280px;
+        padding: 0 25px 0;
+    }
 
+    .cards .card img:first-child{
+        margin-bottom: 15px;
+        width: 40%;
+    }
 
+    .card .card-title{
+        margin-left: 115px;
+    }
 
+    .card .card-title h3{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+        margin-top: 24px;
+    }
 
+    .card p:last-child{
+        font-size: 22px;
+    }
 
+    .cards .card img:nth-child(2){
+        left: 15px;
+    }
+        
+    .feedback{
+        height: 770px;
+    }
+    .feedback .cards{
+        width: 900px;
+    }
 
+    .feedback input + .cont-sw > label{
+        left: 268px;
+        top: 420px;
+    }
 
+    .spec-off .dishes h6{
+        margin: 80px auto 0;
+    }
 
+    .burg img{
+        width: 43%;
+    }
 
+    .pizza img{
+        width: 50%;
+    }
 
+    .spec-off{
+        height: 2450px;
+    }
 
+    .spec-off .dishes p{
+        width: 79%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .pop-box .slide{
+        width: 270px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    
+
+    .pop-box .slide:nth-child(2), .pop-box .slide:nth-child(4){
+        margin-right: 0;
+    }
+
+    .spec-off button{
+        margin-top: 0px;
+        margin-left: 162px;
+        width: 230px;
+    }
+
+    .services .description{
+        width: 100%;
+        float: none;
+    }
+
+    .services{
+        height: 510px;
+    }
+
+    .serv{
+        margin-top: 40px;
+    }
+
+    .serv .tab{
+        width: 173px;
+        height: 160px;
+    }
+
+    .serv .tab img{
+        margin-top: 28px;
+        margin-left: 52px;
+    }
+
+    .serv .tab h6{
+        margin-top: 7px;
+        font-size: 18px;
+    }
+
+    .news{
+        height: 1610px;
+    }
+
+    .news > h6{
+        margin-top: 95px;
+        margin-left: 304px;
+    }
+
+    .tab .view button{
+        margin-left: 162px;
+    }
+
+    .widebox .tab{
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .reserv-table{
+        background: url(../img/bg-reservation.png) bottom 0 left -95px no-repeat;
+        height: 910px;
+    }
+
+    .reserv-table .fill-form{
+        width: 512px;
+        height: auto;
+        top: 65px;
+        left: 65px;
+    }
+
+    .fill-form .form{
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 0;
+    }
+
+    .reserv-table .fill-form h6{
+        margin-left: 184px;
+        margin-top: 100px;
+    }
+
+    .fill-form .form .str{
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    .fill-form .form .str input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form .first-str input:first-child,  .form .first-str input:last-child{
+        float: none;
+    }
+
+    .fill-form button{
+        margin: 20px 152px 40px;
+    }
+
+    .footer{
+        height: 850px;
+    }
+
+    .footer .subscribe > p{
+        margin-top: 90px;
+    }
+
+    .footer .subscribe ul{
+        margin-top: 58px;
+    }
+
+    .footer .subscribe > img{
+        width: 60%;
+        margin-left: 110px;
+        margin-top: 0px;
+    }
+
+    .contacts{
+        margin-top: 20px;
+    }
+
+    .contacts .cont h6{
+        margin-top: 24px;
+    }
+
+    .mail{
+        margin-left: 62px;
+        margin-top: 30px;
+    }
+
+    .footer hr{
+        width: 640px;
+    }
+
+    .designedby .faq ul{
+        margin-right: 70px;
+        margin-top: 10px;
+    }
+    .designedby .faq ul li{
+        margin-left: 50px;
+    }
+
+    .designedby .copyright p{
+        margin-top: 18px;
+    }
 
 
 

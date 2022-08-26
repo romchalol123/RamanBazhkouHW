@@ -1134,7 +1134,7 @@ body{
     width: 242px;
     height: 68px;
     background: #FFFFFF;
-    border-radius: 0px;
+    border: none;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
