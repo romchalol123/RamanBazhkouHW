@@ -851,7 +851,7 @@
         left: 0;
         bottom: 140px;
         font-size: 13px;
-        border-radius: 20px;
+        border-radius: 0;
     }
 
     .header .reservation button:first-child{
@@ -1249,15 +1249,145 @@
         margin-bottom: 7px;
     }
 
+    .reserv-table .fill-form{
+        top: 20px;
+        left: 20px;
+        width: 87%;
+    }
 
+    .form .str input {
+        height: 45px;
+        padding-left: 10px;
+        font-size: 18px;
+        margin-bottom: 10px !important;
+    }
 
+    .reserv-table .fill-form h6{
+        margin-left: 60px;
+        margin-top: 75px;
+    }
 
+    .fill-form button{
+        margin: 20px 24px 40px;
+    }
 
+    .reserv-table{
+        height: 670px;
+    }
 
+    .footer .subscribe > p{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
 
+    .footer .subscribe ul{
+        margin-top: 35px;
+        margin-right: 0;
+    }
 
+    .footer .subscribe ul li{
+        margin-left: 40px;
+    }
 
+    .footer .subscribe ul li:first-child,
+    .footer .subscribe ul li:nth-child(2),
+    .footer .subscribe ul li:nth-child(3),
+    .footer .subscribe ul li:nth-child(4){
+        margin-top: 0;
+    }
 
+    .footer .subscribe ul li:first-child{
+        margin-left: 0;
+    }
+
+    .footer .subscribe > img{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .contacts > .cont{
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts .working-hours{
+        margin-right: 5px;
+        width: max-content;
+    }
+
+    .contacts h6{
+        margin-top: 50px;
+        margin-right: 13px;
+    }
+
+    .mail{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .mail .email-bar input{
+        margin: 0;
+        width: 33%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .mail .email-bar button{
+        clear: both;
+        width: 235px;
+        margin-left: -9px;
+    }
+
+    .footer hr{
+        width: 300px;
+    }
+
+    .contacts .cont h6{
+        margin-right: 0;
+    }
+
+    .footer {
+        height: 1078px;
+    }
+
+    .designedby .faq{
+        width: 131%;
+        margin-right: -34px;
+    }
+
+    .designedby .faq ul{
+        margin-right: 70px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .designedby .faq ul li{
+        margin-left: 17px;
+    }
+
+    .designedby .faq ul li:first-child{
+        margin-left: 0;
+    }
+
+    .designedby .faq ul li > a{
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .designedby .copyright{
+        width: 130%;
+        margin-left: -6px;
+        margin-top: -15px;
+    }
+
+    .designedby .copyright p{
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    
 
 
 
