@@ -834,4 +834,436 @@
     .wrapper{
         width: 300px;
     }
+
+    .header{
+        height: 400px;
+    }
+
+    .header .reservation img{
+        top: 20px;
+        left: 26px;
+        width: 250px;
+    }
+
+    .header .reservation button{
+        width: 100%;
+        right: unset;
+        left: 0;
+        bottom: 140px;
+        font-size: 13px;
+        border-radius: 20px;
+    }
+
+    .header .reservation button:first-child{
+        bottom: 190px;
+        left: 0;
+    }
+
+    .header .menu{
+        margin-top: 10px;
+        margin-left: 22px;
+        width: 254px;
+    }
+
+    .header .menu ul li{
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 30px;
+    }
+
+    .header .menu ul li:nth-child(5){
+        margin-left: 15px;
+    }
+
+    .header .menu ul li:nth-child(6){
+        margin-left: 17px;
+    }
+
+    .header .menu ul li:nth-child(3), .header .menu ul li:nth-child(6){
+        margin-right: 0;
+    }
+
+    .header .subscribe{
+        margin-right: 16px;
+        margin-top: -15px;
+    }
+    
+    .greeting{
+        height: 566px;
+    }
+    
+    .greeting h1{
+        padding-top: 35px;
+        font-size: 34px;
+        line-height: 32px;
+    }
+
+    .greeting p{
+        width: 85%;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .greeting button{
+        height: 35px;
+        width: 85%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .greeting .interior{
+        width: 242px;
+        height: 257px;
+        border-width: 18px;
+    }
+
+    .greeting .interior img:first-child{
+        height: 232px;
+        right: 10px;
+    }
+
+    .greeting .interior img:last-child{
+        width: 116px;
+        top: 7px;
+        right: 8px;
+    }
+
+    .find-us{
+        height: 240px;
+    }
+
+    .find-us .frame{
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+
+    .find-us .frame .cont-box img{
+        width: 45px;
+        margin-right: 10px;
+    }
+
+    .find-us .frame .cont-box h4{
+        margin-top: 3px;
+        font-size: 20px;
+    }
+
+    .find-us .frame .cont-box p{
+        margin-left: auto;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .story{
+        height: 840px;
+    }
+
+    .story .tab h3{
+        font-size: 34px;
+        line-height: 32px;
+    }
+
+    .story .tab p{
+        width: 88%;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .story .tab div:nth-child(2), .tab .story div:nth-child(3){
+        width: 100%;
+    }
+
+    .story img:last-child{
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .dishclass ul{
+        margin: 25px 0 60px;
+    }
+
+    .dish-menu .offer h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .dish-menu .offer p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .dish-menu .offer img{
+        margin-top: -65px;
+        margin-left: 30px;
+    }
+
+    .dish-menu .offer button{
+        width: 220px;
+        height: 35px;
+        margin-top: -5px;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .dish-menu .dish-list{
+        margin-top: 75px;
+    }
+
+    .dishclass ul li > img{
+        width: 24%;
+        margin-right: 10px;
+    }
+
+    .dishclass ul li > h4{
+        padding-top: 14px;
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        width: 233px;
+        font-size: 15px;
+    }
+
+    .dishclass ul li > p{
+        top: 62px;
+        left: 0px;
+        font-size: 11px;
+        width: 172px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .dishclass ul li > p.cost{
+        font-size: 20px;
+        right: 0px;
+        bottom: -41px;
+        background: transparent;
+    }
+
+    .dishclass hr{
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+
+    .dish-menu .dish-list .dishclass h3{
+        font-size: 30px;
+    }
+
+    .main-dish.dishclass ul li:first-child > h4, .main-dish.dishclass ul li:nth-child(3) > h4{
+        line-height: 20px;
+        padding-top: 7px;
+        margin-bottom: 15px;
+    }
+
+    .feedback .title h2{
+        font-size: 34px;
+        line-height: 32px;
+        margin: 20px 0;
+    }
+
+    .feedback .title p{
+        font-size: 14px;
+        line-height: 23px;
+        text-align: justify;
+    }
+
+    .cards .card{
+        margin-top: 40px;
+        width: 220px;
+        float: none;
+    }
+
+    .card .card-title{
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .feedback input + .cont-sw > label{
+        display: none;
+    }
+
+    .card .card-title h3{
+        width: 115px;
+        padding-top: 8px;
+        line-height: 17px;
+    }
+
+    .card p:last-child{
+        font-size: 18px;
+    }
+
+    .feedback{
+        height: 1350px;
+    }
+
+    .feedback .cards{
+        width: auto;
+    }
+
+    .spec-off .dishes h2{
+        margin: 20px 0;
+        font-size: 34px;
+        line-height: 32px;
+    }
+
+    .spec-off .dishes p{
+        font-size: 14px;
+        line-height: 23px;
+        width: 100%;
+    }
+
+    .off-box .try{
+        width: 137%;
+        margin-bottom: 10px;
+        margin-left: -40px;
+    }
+
+    .burg img{
+        width: 37%;
+    }
+
+    .try .boxie h2{
+        font-size: 34px;
+    }
+
+    .try .boxie p{
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .off-box .pizza{
+        margin-right: -40px;
+    }
+
+    .pizza img{
+        width: 40%;
+    }
+
+    .pop-box .slide{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .spec-off{
+        height: 3160px;
+    }
+
+    .spec-off button{
+        margin-left: 0;
+        width: 220px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .services .description h2{
+        font-size: 34px;
+        line-height: 32px;
+        margin: 20px 0;
+    }
+
+    .services .description p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .serv{
+        margin-top: 25px;
+    }
+
+    .serv .tab{
+        height: 100px;
+        width: 170px;
+        
+        margin-left: 27px;
+        margin-bottom: 15px;
+    }
+
+    .serv .tab img{
+        margin-top: 10px;
+        margin-left: 58px;
+        width: 20%;
+    }
+
+    .serv .tab h6{
+        margin-top: -5px;
+        font-size: 11px;
+    }
+
+    .services{
+        height: 720px;
+    }
+
+    .news{
+        height: 1650px;
+    }
+
+    .news > h6{
+        margin-left: 124px;
+    }
+
+    .news > h2{
+        font-size: 31px;
+        line-height: 36px;
+        width: 77%;
+        margin-left: 38px;
+    }
+
+    .news > p{
+        font-size: 16px;
+        line-height: 23px;
+        width: 77%;
+        margin-left: 38px;
+    }
+
+    .widebox .tab{
+        width: 143%;
+        margin-left: -40px;
+    }
+
+    .tab .view{
+        height: 168px;
+    }
+
+    .tab .view button{
+        margin-left: 70px;
+        margin-top: 64px;
+        width: 130px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .news .widebox .tab:nth-child(2){
+        margin-right: -41px;
+        margin-left: none;
+    }
+
+    .textview{
+        margin: 30px;
+    }
+
+    .news .tab h3{
+        line-height: 28px;
+    }
+
+    .news .tab h6{
+        margin-bottom: 7px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
