@@ -7,8 +7,13 @@
 }
 
 body{
-    display: flex;    
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 80px 1fr 80px; 
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 200px 1fr;
 }
 
 .bars{
@@ -18,10 +23,6 @@ body{
     text-align: center;
     color: blue;
     background-color: aqua;
-}
-
-.content{
-    display: flex;
 }
 
 .menu{
