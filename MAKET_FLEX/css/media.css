@@ -1,0 +1,21 @@
+@import url(style.css);
+
+@media all and (max-width: 555px){
+    .content{
+        flex-direction: column;
+    }
+
+    .menu{
+        order: 2;
+    }
+    
+    .cup{
+        order: 1;
+    }
+
+    .cup img{
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+}

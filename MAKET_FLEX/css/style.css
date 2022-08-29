@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;    
+    flex-direction: column;
+}
+
+.bars{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+
+.content{
+    display: flex;
+}
+
+.menu{
+    background-color: yellowgreen;
+}
+
+.menu p{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.cup{
+    padding: 0 20px 20px 20px;
+    background: url('../img/ball1.png') top right repeat-y;
+}
+
+.cup img{
+    float: left;
+    margin: 0 25px 20px 0;
+}
+
+.cup p{
+    text-align: justify;
+}
+
+.cup p:first-child{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
+}
+
+ul{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+li{
+    font-size: 15px;
+}
