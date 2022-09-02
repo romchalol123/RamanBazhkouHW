@@ -1,0 +1,11 @@
+@keyframes anim
+{
+    from { background: url('../img/sprite.png') 0 0; }
+    to { background: url('../img/sprite.png') -2620px 0; } /* 462-66=396 */
+}
+
+.men{
+    width: 180px;
+    height: 303px;
+    animation: anim 0.65s steps(13) infinite;
+}
