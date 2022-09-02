@@ -1,0 +1,65 @@
+@import "anim.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .container{
+        background-color:darkkhaki;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px;
+
+        
+        .ico{
+            position: relative;
+            height: 60px;
+            width: 60px;
+            color: blanchedalmond;
+            text-align: center;
+            align-items: center; 
+            font-size: 50px;
+            animation: shadow-w 3s infinite;
+
+            &:nth-child(2){
+                animation: anim-size 3s infinite;
+            }
+
+            &:nth-child(4){
+                background-color: black;
+                border-radius: 8px;
+            }
+        }
+
+        &:hover{
+            animation: anim-bgcol 3s infinite;
+
+            .ico{
+                &:first-child{
+                    animation: rotate-ico 3s infinite;
+                }
+
+                &:nth-child(2){
+                    animation: border 3s infinite;
+                }
+
+                &:nth-child(3){
+                    position: relative;
+                    animation: fly 6s infinite;
+                }
+
+                &:nth-child(4){
+                    animation: bg-col 2s infinite;
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+
+

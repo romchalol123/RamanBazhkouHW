@@ -1,0 +1,42 @@
+@keyframes anim-size {
+  from {transform: scale(1.0);}
+  50% {transform: scale(1.2);}
+  to {transform: scale(1.0);} 
+}
+
+
+@keyframes anim-bgcol {
+    from {background-color: darkkhaki; }
+    25% {background-color: darkgoldenrod; }
+    50% {background-color: goldenrod; }
+    75% {background-color: gold; }
+    to {background-color: darkkhaki; } 
+}
+
+@keyframes rotate-ico {
+    from {transform: rotate(0deg); color: #ffffff;}
+    25% {transform: rotate(90deg); color: red;}
+    50% {transform: rotate(180deg); color: blue;}
+    75% {transform: rotate(270deg); color: green;}
+    to {transform: rotate(360deg); color: #ffffff;}
+}
+
+@keyframes fly {
+    from {top: 30px;}
+    50% {top: -30px}
+    to {top: 30px;}
+}
+
+@keyframes border {
+    from {border: 1px black solid; width: 60px; height: 60px;}
+    50% {border: 7px gainsboro solid; width: 80px; height: 70px;}
+    to {border: 1px black solid; width: 60px; height: 60px;}
+}
+
+@keyframes bg-col{
+  from {background-image: radial-gradient(circle at 0% bottom, red, green)}
+  25% {background-image: radial-gradient(circle at 25% bottom, red, green)}
+  50% {background-image: radial-gradient(circle at 50% bottom, red, green)}
+  75% {background-image: radial-gradient(circle at 75% bottom, red, green)}
+  to {background-image: radial-gradient(circle at 100% bottom, red, green)}
+}
