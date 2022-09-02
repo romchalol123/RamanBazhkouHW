@@ -14,8 +14,8 @@
         
         .ico{
             position: relative;
-            height: 60px;
-            width: 60px;
+            height: 55px;
+            width: 57px;
             color: blanchedalmond;
             text-align: center;
             align-items: center; 
@@ -23,6 +23,7 @@
             animation: shadow-w 3s infinite;
 
             &:nth-child(2){
+                border-radius: 8px;
                 animation: anim-size 3s infinite;
             }
 

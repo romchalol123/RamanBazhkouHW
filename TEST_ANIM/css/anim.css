@@ -28,9 +28,9 @@
 }
 
 @keyframes border {
-    from {border: 1px black solid; width: 60px; height: 60px;}
-    50% {border: 7px gainsboro solid; width: 80px; height: 70px;}
-    to {border: 1px black solid; width: 60px; height: 60px;}
+    from {background-color: darkgoldenrod;}
+    50% {background-color: blue;}
+    to {background-color: darkgoldenrod;}
 }
 
 @keyframes bg-col{
