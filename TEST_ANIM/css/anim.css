@@ -28,9 +28,9 @@
 }
 
 @keyframes border {
-    from {background-color: darkgoldenrod; transform: scale(1.0);}
-    50% {background-color: blue; transform: scale(1.2);}
-    to {background-color: darkgoldenrod; transform: scale(1.0);}
+    from {background-color: darkgoldenrod; transform: scale(1.0); border-radius: 8px;}
+    50% {background-color: blue; transform: scale(1.2); border-radius: 50%;}
+    to {background-color: darkgoldenrod; transform: scale(1.0); border-radius: 8px;}
 }
 
 @keyframes bg-col{
