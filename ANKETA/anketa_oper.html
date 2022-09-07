@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKETA_OPER</title>
+</head>
+<body>
+    <script>
+        alert('Введите Ваши фамилию, имя, отчество');
+        var name = prompt('Имя');
+        var surname = prompt('Фамилия');
+        var patronymic = prompt('Отчество');
+        var age = prompt('Введите возраст');
+        var ageY = parseInt(age);
+        var gender = confirm('ваш пол - мужской?');
+        
+
+        var genderN=(gender == true)?'мужской':'женский';
+
+        var pension=((genderN == 'мужской' && age>=63)||(genderN == 'женский' && age>=58))?'да':'нет';
+
+        alert('ваше ФИО:  ' + surname +'  ' + name + '  ' + patronymic + '\n' + 
+              'ваш возраст в годах:  ' + ageY + '\n' + 
+              'ваш возраст в днях:   ' + ageY*365 + '\n' + 
+              'через 5 лет вам будет:  ' + parseInt(ageY + 5) + '\n' + 
+              'ваш пол:  ' + genderN + '\n' + 
+              'вы на пенсии:  ' + pension);
+
+    </script>
+</body>
+</html>
