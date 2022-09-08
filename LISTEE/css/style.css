@@ -1,0 +1,47 @@
+/* colors */
+/* font-family */
+/* font-size */
+/* font-weight */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+/* colors */
+/* font-family */
+/* font-size */
+/* font-weight */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+/* colours */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * ul {
+    list-style-type: none; }
+  * a {
+    text-decoration: none; }
+  * .wrapper {
+    width: 1920px; }
+    * .wrapper .row {
+      padding: 0 315px; }
+    * .wrapper .header {
+      background-color: #FFF5F7;
+      display: flex;
+      padding-top: 40px;
+      font-family: "CabinetGrotesk-Bold", sans-serif; }
+      * .wrapper .header > ul {
+        margin-left: 80px;
+        display: flex;
+        justify-content: space-between; }
+        * .wrapper .header > ul li {
+          width: 100px; }
+    * .wrapper .profile {
+      margin-top: -4px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+@mixin header {
+    font-family: $inter;
+    font-weight: $fw800;
+    font-size: $fsz48;
+    line-height: 60px;
+    color: $semi-dkblue;
+    
+    
+}

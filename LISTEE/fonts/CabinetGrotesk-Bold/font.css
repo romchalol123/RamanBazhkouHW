@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CabinetGrotesk-Bold';
+  src: url('CabinetGrotesk-Bold.eot');
+  src: url('CabinetGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+       url('CabinetGrotesk-Bold.ttf') format('truetype'),
+       url('CabinetGrotesk-Bold.woff') format('woff'),
+       url('CabinetGrotesk-Bold.woff2') format('woff2'),
+       url('CabinetGrotesk-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
