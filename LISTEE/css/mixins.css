@@ -1,0 +1,66 @@
+/* colors */
+/* box-shadow colors */
+/* font-family */
+/* font-size */
+/* font-weight */
+.card:nth-child(1) {
+  background: url("../img/topCategOverlay.png") top left no-repeat, url("../img/topCateg1.png") top left no-repeat; }
+
+.card:nth-child(2) {
+  background: url("../img/topCategOverlay.png") top left no-repeat, url("../img/topCateg2.png") top left no-repeat; }
+
+.card:nth-child(3) {
+  background: url("../img/topCategOverlay.png") top left no-repeat, url("../img/topCateg3.png") top left no-repeat; }
+
+.card:nth-child(4) {
+  background: url("../img/topCategOverlay.png") top left no-repeat, url("../img/topCateg4.png") top left no-repeat; }
+
+.cards-list:nth-of-type(2) .info-card:nth-of-type(1) > .top-img {
+  background: url("../img/availList1.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:nth-of-type(2) .info-card:nth-of-type(1) .card-bottom .prof .av-photo {
+  background: url("../img/avatar1.png") top left no-repeat;
+  background-size: cover; }
+
+.cards-list:last-of-type .info-card:nth-of-type(1) > .top-img {
+  background: url("../img/availList4.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:last-of-type .info-card:nth-of-type(1) .card-bottom .prof .av-photo {
+  background: url("../img/avatar4.png") top left no-repeat;
+  background-size: cover; }
+
+.cards-list:nth-of-type(2) .info-card:nth-of-type(2) > .top-img {
+  background: url("../img/availList2.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:nth-of-type(2) .info-card:nth-of-type(2) .card-bottom .prof .av-photo {
+  background: url("../img/avatar2.png") top left no-repeat;
+  background-size: cover; }
+
+.cards-list:last-of-type .info-card:nth-of-type(2) > .top-img {
+  background: url("../img/availList5.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:last-of-type .info-card:nth-of-type(2) .card-bottom .prof .av-photo {
+  background: url("../img/avatar5.png") top left no-repeat;
+  background-size: cover; }
+
+.cards-list:nth-of-type(2) .info-card:nth-of-type(3) > .top-img {
+  background: url("../img/availList3.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:nth-of-type(2) .info-card:nth-of-type(3) .card-bottom .prof .av-photo {
+  background: url("../img/avatar3.png") top left no-repeat;
+  background-size: cover; }
+
+.cards-list:last-of-type .info-card:nth-of-type(3) > .top-img {
+  background: url("../img/availList6.png") top center no-repeat;
+  border-radius: 24px 24px 0 0; }
+.cards-list:last-of-type .info-card:nth-of-type(3) .card-bottom .prof .av-photo {
+  background: url("../img/avatar6.png") top left no-repeat;
+  background-size: cover; }
+
+.hiw .container > .card-hiw:nth-of-type(1) .img-title {
+  background: url("../img/HIW1-ic.png") top center no-repeat; }
+
+.hiw .container > .card-hiw:nth-of-type(2) .img-title {
+  background: url("../img/HIW2-ic.png") top center no-repeat; }
+
+/*# sourceMappingURL=mixins.css.map */

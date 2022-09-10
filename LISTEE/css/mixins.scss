@@ -2,10 +2,70 @@
 
 @mixin header {
     font-family: $inter;
-    font-weight: $fw800;
+    font-weight: $xbold;
     font-size: $fsz48;
     line-height: 60px;
     color: $semi-dkblue;
+}
+
+@for $num from 1 through 4{
+    .card:nth-child(#{$num}){
+        background: url('../img/topCategOverlay.png') top left no-repeat,
+                    url('../img/topCateg#{$num}.png') top left no-repeat;
+    }
+}
+
+@for $am from 1 through 3{
+    .cards-list:nth-of-type(2){
+        .info-card:nth-of-type(#{$am}){
+            & > .top-img{
+                background: url('../img/availList#{$am}.png') top center no-repeat;
+                border-radius: 24px 24px 0 0;
+            }
+            
     
+            .card-bottom{
+                .prof{
+                    .av-photo{
+                        background: url('../img/avatar#{$am}.png') top left no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+
+    .cards-list:last-of-type{
+        .info-card:nth-of-type(#{$am}){
+            & > .top-img{
+                background: url('../img/availList#{($am+3)}.png') top center no-repeat;
+                border-radius: 24px 24px 0 0;
+            }
+            
     
+            .card-bottom{
+                .prof{
+                    .av-photo{
+                        background: url('../img/avatar#{($am+3)}.png') top left no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@for $n from 1 to 3 {
+    .hiw{
+        .container{
+            & > .card-hiw{
+                &:nth-of-type(#{$n}){
+                    .img-title{
+                        background: url('../img/HIW#{$n}-ic.png') top center no-repeat;
+                    }
+                }
+            }
+        }
+    }
 }
