@@ -63,10 +63,16 @@
   background-size: cover; }
 
 .hiw .container > .card-hiw:nth-of-type(1) .img-title {
-  background: url("../img/HIW1-ic.png") top center no-repeat; }
+  background: url("../img/HIW1.png") top center no-repeat;
+  background-size: cover; }
 
 .hiw .container > .card-hiw:nth-of-type(2) .img-title {
-  background: url("../img/HIW2-ic.png") top center no-repeat; }
+  background: url("../img/HIW2.png") top center no-repeat;
+  background-size: cover; }
+
+.hiw .container > .card-hiw:nth-of-type(3) .img-title {
+  background: url("../img/HIW3.png") top center no-repeat;
+  background-size: cover; }
 
 /* colors */
 /* box-shadow colors */
@@ -133,10 +139,16 @@
   background-size: cover; }
 
 .hiw .container > .card-hiw:nth-of-type(1) .img-title {
-  background: url("../img/HIW1-ic.png") top center no-repeat; }
+  background: url("../img/HIW1.png") top center no-repeat;
+  background-size: cover; }
 
 .hiw .container > .card-hiw:nth-of-type(2) .img-title {
-  background: url("../img/HIW2-ic.png") top center no-repeat; }
+  background: url("../img/HIW2.png") top center no-repeat;
+  background-size: cover; }
+
+.hiw .container > .card-hiw:nth-of-type(3) .img-title {
+  background: url("../img/HIW3.png") top center no-repeat;
+  background-size: cover; }
 
 * {
   margin: 0;
@@ -145,6 +157,8 @@
   font-size: 16px;
   font-family: "Inter", sans-serif;
   color: #09153D; }
+  * body {
+    background-color: #e4e4e4; }
   * ul {
     list-style-type: none; }
   * a {
@@ -172,6 +186,7 @@
     margin-top: -14px; }
 
 .wrapper {
+  background-color: #FFFFFF;
   width: 1920px;
   margin: 0 auto; }
   .wrapper .main-header {
@@ -753,7 +768,7 @@
             line-height: 19px;
             color: #FFFFFF; }
   .wrapper .hiw {
-    height: 570px;
+    height: 754px;
     padding-top: 120px; }
     .wrapper .hiw h2 {
       font-family: "Inter", sans-serif;
@@ -784,5 +799,46 @@
           width: 70px;
           height: 70px;
           margin: 0 auto; }
+        .wrapper .hiw .container .card-hiw h6 {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+          color: #09153D;
+          margin-top: 30px; }
+        .wrapper .hiw .container .card-hiw p {
+          margin-top: 8px;
+          font-weight: 400;
+          line-height: 28px;
+          color: #676C7B; }
+  .wrapper .feedbacks {
+    background: rgba(255, 130, 58, 0.05);
+    height: 570px;
+    padding-top: 120px; }
+    .wrapper .feedbacks > .cont h2 {
+      font-family: "Inter", sans-serif;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 60px;
+      color: #09153D; }
+    .wrapper .feedbacks > .cont p {
+      margin-top: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #676C7B; }
+    .wrapper .feedbacks > .cont .control {
+      margin-top: 64px; }
+      .wrapper .feedbacks > .cont .control button {
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 8px; }
+        .wrapper .feedbacks > .cont .control button > i {
+          color: #676C7B;
+          font-size: 18px; }
+        .wrapper .feedbacks > .cont .control button:hover {
+          background: #EE1C47; }
+          .wrapper .feedbacks > .cont .control button:hover > i {
+            color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

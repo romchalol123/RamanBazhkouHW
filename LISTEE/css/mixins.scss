@@ -56,13 +56,14 @@
     
 }
 
-@for $n from 1 to 3 {
+@for $n from 1 through 3{
     .hiw{
         .container{
             & > .card-hiw{
                 &:nth-of-type(#{$n}){
                     .img-title{
-                        background: url('../img/HIW#{$n}-ic.png') top center no-repeat;
+                        background: url('../img/HIW#{$n}.png') top center no-repeat;
+                        background-size: cover;
                     }
                 }
             }

@@ -3,6 +3,7 @@
 @import "default.scss";
 
 .wrapper{
+    background-color: $white;
     width: 1920px;
     margin: 0 auto;
 
@@ -814,7 +815,7 @@
     }
 
     .hiw{
-        height: 570px;
+        height: 754px;
         padding-top: 120px;
 
         h2{
@@ -849,7 +850,67 @@
                     height: 70px;
                     margin: 0 auto;
                 }
+
+                h6{
+                    font-weight: $bold;
+                    font-size: $fsz20;
+                    line-height: 30px;
+                    color: $semi-dkblue;
+                    margin-top: 30px;
+                }
+
+                p{
+                    margin-top: 8px;
+                    font-weight: $lite;
+                    line-height: 28px;
+                    color: $gray;
+                }
             }
         }
+    }
+
+    .feedbacks{
+        background: $or-op05;
+        height: 570px;
+        padding-top: 120px;
+
+        & > .cont{
+            h2{
+                @include header;
+            }
+
+            p{
+                margin-top: 20px;
+                font-weight: $lite;
+                line-height: 30px;
+                color: $gray;
+            }
+
+            .control{
+                margin-top: 64px;
+
+                button{
+                    width: 50px;
+                    height: 50px;
+                    background: $white;
+                    border: none;
+                    border-radius: 8px;
+
+                    & > i{
+                        color: $gray;
+                        font-size: $fsz20 - 2;
+                    }
+
+                    &:hover{
+                        background: $red;
+
+                        & > i{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
