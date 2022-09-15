@@ -1,0 +1,39 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+
+    .buttons{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        input{
+            margin: 5px;
+            width: 24%;
+            min-width: 240px;
+            height: 50px;
+            font-size: 14px;
+            border: none;
+            border-radius: 10px;
+            background-color: darkcyan;
+            color: lavender;
+    
+            &:hover{
+    
+                background-color: cornflowerblue;
+                font-size: 12px;
+                transform: scale(0.9);
+                transition: 0.3s;
+                cursor: pointer;
+    
+            }
+    
+        }
+
+    }
+    
+}

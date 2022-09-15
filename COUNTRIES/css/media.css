@@ -1,0 +1,19 @@
+@import url('style.css');
+
+@media all and (max-width: 1000px){
+    .buttons > input{
+        width: 32%;
+    }
+}
+
+@media all and (max-width: 750px){
+    .buttons > input{
+        width: 48%;
+    }
+}
+
+@media all and (max-width: 500px){
+    .buttons > input{
+        width: 98%;
+    }
+}
