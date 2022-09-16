@@ -10,7 +10,8 @@
     color: $semi-dkblue;
 
     body{
-        background-color:rgb(228, 228, 228);
+        background-color: $white;
+        margin: 0 auto;
     }
 
     ul{
@@ -31,8 +32,9 @@
         }
     }
 
-    .row{
-        padding: 0 315px;
+    .row-cont{
+        max-width: 1290px;
+        margin: 0 auto;
     }
 
     button:hover{

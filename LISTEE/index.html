@@ -13,13 +13,14 @@
     <!--font-family: 'CabinetGrotesk-Bold', sans-serif;-->
     <!--font-family: 'SFProDisplay-Semibold', sans-serif;-->
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Listee-BusinessDirectory</title>
 </head>
+
+
 <body>
-    <div class="wrapper">
-        <div class="main-header row">
-            <div class="header">
+        <div class="main-header">
+            <div class="header row-cont">
 
                 <div class="navig">
                     <div class="logo">
@@ -57,12 +58,7 @@
 
             </div>
 
-            <div class="our-listings">
-
-                <img src="img/buildingbg1.png" alt="">
-                <img src="img/buildingbg2.png" alt="">
-                <img src="img/building1.png" alt="">
-                <img src="img/building2.png" alt="">
+            <div class="our-listings row-cont">
 
                 <div class="left-side">
                     <h1>Explore Our <br> Verified Listings</h1>
@@ -103,6 +99,13 @@
                     </p>
                 </div>
     
+                <div class="building">
+                    <img src="img/buildingbg1.png" alt="img">
+                    <img src="img/buildingbg2.png" alt="img">
+                    <img src="img/building1.png" alt="img">
+                    <img src="img/building2.png" alt="img">
+                </div>
+
                 <div class="right-side">
                     <div class="stat">
                         <h2>8k+</h2>
@@ -123,7 +126,7 @@
     
             </div>
 
-            <div class="explore-cover">
+            <div class="explore-cover row-cont">
                 <div class="explore">
 
                     <div class="tab">
@@ -157,7 +160,7 @@
 
         </div>
 
-        <div class="top-cat row">
+        <div class="top-cat row-cont">
             <h2 class="marked">Top Categories</h2>
             <p>
                 Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum.
@@ -188,73 +191,73 @@
         </div>
         
         <div class="offer">
+            <div class="cont-cover">
 
-            <img src="img/OfferBg.png" alt="img">
+                <div class="container row-cont">
+                    <div class="text-cont">
+                        <h2>
+                            Get The Best Deals From <br> Our Listings In this Summer <br> <span>20% Offer</span>
+                        </h2>
+        
+                        <button>Explore Now</button>
+                    </div>
+        
+                    <div class="cards-cont">
 
-            <div class="container row">
-                <div class="text-cont">
-                    <h2>
-                        Get The Best Deals From <br> Our Listings In this Summer <br> <span>20% Offer</span>
-                    </h2>
-    
-                    <button>Explore Now</button>
-                </div>
-    
-                <div class="cards-cont">
+                        <div class="instacard">
+                            <img src="img/summerOffer1.png" alt="img">
 
-                    <div class="instacard">
-                        <img src="img/summerOffer1.png" alt="img">
+                            <div class="ic">
 
-                        <div class="ic">
-
-                            <div class="comm">
-                                <div class="img-comm">
-                                    <img src="img/insta-comment.svg" alt="img">
+                                <div class="comm">
+                                    <div class="img-comm">
+                                        <img src="img/insta-comment.svg" alt="img">
+                                    </div>
+                                    
+                                    <p>28 Comment</p>
                                 </div>
-                                
-                                <p>28 Comment</p>
-                            </div>
 
-                            <div class="like">
-                                <div class="img-like">
-                                    <img src="img/insta-likeheart.svg" alt="img">
+                                <div class="like">
+                                    <div class="img-like">
+                                        <img src="img/insta-likeheart.svg" alt="img">
+                                    </div>
+                                    <p>320</p>
                                 </div>
-                                <p>320</p>
+
                             </div>
 
                         </div>
 
-                    </div>
-
-                    <div class="line1">
-                        <img src="img/linesOrange.png" alt="img">
-                    </div>
-
-                    <div class="line2">
-                        <img src="img/linesWhite.png" alt="img">
-                    </div>
-
-                    <div class="instacard">
-                        <img src="img/summerOffer2.png" alt="img">
-
-                        <div class="ic">
-
-                            <div class="like">
-                                <div class="img-like">
-                                    <img src="img/insta-likeheart.svg" alt="img">
-                                </div>
-                                <p>418</p>
-                            </div>
-                        
+                        <div class="line1">
+                            <img src="img/linesOrange.png" alt="img">
                         </div>
+
+                        <div class="line2">
+                            <img src="img/linesWhite.png" alt="img">
+                        </div>
+
+                        <div class="instacard">
+                            <img src="img/summerOffer2.png" alt="img">
+
+                            <div class="ic">
+
+                                <div class="like">
+                                    <div class="img-like">
+                                        <img src="img/insta-likeheart.svg" alt="img">
+                                    </div>
+                                    <p>418</p>
+                                </div>
+                            
+                            </div>
+                        </div>
+
                     </div>
+                </div>  
 
-                </div>
-            </div>  
-
+            </div>
         </div>
 
-        <div class="av-list row">
+        <div class="av-list row-cont">
             <div class="cap">
                 <div>
                     <h2 class="marked sec">Available Listings</h2>
@@ -422,10 +425,6 @@
                     </div>
 
                 </div>
-
-            </div>
-
-            <div class="cards-list">
 
                 <div class="info-card">
 
@@ -604,7 +603,7 @@
             
         </div>
 
-        <div class="hiw row">
+        <div class="hiw row-cont">
             <h2 class="marked">How It Works</h2>
             <p>
                 Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis
@@ -634,7 +633,7 @@
             </div>
         </div>
 
-        <div class="feedbacks row">
+        <div class="feedbacks row-cont">
             <div class="cont">
                 <h2 class="marked sec">Users Feedbacks</h2>
                 <p>
@@ -654,6 +653,5 @@
             </div>
         </div>
 
-    </div>
 </body>
 </html>

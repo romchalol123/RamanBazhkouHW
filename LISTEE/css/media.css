@@ -1,0 +1,8 @@
+@import url('style.css');
+
+@media all and (max-width: 1440px){
+    .row-cont{
+        margin: 0 5%;
+        align-content: center;
+    }
+}

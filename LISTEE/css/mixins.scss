@@ -15,8 +15,8 @@
     }
 }
 
-@for $am from 1 through 3{
-    .cards-list:nth-of-type(2){
+@for $am from 1 through 6{
+    .cards-list{
         .info-card:nth-of-type(#{$am}){
             & > .top-img{
                 background: url('../img/availList#{$am}.png') top center no-repeat;
@@ -34,26 +34,6 @@
             }
         }
     }
-
-    .cards-list:last-of-type{
-        .info-card:nth-of-type(#{$am}){
-            & > .top-img{
-                background: url('../img/availList#{($am+3)}.png') top center no-repeat;
-                border-radius: 24px 24px 0 0;
-            }
-            
-    
-            .card-bottom{
-                .prof{
-                    .av-photo{
-                        background: url('../img/avatar#{($am+3)}.png') top left no-repeat;
-                        background-size: cover;
-                    }
-                }
-            }
-        }
-    }
-    
 }
 
 @for $n from 1 through 3{
