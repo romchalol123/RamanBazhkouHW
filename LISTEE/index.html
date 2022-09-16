@@ -12,6 +12,7 @@
     <!--font-family: 'Inter', sans-serif;-->
     <!--font-family: 'CabinetGrotesk-Bold', sans-serif;-->
     <!--font-family: 'SFProDisplay-Semibold', sans-serif;-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Listee-BusinessDirectory</title>
@@ -20,142 +21,137 @@
 
 <body>
         <div class="main-header">
-            <div class="header row-cont">
 
-                <div class="navig">
-                    <div class="logo">
-                        <img src="img/logoDark.png" alt="logo">
+            <div class="row-cont">
+
+                <div class="header">
+
+                    <div class="left-container">
+                        <div class="logo">
+                            <a href="#"><img src="img/logoDark.png" alt="logo"></a>
+                        </div>
+            
+                        <div class="menu">
+                            <div>
+                                <a href="#">Home<i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
+                            </div>
+                            <div>
+                                <a href="#">Listings</a>
+                            </div>
+                            <div>
+                                <a href="#">Pages<i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
+                            </div>
+                            <div>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
                     </div>
         
-                    <ul>
-                        <li class="tab-main">
-                            <a href="#">Home<i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#">Listings</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages<i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="profile">
-                    <div class="avatar">
-                        <div class="ava"></div>
-                        <div class="onlineDot"></div>
-                    </div>
-    
-                    <a href="#">Nader Azzeh <i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
-                    
-                    
-    
-                    <button><i class="fa fa-plus" aria-hidden="true"></i>Add Listing</button>
-                </div>
-
-            </div>
-
-            <div class="our-listings row-cont">
-
-                <div class="left-side">
-                    <h1>Explore Our <br> Verified Listings</h1>
-                    <p>
-                        There are plenty of location-specific and industry-specific <br>
-                        business listing sites where you can submit your data.
-                    </p>
-    
-                    <h6>Ratings <span><img src="img/star.png" alt="img"></span> 5.0</h6>
-                    <p>Trusted by Clients From Worldwide</p>
-    
-                    <div class="rate-photoes">
-                        <div class="img-bl">
-                            <img src="img/avatar4.png" alt="img">
+                    <div class="profile">
+                        <div class="avatar">
+                            <div class="online-dot"></div>
                         </div>
                         
-                        <div class="img-bl">
-                            <img src="img/avatar1.png" alt="img">
+                        <div class="prof-menu">
+                            <a href="#">Nader Azzeh <i class="fa fa-angle-down arrow" aria-hidden="true"></i></a>
                         </div>
-
-                        <div class="img-bl">
-                            <img src="img/avatar2.png" alt="img">
-                        </div>
-
-                        <div class="img-bl">
-                            <img src="img/avatar3.png" alt="img">
-                        </div>
-
-                        <div class="circle">
-                            <p>+4k</p>
-                        </div>
+                        
+                        <button><i class="fa fa-plus" aria-hidden="true"></i>Add Listing</button>
                     </div>
     
-                    <p><a href="">+65-3002 56 56 376</a></p>
-
-                    <p>
-                        If you're in a hurry, quick call for us. We are here 24/7 to help you asap.
-                    </p>
                 </div>
     
-                <div class="building">
-                    <img src="img/buildingbg1.png" alt="img">
-                    <img src="img/buildingbg2.png" alt="img">
-                    <img src="img/building1.png" alt="img">
-                    <img src="img/building2.png" alt="img">
-                </div>
-
-                <div class="right-side">
-                    <div class="stat">
-                        <h2>8k+</h2>
-                        <p>Total Listings</p>
-                    </div>
+                <div class="our-listings">
     
-                    <div class="stat">
-                        <h2>5.7k</h2>
-                        <p>Places in the world</p>
-                    </div>
-                    
-                    <div class="stat">
-                        <h2>9.9k</h2>
-                        <p>Happy People</p>
-                    </div>
-                </div>
-    
-    
-            </div>
-
-            <div class="explore-cover row-cont">
-                <div class="explore">
-
-                    <div class="tab">
-                        <img src="img/tab-FileText.png" alt="img">
-                        <div class="tab-text">
-                            <p class="top">Categories<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
-                            <p class="bott">Choose Category</p>
+                    <div class="our-list-cont">
+                        <div class="left-side">
+                            <h1>Explore Our <br> Verified Listings</h1>
+                            <p>
+                                There are plenty of location-specific and industry-specific <br>
+                                business listing sites where you can submit your data.
+                            </p>
+            
+                            <h6>Ratings <img src="img/star.png" alt="img"> 5.0</h6>
+                            <p>Trusted by Clients From Worldwide</p>
+            
+                            <div class="rate-photoes">
+                                <img src="img/avatar4.png" alt="img">
+                                <img src="img/avatar1.png" alt="img">
+                                <img src="img/avatar2.png" alt="img">
+                                <img src="img/avatar3.png" alt="img">
+        
+                                <div class="circle">
+                                    <p>+4k</p>
+                                </div>
+                            </div>
+            
+                            <p><a href="#">+65-3002 56 56 376</a></p>
+        
+                            <p>
+                                If you're in a hurry, quick call for us. We are here 24/7 to help you asap.
+                            </p>
+                        </div>
+        
+                        <div class="building">
+                            
+                            <img src="img/buildingbg1.png" alt="img">
+                            <img src="img/buildingbg2.png" alt="img">
+                            <img src="img/building1.png" alt="img">
+                            <img src="img/building2.png" alt="img">
+                        </div>
+        
+                        <div class="right-side">
+                            <div class="stat">
+                                <h2>8k+</h2>
+                                <p>Total Listings</p>
+                            </div>
+            
+                            <div class="stat">
+                                <h2>5.7k</h2>
+                                <p>Places in the world</p>
+                            </div>
+                            
+                            <div class="stat">
+                                <h2>9.9k</h2>
+                                <p>Happy People</p>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="tab">
-                        <img src="img/tab-MapPin.png" alt="img">
-                        <div class="tab-text">
-                            <p class="top">Location<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
-                            <p class="bott">Liyakota, Indonesia</p>
-                        </div>
-                    </div>
-
-                    <div class="tab">
-                        <img src="img/tab-CreditCard.png" alt="img">
-                        <div class="tab-text">
-                            <p class="top">Pricing<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
-                            <p class="bott">Choose your budget</p>
-                        </div>
-                    </div>
-
-                    <button><i class="fa fa-search" aria-hidden="true"></i>Explore from Listings</button>
-
+        
                 </div>
+
+                <div class="explore-cover">
+                    <div class="explore">
+    
+                        <div class="tab">
+                            <img src="img/tab-FileText.png" alt="img">
+                            <div class="tab-text">
+                                <p class="top">Categories<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
+                                <p class="bott">Choose Category</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tab">
+                            <img src="img/tab-MapPin.png" alt="img">
+                            <div class="tab-text">
+                                <p class="top">Location<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
+                                <p class="bott">Liyakota, Indonesia</p>
+                            </div>
+                        </div>
+    
+                        <div class="tab">
+                            <img src="img/tab-CreditCard.png" alt="img">
+                            <div class="tab-text">
+                                <p class="top">Pricing<i class="fa fa-angle-down arrow" aria-hidden="true"></i></p>
+                                <p class="bott">Choose your budget</p>
+                            </div>
+                        </div>
+    
+                        <button><i class="fa fa-search" aria-hidden="true"></i>Explore from Listings</button>
+    
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -167,27 +163,118 @@
                 Aenean id ullamcorper <br>
                 libero Vestibulum imperdiet nibh vel magna lacinia commodo ultricies,
             </p>
-            <div class="cards">
-                <div class="card">
-                    <h6>Business</h6>
-                    <p class="counter">32 Listings</p>
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
 
-                <div class="card">
-                    <h6>Education</h6>
-                    <p class="counter">47 Listings</p>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="cards">
+                            <div class="card">
+                                <h6>Business</h6>
+                                <p class="counter">32 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Education</h6>
+                                <p class="counter">47 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Healthcare</h6>
+                                <p class="counter">74 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Eat & Foods</h6>
+                                <p class="counter">68 Listings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="cards">
+                            <div class="card">
+                                <h6>Business</h6>
+                                <p class="counter">32 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Education</h6>
+                                <p class="counter">47 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Healthcare</h6>
+                                <p class="counter">74 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Eat & Foods</h6>
+                                <p class="counter">68 Listings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="cards">
+                            <div class="card">
+                                <h6>Business</h6>
+                                <p class="counter">32 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Education</h6>
+                                <p class="counter">47 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Healthcare</h6>
+                                <p class="counter">74 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Eat & Foods</h6>
+                                <p class="counter">68 Listings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="cards">
+                            <div class="card">
+                                <h6>Business</h6>
+                                <p class="counter">32 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Education</h6>
+                                <p class="counter">47 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Healthcare</h6>
+                                <p class="counter">74 Listings</p>
+                            </div>
+            
+                            <div class="card">
+                                <h6>Eat & Foods</h6>
+                                <p class="counter">68 Listings</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="card">
-                    <h6>Healthcare</h6>
-                    <p class="counter">74 Listings</p>
-                </div>
-
-                <div class="card">
-                    <h6>Eat & Foods</h6>
-                    <p class="counter">68 Listings</p>
-                </div>
             </div>
+
         </div>
         
         <div class="offer">
@@ -595,7 +682,7 @@
                     </div>
                 </div>
 
-                <div class="block">
+                <div class="video">
                     <button></button>
                 </div>
 
@@ -652,6 +739,10 @@
 
             </div>
         </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 </html>
