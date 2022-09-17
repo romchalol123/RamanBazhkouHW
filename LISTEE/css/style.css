@@ -160,7 +160,8 @@
   * body {
     background-color: #FFFFFF;
     margin: 0 auto; }
-  * ul {
+  * ol, * ul {
+    padding: 0;
     list-style-type: none; }
   * a {
     color: inherit;
@@ -957,20 +958,59 @@
   background: #000924; }
   * .footer .row-cont {
     min-height: 512px;
-    padding-top: 120px; }
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
     * .footer .row-cont .top {
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap; }
+      * .footer .row-cont .top .contacts > img {
+        margin-top: 16px;
+        margin-bottom: 28px; }
+      * .footer .row-cont .top .contacts > ul > li {
+        margin-bottom: 8px;
+        font-weight: 400;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.7); }
+        * .footer .row-cont .top .contacts > ul > li > span {
+          font-weight: 600;
+          line-height: 30px;
+          color: rgba(255, 255, 255, 0.7); }
       * .footer .row-cont .top .faq {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap; }
-    * .footer .row-cont .bott {
+        * .footer .row-cont .top .faq > ul {
+          margin-left: 140px; }
+          * .footer .row-cont .top .faq > ul > li {
+            line-height: 40px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 6px; }
+            * .footer .row-cont .top .faq > ul > li:first-child {
+              margin-bottom: 10px;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 30px;
+              color: #FFFFFF; }
+    * .footer .row-cont .bott hr {
+      margin-top: 69px;
+      margin-bottom: 45px;
+      color: #FFFFFF;
+      opacity: 0.15; }
+    * .footer .row-cont .bott .foot {
       display: flex;
       justify-content: space-between; }
-      * .footer .row-cont .bott .communic > ul {
+      * .footer .row-cont .bott .foot .auth-rights {
+        margin-bottom: 38px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.7); }
+      * .footer .row-cont .bott .foot .communic > ul {
         display: flex;
-        justify-content: flex-end; }
+        justify-content: flex-end;
+        margin-top: -6px; }
+        * .footer .row-cont .bott .foot .communic > ul > li {
+          margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

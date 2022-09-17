@@ -1119,12 +1119,38 @@
             min-height: 512px;
             padding-top: 120px;
 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
             .top{
                 display: flex;
                 justify-content: flex-start;
                 flex-wrap: wrap;
 
                 .contacts{
+
+                    & > img{
+                        margin-top: 16px;
+                        margin-bottom: 28px;
+                    }
+
+                    & > ul{
+                        
+                        & > li{
+                            margin-bottom: 8px;
+                            font-weight: $lite;
+                            line-height: 30px;
+                            color: $white-op7;
+
+                            & > span{
+                                font-weight: $sbold;
+                                line-height: 30px;
+                                color: $white-op7;
+                            }
+                        }
+
+                    }
                     
                 }
     
@@ -1132,28 +1158,63 @@
                     display: flex;
                     justify-content: space-around;
                     flex-wrap: wrap;
+
+                    & > ul{
+                        margin-left: 140px;
+
+                        & > li{
+
+                            line-height: 40px;
+                            color: $white-op7;
+                            margin-bottom: 6px;
+
+                            &:first-child{
+                                margin-bottom: 10px;
+                                font-weight: $bold;
+                                font-size: $fsz20;
+                                line-height: 30px;
+                                color: $white;
+                            }
+                        }
+                    }
                 }
             }
-
-            hr{
-
-            }
-
-            .bott{
-                display: flex;
-                justify-content: space-between;
 
             
-                .auth-rights{
+
+            .bott{
                 
+
+                hr{
+                    margin-top: 69px;
+                    margin-bottom: 45px;
+                    color: $white;
+                    opacity: 0.15;
                 }
-    
-                .communic{
-                    & > ul{
-                        display: flex;
-                        justify-content: flex-end;
+
+                .foot{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .auth-rights{
+                        margin-bottom: 38px;
+                        line-height: 30px;
+                        color: $white-op7;
                     }
-                    
+        
+                    .communic{
+
+                        & > ul{
+                            display: flex;
+                            justify-content: flex-end;
+                            margin-top: -6px;
+                            
+                            & > li{
+                                margin-left: 20px;
+                            }
+                        }
+                        
+                    }
                 }
             }
         }
