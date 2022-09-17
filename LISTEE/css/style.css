@@ -798,7 +798,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 95px; }
+    margin-bottom: 95px;
+    padding: 0; }
     * .hiw .container .card-hiw {
       padding: 60px 40px;
       width: 410px;
