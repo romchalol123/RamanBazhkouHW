@@ -84,16 +84,23 @@
   * body {
     background-color: #FFFFFF;
     margin: 0 auto; }
-  * ul {
+  * ol, * ul {
+    padding: 0;
     list-style-type: none; }
   * a {
     color: inherit;
     text-decoration: none; }
+    * a:hover {
+      color: inherit; }
   * i {
     color: inherit; }
-    * i.arrow {
-      font-size: 12px;
-      margin-left: 9px; }
+  * p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #676C7B;
+    margin-bottom: 0; }
   * .row-cont {
     max-width: 1290px;
     margin: 0 auto; }
