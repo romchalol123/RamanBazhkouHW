@@ -1,49 +1,48 @@
-var countries = new Object();
-var countriesList = new Array();
-
+var countries = {};
 
 function newCountry(name, capital){
     countries[name] = capital;
-    countriesList.push(name);
 }
 
 function delCountryInfo(){
-    var name = prompt('Введите название страны:');
+    var name = prompt('Input country name:');
     delete countries[name];
-
-    var item = countriesList.indexOf(name, 0);
-    countriesList.splice(item, 1);
 }
 
 function inputCountry(){
-    alert('Введите страну и её столицу');
-    var cName = prompt('Введите страну:');
-    var cCapital = prompt('Введите столицу (не обязательно):');
-
+    alert('Input country and its capital name:');
+    var cName = prompt('Input country:');
+    var cCapital = prompt('Input capital (optional):');
     newCountry(cName, cCapital);
 }
 
 function showCountryList(){
     console.log('Countries list: ');
-    
-    for (var i = 0; i < countriesList.length; i++){
-        console.log(countriesList[i]);
+    var name;
+
+    for (name in countries){
+        if (countries[name] === '' || countries[name] === null){
+            console.log('Country: ' + name + ', no additional info');
+        }
+        else{
+            console.log('Country:  ' + name + ', capital: ' + countries[name]);
+        }
     }
 }
 
 function showCountryInfo(){
-    var name = prompt('Введите название страны:');
+    var name = prompt('Input country name:');
 
     if (name in countries){
-        if (countries[name] == false){
-            console.log('Нет информации о стране');
+        if (countries[name] === '' || countries[name] === null){
+            console.log('no additional info');
         }
         else{
-            console.log('Столица: ' + countries[name]);
+            console.log('Capital: ' + countries[name]);
         }
     }
     else{
-        alert('Загляните в список стран и введите необходимую из перечня');
+        alert('Please, check the country list and then input name of country from it');
     }
 }
 
