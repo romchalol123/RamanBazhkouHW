@@ -1,1 +1,34 @@
 @import url('style.css');
+
+@media all and (max-width: 1364px){
+    .row-cont{
+        max-width: 98%;
+    }
+
+    .av-list .cards-list{
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 1336px){
+    .main-header > .row-cont > .our-listings .our-list-cont .right-side{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65%;
+        margin-bottom: 75px;
+    }
+
+    .main-header > .row-cont > .our-listings .our-list-cont{
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 1250px){
+    .hiw .container{
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 1122px){
+
+}
