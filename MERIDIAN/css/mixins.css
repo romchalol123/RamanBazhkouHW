@@ -1,3 +1,16 @@
+.preview .collection .card:nth-child(1) {
+  background: url("../img/PrevCol1.png") top center no-repeat; }
 
+.preview .collection .card:nth-child(2) {
+  background: url("../img/PrevCol2.png") top center no-repeat; }
+
+.preview .collection .card:nth-child(3) {
+  background: url("../img/PrevCol3.png") top center no-repeat; }
+
+.preview .collection .card:nth-child(4) {
+  background: url("../img/PrevCol4.png") top center no-repeat; }
+
+.preview .collection .card:nth-child(5) {
+  background: url("../img/PrevCol5.png") top center no-repeat; }
 
 /*# sourceMappingURL=mixins.css.map */

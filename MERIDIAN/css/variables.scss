@@ -1,15 +1,15 @@
 /*  fonts  */
 
 $outfit: 'Outfit', sans-serif;
-$grotesk: 'Gill Sans', sans-serif;
-$gill: 'HK Grotesk', sans-serif;
+$gill: 'Gill Sans', sans-serif;
+$grotesk: 'HK Grotesk', sans-serif;
 
 
 /*  font-weight  */
 
-$lt: 300;
-$reg: 400;
-$med: 500;
+$lite: 300;
+$regular: 400;
+$medium: 500;
 $sbold: 600;
 
 
@@ -18,7 +18,7 @@ $sbold: 600;
 $fsz18: 18px;
 $fsz20: 20px;
 $fsz24: 24px;
-$fsz_def: 25px;
+$fsz_default: 25px;
 $fsz251: 25.1px;
 $fsz2538: 25.38px;
 $fsz26: 26px;
@@ -32,10 +32,13 @@ $fsz75: 75px;
 $white: #FFFFFF;
 $dkwhite:#F5F3ED;
 
-$gray1: #C1C1C1;
-$gray2: #A9A9A9;
-$gray3: #545454;
-$gray4: #272727;
+$gray6: #636A6A;
+$gray5: #888887;
+$gray4: #C1C1C1;
+$gray3: #A9A9A9;
+$gray2: #BEBFBE;
+$gray1: #545454;
+$gray0: #272727;
 
 $black-lite: #1D1F1F;
 $black-med: #161616;
@@ -47,7 +50,6 @@ $gold: #DFC226;
 $lime: #A2BEAA;
 $aqua: #016262;
 $green: #3A5041;
-$dkgreen: #3A5040;
 $peach: #F8796B;
 $pink: #FF5B5B;
 $dkblue: #00264B;

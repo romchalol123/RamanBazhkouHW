@@ -1,0 +1,9 @@
+@for $item from 1 through 5{
+    .preview{
+        .collection{
+            .card:nth-child(#{$item}){
+                background: url('../img/PrevCol#{$item}.png') top center no-repeat;
+            }
+        }
+    }
+}

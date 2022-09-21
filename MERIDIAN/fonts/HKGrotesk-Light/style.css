@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HK Grotesk';
+    src: local('HK Grotesk Light'), local('HK-Grotesk-Light'),
+        url('HKGrotesk-Light.woff2') format('woff2'),
+        url('HKGrotesk-Light.woff') format('woff'),
+        url('HKGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
