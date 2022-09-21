@@ -153,10 +153,10 @@
     }
 
     .preview{
-        
+        margin: 101px;
 
         .collection{
-            margin: 78px 75px;
+            margin: -12px -13px;
             display: flex;
             justify-content: flex-start;
             flex-wrap: wrap;
@@ -167,11 +167,11 @@
                 text-align: center;
                 border: none;
                 margin: 12px 13px;
-                width: 30%;
+                width: 555px;
                 height: 555px;
 
                 &:first-child{
-                    width: calc(60% + 26px);
+                    width: 1137px;
 
                 }
 
@@ -195,6 +195,77 @@
             }
         }
 
+        .guarantee{
+            margin-top: 102px;
+            background: $green;
+            padding: 77px 40px 78px;
+            display: flex;
+            justify-content: space-between;
+
+            .description{
+                width: 33%;
+                text-align: center;
+
+                h6{
+                    margin-top: 27px;
+                    font-family: $outfit;
+                    font-weight: $lite;
+                    font-size: $fsz_default;
+                    line-height: 32px;
+                    letter-spacing: 0.265em;
+                    text-transform: uppercase;
+                    color: $white;
+                }
+
+                p{
+                    margin-top: 17px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 33px;
+                    text-align: center;
+                    color: $white;
+                }
+            }
+
+            .line{
+                border-right: 1.79259px solid rgba(255, 255, 255, 0.3);
+                background: none;
+                
+                &:nth-child(2){
+                    margin-right: 20px;
+                }
+
+                &:nth-child(4){
+                    margin-left: 20px;
+                }
+            }
+
+
+        }
+
+        .ship{
+            text-align: center;
+
+            h2{
+                margin-top: 100px;
+                font-family: 'Outfit';
+                font-weight: $medium;
+                font-size: $fsz75;
+                line-height: 94px;
+                color: $black-med;
+            }
+
+            p{
+                margin-top: 17px;
+                font-family: $grotesk;
+                font-weight: $regular;
+                font-size: $fsz_default;
+                line-height: 33px;
+                color: $black-med;
+            }
+
+        }
 
     }
 
