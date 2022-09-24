@@ -1,9 +1,76 @@
 @for $item from 1 through 5{
     .preview{
-        .collection{
+        & > .collection{
             .card:nth-child(#{$item}){
                 background: url('../img/PrevCol#{$item}.png') top center no-repeat;
             }
+        }
+    }
+}
+
+@for $item from 1 through 5{
+    .explore{
+        & > .collection{
+            .card:nth-child(#{$item}){
+                background: url('../img/Prev2Col#{$item}.png') top center no-repeat;
+            }
+        }
+    }
+}
+
+@for $item from 1 through 4{
+    .preview{
+        .ship{
+            #prod-carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .cards-group{
+                            .prod-card:nth-child(#{$item}){
+                                .prod-wall{
+                                    background: url('../img/1SS#{$item}.png') center no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin collection {
+    margin: -12px -13px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & > .card{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        border: none;
+        margin: 12px 13px;
+        width: 555px;
+        height: 555px;
+
+        &:first-child{
+            width: 1137px;
+        }
+
+        & > p{
+            display: flex;
+            width: 100%;
+            height: 96px;
+            justify-content: center;
+            align-items: center;
+            background: $gray6;
+            font-family: $outfit;
+            font-weight: $lite;
+            font-size: $fsz_default;
+            line-height: 32px;
+            letter-spacing: 0.265em;
+            text-transform: uppercase;
+            color: $white;
         }
     }
 }

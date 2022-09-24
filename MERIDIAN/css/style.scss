@@ -29,7 +29,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 calc(1920px/19.2);
+            padding: 0 101px;
             
             ul{
                 &.item{
@@ -65,7 +65,8 @@
             }
 
             & > img{
-                margin-right: 30px;
+                margin-left: 40px;
+                margin-right: 70px;
             }
 
             .profile{
@@ -115,6 +116,8 @@
 
     .shop-collect{
         background: url('../img/BlackSecWide.png') top center no-repeat;
+        width: 100%;
+        background-size: cover;
         padding: 214px 97px 0;
         min-height: 984px;
         
@@ -156,43 +159,7 @@
         margin: 101px;
 
         .collection{
-            margin: -12px -13px;
-            display: flex;
-            justify-content: flex-start;
-            flex-wrap: wrap;
-
-            .card{
-                display: flex;
-                flex-direction: column-reverse;
-                text-align: center;
-                border: none;
-                margin: 12px 13px;
-                width: 555px;
-                height: 555px;
-
-                &:first-child{
-                    width: 1137px;
-
-                }
-
-                & > p{
-                    display: flex;
-                    width: 100%;
-                    height: 96px;
-                    justify-content: center;
-                    align-items: center;
-
-                    background: $gray6;
-                    font-family: 'Outfit';
-
-                    font-weight: $lite;
-                    font-size: $fsz_default;
-                    line-height: 32px;
-                    letter-spacing: 0.265em;
-                    text-transform: uppercase;
-                    color: $white;
-                }
-            }
+            @include collection;
         }
 
         .guarantee{
@@ -247,7 +214,7 @@
         .ship{
             text-align: center;
 
-            h2{
+            & > h2{
                 margin-top: 100px;
                 font-family: 'Outfit';
                 font-weight: $medium;
@@ -256,7 +223,7 @@
                 color: $black-med;
             }
 
-            p{
+            & > p{
                 margin-top: 17px;
                 font-family: $grotesk;
                 font-weight: $regular;
@@ -265,6 +232,168 @@
                 color: $black-med;
             }
 
+            #prod-carousel{
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 10px 0;
+                
+                .carousel-inner{
+
+                    .carousel-item{
+
+                        .cards-group{
+                            display: flex;
+                            justify-content: center;
+    
+                            .prod-card{
+                                width: 362px;
+                                height: 517px;
+                                margin: 18px;
+                                text-align: left;
+                                
+                                .prod-wall{
+                                    width: 361px;
+                                    height: 361px;
+                                }
+    
+                                & > h6{
+                                    font-family: $outfit;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 32px;
+                                    color: $black
+                                }
+    
+                                & > p{
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 33px;
+                                    color: $gray5;
+                                    margin-top: 11px;
+                                }
+    
+                                & > button{
+                                    margin-top: 14px;
+                                    width: 361px;
+                                    height: 75px;
+                                    border: none;
+                                    background: $beige;
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 33px;
+                                    text-align: center;
+                                    color: $white;
+                                }
+    
+                            }
+    
+                        }
+    
+                    }
+                    
+
+                }
+
+                .carousel-control-prev, .carousel-control-next{
+                    position: relative;
+                    width: 20px;
+                    margin: 0 10px;
+
+                    svg{
+                        opacity: 0.25;
+                    }
+
+                    &:hover{
+                        svg{
+                            opacity: 1;
+                            path{
+                                fill: $gray1;
+                                
+                            }
+                        }
+                    }
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+    .hq-fabric{
+        margin-top: 110px;
+        width: 100%;
+        background: url('../img/bg-hq-fabric.png') center no-repeat;
+        background-size: cover;
+
+        .cover-hqf{
+            background: $black-op60;
+            text-align: center;
+
+            & > img{
+                margin-top: 109px;
+            }
+
+            & > p{
+                font-family: 'Outfit';
+                font-weight: $medium;
+                font-size: $fsz26;
+                line-height: 42px;
+                letter-spacing: 7px;
+                color: $dkwhite;
+                margin-top: 50px;
+            }
+
+            & > h2{
+                font-family: $outfit;
+                font-weight: $regular;
+                font-size: $fsz75;
+                line-height: 112px;
+                text-transform: capitalize;
+                color: $dkwhite;
+                margin-top: 12px;
+                padding-bottom: 110px;
+
+                & > span{
+                    font-weight: $sbold;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+    }
+
+    .explore{
+        text-align: center;
+
+        & > h2{
+            margin-top: 94px;
+            font-family: $outfit;
+            font-weight: $medium;
+            font-size: $fsz75;
+            line-height: 94px;
+            color: $black-med;          
+        }
+
+        & > p{
+            margin: 17px 0 35px;
+            font-family: $grotesk;
+            font-weight: $regular;
+            font-size: $fsz_default;
+            line-height: 33px;
+            color: $black-med;
+        }
+
+        .collection{
+            @include collection;
+            margin-bottom: 100px;
+        }
+
+        .furniture{
+            
         }
 
     }

@@ -2,27 +2,53 @@
 /*  font-weight  */
 /*  font-size  */
 /*  colors  */
-.preview .collection .card:nth-child(1) {
+.preview > .collection .card:nth-child(1) {
   background: url("../img/PrevCol1.png") top center no-repeat; }
 
-.preview .collection .card:nth-child(2) {
+.preview > .collection .card:nth-child(2) {
   background: url("../img/PrevCol2.png") top center no-repeat; }
 
-.preview .collection .card:nth-child(3) {
+.preview > .collection .card:nth-child(3) {
   background: url("../img/PrevCol3.png") top center no-repeat; }
 
-.preview .collection .card:nth-child(4) {
+.preview > .collection .card:nth-child(4) {
   background: url("../img/PrevCol4.png") top center no-repeat; }
 
-.preview .collection .card:nth-child(5) {
+.preview > .collection .card:nth-child(5) {
   background: url("../img/PrevCol5.png") top center no-repeat; }
+
+.explore > .collection .card:nth-child(1) {
+  background: url("../img/Prev2Col1.png") top center no-repeat; }
+
+.explore > .collection .card:nth-child(2) {
+  background: url("../img/Prev2Col2.png") top center no-repeat; }
+
+.explore > .collection .card:nth-child(3) {
+  background: url("../img/Prev2Col3.png") top center no-repeat; }
+
+.explore > .collection .card:nth-child(4) {
+  background: url("../img/Prev2Col4.png") top center no-repeat; }
+
+.explore > .collection .card:nth-child(5) {
+  background: url("../img/Prev2Col5.png") top center no-repeat; }
+
+.preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(1) .prod-wall {
+  background: url("../img/1SS1.png") center no-repeat; }
+
+.preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(2) .prod-wall {
+  background: url("../img/1SS2.png") center no-repeat; }
+
+.preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(3) .prod-wall {
+  background: url("../img/1SS3.png") center no-repeat; }
+
+.preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(4) .prod-wall {
+  background: url("../img/1SS4.png") center no-repeat; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
   * body {
-    max-width: 1920px;
     margin: 0 auto; }
     * body p, * body a, * body h1, * body h2, * body h3, * body h4, * body h5, * body h6, * body ol, * body ul {
       margin: 0;
