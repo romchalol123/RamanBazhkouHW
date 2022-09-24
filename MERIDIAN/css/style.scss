@@ -393,7 +393,26 @@
         }
 
         .furniture{
-            
+            text-align: left;
+
+            & > h2{
+                margin-top: 73px;
+                font-family: $outfit;
+                font-weight: $medium;
+                font-size: $fsz75;
+                line-height: 156.84%;
+                color: $black-med;
+            }
+
+            & > p{
+                margin-top: 70px;
+                font-family: $grotesk;
+                font-weight: $regular;
+                font-size: $fsz_default;
+                line-height: 43px;
+                color: $black;
+            } 
+
         }
 
     }

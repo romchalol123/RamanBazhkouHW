@@ -53,6 +53,14 @@
         width: 555px;
         height: 555px;
 
+        &:hover{
+            cursor: pointer;
+            transition: 0.25s;
+            transform: scale(1.1);
+            z-index: 1;
+            box-shadow: 0 0 30px 10px $black-op60;
+        }
+
         &:first-child{
             width: 1137px;
         }

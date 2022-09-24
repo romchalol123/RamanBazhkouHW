@@ -221,6 +221,12 @@
       margin: 12px 13px;
       width: 555px;
       height: 555px; }
+      * .preview .collection > .card:hover {
+        cursor: pointer;
+        transition: 0.25s;
+        transform: scale(1.1);
+        z-index: 1;
+        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6); }
       * .preview .collection > .card:first-child {
         width: 1137px; }
       * .preview .collection > .card > p {
@@ -396,6 +402,12 @@
       margin: 12px 13px;
       width: 555px;
       height: 555px; }
+      * .explore .collection > .card:hover {
+        cursor: pointer;
+        transition: 0.25s;
+        transform: scale(1.1);
+        z-index: 1;
+        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6); }
       * .explore .collection > .card:first-child {
         width: 1137px; }
       * .explore .collection > .card > p {
@@ -412,5 +424,21 @@
         letter-spacing: 0.265em;
         text-transform: uppercase;
         color: #FFFFFF; }
+  * .explore .furniture {
+    text-align: left; }
+    * .explore .furniture > h2 {
+      margin-top: 73px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 75px;
+      line-height: 156.84%;
+      color: #161616; }
+    * .explore .furniture > p {
+      margin-top: 70px;
+      font-family: "HK Grotesk", sans-serif;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 43px;
+      color: #000000; }
 
 /*# sourceMappingURL=style.css.map */
