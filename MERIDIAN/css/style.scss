@@ -243,12 +243,14 @@
 
                         .cards-group{
                             display: flex;
-                            justify-content: center;
-    
+                            flex-wrap: wrap;
+                            justify-content: space-evenly;
+                            margin: 0 50px;
+
                             .prod-card{
                                 width: 362px;
                                 height: 517px;
-                                margin: 18px;
+                                margin: 8px;
                                 text-align: left;
                                 
                                 .prod-wall{
@@ -368,9 +370,9 @@
 
     .explore{
         text-align: center;
+        margin: 94px 101px 0;
 
         & > h2{
-            margin-top: 94px;
             font-family: $outfit;
             font-weight: $medium;
             font-size: $fsz75;
@@ -389,29 +391,210 @@
 
         .collection{
             @include collection;
-            margin-bottom: 100px;
         }
 
         .furniture{
-            text-align: left;
+            display: flex;
+            justify-content: space-between;
 
-            & > h2{
-                margin-top: 73px;
+            .text-cont{
+                text-align: left;
+
+                & > h2{
+                    margin-left: 2px;
+                    margin-top: 173px;
+                    font-family: $outfit;
+                    font-weight: $medium;
+                    font-size: $fsz75;
+                    line-height: 156.84%;
+                    color: $black-med;
+                }
+    
+                & > p{
+                    margin-left: -4px;
+                    margin-top: 70px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 43px;
+                    color: $black;
+                } 
+
+                .rate{
+                    margin-top: 85px;
+                    display: flex;
+                    justify-content: flex-start;
+
+                    .star-block{
+                        height: 45px;
+                        width: 225px;
+                        background: url('../img/goldStar.svg') top left repeat-x;
+                    }
+    
+                    .rate-name{
+                        padding-top: 6px;
+                        margin-left: 30px;
+                        font-family: $outfit;
+                        font-weight: $lite;
+                        font-size: $fsz_default;
+                        line-height: 32px;
+                        letter-spacing: 0.265em;
+                        text-transform: uppercase;
+                        color: $black;
+                    }
+
+                }
+
+            }
+
+            #furniture-carousel{
+                position: relative;
+                margin-top: 100px;
+                margin-left: 170px;
+                width: 705px;
+                height: 836px;
+
+                .button-panel{
+                    height: 50px;
+                    width: 180px;
+                    position: absolute;
+                    bottom: -75px;
+                    left: calc(0.5*705px - 90px);
+                    display: flex;
+                    justify-content: space-between;
+
+
+                }
+
+            }
+
+            
+        }
+
+        .insp{
+
+            & > p{
+
+                margin: 175px 0 27px;
+                text-align: left;
                 font-family: $outfit;
                 font-weight: $medium;
                 font-size: $fsz75;
-                line-height: 156.84%;
-                color: $black-med;
+                line-height: 82px;
+                color: $gray1;
+
             }
 
-            & > p{
-                margin-top: 70px;
-                font-family: $grotesk;
-                font-weight: $regular;
+        }
+
+
+    }
+
+    .coll{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: space-between;
+        
+        .card{
+            width: 25%;
+            height: 100%;
+            border: none;
+            border-radius: 0;
+            position: relative;
+
+            & > button{
+                position: absolute;
+                left: calc(50% - 180px);
+                top: calc(50% - 46px);
+
+                background: none;
+                width: 360px;
+                height: 92px;
+                border: 4px solid $white;
+                font-family: $outfit;
+                font-weight: $lite;
                 font-size: $fsz_default;
-                line-height: 43px;
-                color: $black;
-            } 
+                line-height: 32px;
+                letter-spacing: 0.265em;
+                text-transform: uppercase;
+                color: $white;
+            }
+
+        }
+    }
+
+    .footer-cont{
+
+        .help{
+            background: url('../img/helpBG.png') center no-repeat;
+            background-size: cover;
+            padding: 131px 106px 104px;
+
+            display: flex;
+            justify-content: space-between;
+
+            .left-part{
+
+                h2{
+                    font-family: $outfit;
+                    font-weight: $medium;
+                    font-size: $fsz75;
+                    line-height: 94px;
+                    color: $white;
+                }
+
+                p{
+                    margin-top: 10px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 32px;
+                    color: $gray4;
+                }
+
+                .mail{
+                    margin-top: 35px;
+                    color: $white;
+                }
+
+            }
+
+            .right-part{
+                text-align: center;
+
+                button{
+                    margin-top: 44px;
+                    width: 284px;
+                    height: 80px;
+                    background: $white;
+                    padding-top: 7px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 33px;
+                    color: $black-semi;
+                    border: none;
+
+                    & > img{
+                        margin-right: 10px;
+                    }
+                }
+
+                p{
+                    margin-top: 28px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 33px;
+                    color: $white;
+                }
+
+            }
+
+        }
+
+        .footer{
 
         }
 

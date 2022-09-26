@@ -1,43 +1,3 @@
-@for $item from 1 through 5{
-    .preview{
-        & > .collection{
-            .card:nth-child(#{$item}){
-                background: url('../img/PrevCol#{$item}.png') top center no-repeat;
-            }
-        }
-    }
-}
-
-@for $item from 1 through 5{
-    .explore{
-        & > .collection{
-            .card:nth-child(#{$item}){
-                background: url('../img/Prev2Col#{$item}.png') top center no-repeat;
-            }
-        }
-    }
-}
-
-@for $item from 1 through 4{
-    .preview{
-        .ship{
-            #prod-carousel{
-                .carousel-inner{
-                    .carousel-item{
-                        .cards-group{
-                            .prod-card:nth-child(#{$item}){
-                                .prod-wall{
-                                    background: url('../img/1SS#{$item}.png') center no-repeat;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 @mixin collection {
     margin: -12px -13px;
     display: flex;
@@ -81,4 +41,61 @@
             color: $white;
         }
     }
+}
+
+@for $item from 1 through 5{
+    .preview{
+        & > .collection{
+            .card:nth-child(#{$item}){
+                background: url('../img/PrevCol#{$item}.png') top center no-repeat;
+            }
+        }
+    }
+}
+
+@for $item from 1 through 5{
+    .explore{
+        & > .collection{
+            .card:nth-child(#{$item}){
+                background: url('../img/Prev2Col#{$item}.png') top center no-repeat;
+            }
+        }
+    }
+}
+
+@for $item from 1 through 4{
+    .preview{
+        .ship{
+            #prod-carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .cards-group{
+                            .prod-card:nth-child(#{$item}){
+                                .prod-wall{
+                                    background: url('../img/1SS#{$item}.png') center no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@for $item from 1 through 4{
+
+    .coll{
+
+        .card{
+
+            &:nth-child(#{$item}){
+                background: url('../img/coll#{$item}.png') center no-repeat;
+                background-size: cover;
+            }
+            
+        }
+
+    }
+
 }
