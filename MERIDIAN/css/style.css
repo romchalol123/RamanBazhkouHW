@@ -56,6 +56,18 @@
   background: url("../img/coll4.png") center no-repeat;
   background-size: cover; }
 
+.footer .financies > a:nth-child(1) .pay-block .method {
+  background: url("../img/purchase1.png") center no-repeat; }
+
+.footer .financies > a:nth-child(2) .pay-block .method {
+  background: url("../img/purchase2.png") center no-repeat; }
+
+.footer .financies > a:nth-child(3) .pay-block .method {
+  background: url("../img/purchase3.png") center no-repeat; }
+
+.footer .financies > a:nth-child(4) .pay-block .method {
+  background: url("../img/purchase4.png") center no-repeat; }
+
 /*  fonts  */
 /*  font-weight  */
 /*  font-size  */
@@ -121,6 +133,18 @@
 .coll .card:nth-child(4) {
   background: url("../img/coll4.png") center no-repeat;
   background-size: cover; }
+
+.footer .financies > a:nth-child(1) .pay-block .method {
+  background: url("../img/purchase1.png") center no-repeat; }
+
+.footer .financies > a:nth-child(2) .pay-block .method {
+  background: url("../img/purchase2.png") center no-repeat; }
+
+.footer .financies > a:nth-child(3) .pay-block .method {
+  background: url("../img/purchase3.png") center no-repeat; }
+
+.footer .financies > a:nth-child(4) .pay-block .method {
+  background: url("../img/purchase4.png") center no-repeat; }
 
 * {
   margin: 0;
@@ -567,9 +591,10 @@
     margin-top: 35px;
     color: #FFFFFF; }
   * .footer-cont .help .right-part {
-    text-align: center; }
+    text-align: center;
+    margin-right: 18px; }
     * .footer-cont .help .right-part button {
-      margin-top: 44px;
+      margin-top: 50px;
       width: 284px;
       height: 80px;
       background: #FFFFFF;
@@ -589,5 +614,123 @@
       font-size: 25px;
       line-height: 33px;
       color: #FFFFFF; }
+* .footer-cont .footer {
+  padding: 56px 100px 48px;
+  background: #232323; }
+  * .footer-cont .footer > img {
+    margin-bottom: 36px;
+    margin-left: 5px; }
+  * .footer-cont .footer > hr {
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 0 43px; }
+  * .footer-cont .footer .info {
+    display: flex;
+    justify-content: flex-end; }
+    * .footer-cont .footer .info > ul {
+      margin-top: 10px;
+      margin-right: 85px; }
+      * .footer-cont .footer .info > ul > li {
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.58);
+        margin-bottom: 20px; }
+        * .footer-cont .footer .info > ul > li:first-child {
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          line-height: 32px;
+          letter-spacing: -0.309091px;
+          color: #FFFFFF;
+          margin-bottom: 24px; }
+      * .footer-cont .footer .info > ul:first-child {
+        margin-right: auto; }
+        * .footer-cont .footer .info > ul:first-child > li {
+          margin-bottom: 16px; }
+          * .footer-cont .footer .info > ul:first-child > li > img {
+            margin-right: 20px;
+            margin-left: 18px; }
+          * .footer-cont .footer .info > ul:first-child > li:nth-child(2) {
+            line-height: 42px;
+            margin-bottom: 38px; }
+      * .footer-cont .footer .info > ul:nth-child(2) > li {
+        font-weight: 500; }
+    * .footer-cont .footer .info .cont-us {
+      margin-left: 10px; }
+      * .footer-cont .footer .info .cont-us .hd {
+        margin-bottom: 66px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 42px;
+        letter-spacing: -0.4px;
+        color: #FFFFFF; }
+      * .footer-cont .footer .info .cont-us .notice {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #FFFFFF; }
+      * .footer-cont .footer .info .cont-us .mail-us {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px; }
+        * .footer-cont .footer .info .cont-us .mail-us input {
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          width: 353px;
+          background: none;
+          border: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          line-height: 33px;
+          letter-spacing: -0.272727px;
+          color: #FFFFFF;
+          mix-blend-mode: normal; }
+        * .footer-cont .footer .info .cont-us .mail-us button {
+          margin-left: 28px;
+          width: 67px;
+          height: 67px;
+          background: #FFFFFF;
+          border: none;
+          border-radius: 11px 11px 0px 0px; }
+  * .footer-cont .footer .comm-with-us {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 66px; }
+    * .footer-cont .footer .comm-with-us .comm-text {
+      display: none;
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 33px;
+      color: #F5F3ED; }
+    * .footer-cont .footer .comm-with-us .communicate > a {
+      margin-left: 30px; }
+    * .footer-cont .footer .comm-with-us .cond-n-policy {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 32px;
+      letter-spacing: -0.272727px;
+      color: #FFFFFF;
+      margin-right: auto; }
+      * .footer-cont .footer .comm-with-us .cond-n-policy > a {
+        margin-right: 24px; }
+  * .footer-cont .footer .financies {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 35px; }
+    * .footer-cont .footer .financies .pay-block {
+      width: 72px;
+      height: 72px;
+      margin-right: 27px;
+      background: #FFFFFF; }
+      * .footer-cont .footer .financies .pay-block .method {
+        width: 100%;
+        height: 100%; }
 
 /*# sourceMappingURL=style.css.map */

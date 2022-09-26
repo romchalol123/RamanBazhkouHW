@@ -562,9 +562,10 @@
 
             .right-part{
                 text-align: center;
+                margin-right: 18px;
 
                 button{
-                    margin-top: 44px;
+                    margin-top: 50px;
                     width: 284px;
                     height: 80px;
                     background: $white;
@@ -595,6 +596,188 @@
         }
 
         .footer{
+            padding: 56px 100px 48px;
+            background: $gray7;
+
+            & > img{
+                margin-bottom: 36px;
+                margin-left: 5px;
+            }
+
+            & > hr{
+                border: none;
+                background: rgba(255,255,255,0.1);
+                margin: 0 0 43px;
+            }
+
+            .info{
+                display: flex;
+                justify-content: flex-end;
+
+
+                & > ul{
+                    margin-top: 10px;
+                    margin-right: 85px;
+
+                    & > li{
+                        font-family: $grotesk;
+                        font-weight: $regular;
+                        font-size: $fsz_default;
+                        line-height: 33px;
+                        color: $white-op58;
+                        margin-bottom: 20px;
+
+                        &:first-child{
+                            font-family: $outfit;
+                            font-weight: $lite;
+                            line-height: 32px;
+                            letter-spacing: -0.309091px;
+                            color: $white;
+                            margin-bottom: 24px;
+                        }
+
+                    }
+                    
+                    &:first-child{
+                        margin-right: auto;
+
+                        & > li{
+                            margin-bottom: 16px;
+
+                            & > img{
+                                margin-right: 20px;
+                                margin-left: 18px;
+                            }
+
+                            &:nth-child(2){
+                                line-height: 42px;
+                                margin-bottom: 38px;
+                            }
+
+                        }
+
+                    }
+
+                    &:nth-child(2){
+                        & > li{
+                            font-weight: $medium;
+                        }
+                    }
+
+                }
+
+                .cont-us{
+                    margin-left: 10px;
+
+                    .hd{
+                        margin-bottom: 66px;
+                        font-family: $outfit;
+                        font-weight: $lite;
+                        font-size: $fsz_default;
+                        line-height: 42px;
+                        letter-spacing: -0.4px;
+                        color: $white;
+                    }
+
+                    .notice{
+                        font-family: $outfit;
+                        font-weight: $regular;
+                        font-size: $fsz_default;
+                        line-height: 35px;
+                        color: $white;
+                    }
+
+                    .mail-us{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+
+                        input{
+                            font-family: $grotesk;
+                            font-weight: $regular;
+                            font-size: $fsz_default;
+                            width: 353px;
+                            background: none;
+                            border: none;
+                            border-bottom: 1px solid $white-op10;
+                            line-height: 33px;
+                            letter-spacing: -0.272727px;
+                            color: $white;
+                            mix-blend-mode: normal;
+                        }
+
+
+                        button{
+                            margin-left: 28px;
+                            width: 67px;
+                            height: 67px;
+                            background: $white;
+                            border: none;
+                            border-radius: 11px 11px 0px 0px;
+                        }
+    
+                    }
+
+                }
+
+            }
+
+            .comm-with-us{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: flex-start;
+                width: 100%;
+                margin-top: 66px;
+
+                .comm-text{
+                    display: none;
+                    font-family: $outfit;
+                    font-weight: $regular;
+                    font-size: $fsz26;
+                    line-height: 33px;
+                    color: $dkwhite;
+                }
+
+                .communicate{
+                    & > a{
+                        margin-left: 30px;
+                    }
+                }
+
+                .cond-n-policy{
+                    font-family: $outfit;
+                    font-weight: $lite;
+                    font-size: $fsz_default;
+                    line-height: 32px;
+                    letter-spacing: -0.272727px;
+                    color: $white;
+                    margin-right: auto;
+
+                    & > a{
+                        margin-right: 24px;
+                    }
+                }
+
+            }
+
+            .financies{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 35px;
+
+                .pay-block{
+                    width: 72px;
+                    height: 72px;
+                    margin-right: 27px;
+                    background: $white;
+
+                    .method{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+            }
 
         }
 
