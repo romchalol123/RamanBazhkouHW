@@ -1,31 +1,31 @@
-.preview > .collection .card:nth-child(1) {
+.preview > .collection > a:nth-child(1) .card {
   background: url("../img/PrevCol1.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(2) {
+.preview > .collection > a:nth-child(2) .card {
   background: url("../img/PrevCol2.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(3) {
+.preview > .collection > a:nth-child(3) .card {
   background: url("../img/PrevCol3.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(4) {
+.preview > .collection > a:nth-child(4) .card {
   background: url("../img/PrevCol4.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(5) {
+.preview > .collection > a:nth-child(5) .card {
   background: url("../img/PrevCol5.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(1) {
+.explore > .collection > a:nth-child(1) .card {
   background: url("../img/Prev2Col1.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(2) {
+.explore > .collection > a:nth-child(2) .card {
   background: url("../img/Prev2Col2.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(3) {
+.explore > .collection > a:nth-child(3) .card {
   background: url("../img/Prev2Col3.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(4) {
+.explore > .collection > a:nth-child(4) .card {
   background: url("../img/Prev2Col4.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(5) {
+.explore > .collection > a:nth-child(5) .card {
   background: url("../img/Prev2Col5.png") top center no-repeat; }
 
 .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(1) .prod-wall {
@@ -76,34 +76,34 @@
 /*  font-weight  */
 /*  font-size  */
 /*  colors  */
-.preview > .collection .card:nth-child(1) {
+.preview > .collection > a:nth-child(1) .card {
   background: url("../img/PrevCol1.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(2) {
+.preview > .collection > a:nth-child(2) .card {
   background: url("../img/PrevCol2.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(3) {
+.preview > .collection > a:nth-child(3) .card {
   background: url("../img/PrevCol3.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(4) {
+.preview > .collection > a:nth-child(4) .card {
   background: url("../img/PrevCol4.png") top center no-repeat; }
 
-.preview > .collection .card:nth-child(5) {
+.preview > .collection > a:nth-child(5) .card {
   background: url("../img/PrevCol5.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(1) {
+.explore > .collection > a:nth-child(1) .card {
   background: url("../img/Prev2Col1.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(2) {
+.explore > .collection > a:nth-child(2) .card {
   background: url("../img/Prev2Col2.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(3) {
+.explore > .collection > a:nth-child(3) .card {
   background: url("../img/Prev2Col3.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(4) {
+.explore > .collection > a:nth-child(4) .card {
   background: url("../img/Prev2Col4.png") top center no-repeat; }
 
-.explore > .collection .card:nth-child(5) {
+.explore > .collection > a:nth-child(5) .card {
   background: url("../img/Prev2Col5.png") top center no-repeat; }
 
 .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(1) .prod-wall {
@@ -151,7 +151,7 @@
   padding: 0;
   box-sizing: border-box; }
   * body {
-    margin: 0 auto; }
+    margin: 210px auto 0; }
     * body p, * body a, * body h1, * body h2, * body h3, * body h4, * body h5, * body h6, * body ol, * body ul {
       margin: 0;
       padding: 0; }
@@ -163,73 +163,80 @@
       * body a:hover {
         color: inherit; }
 
-* .header .sale {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 71px;
-  background-color: #3A5041; }
-  * .header .sale > p {
-    font-family: "HK Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF; }
-* .header .navigation {
-  min-height: 139px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 101px; }
-  * .header .navigation ul.item {
+* .header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: #FFFFFF;
+  margin-top: -210px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15); }
+  * .header .sale {
     display: flex;
-    justify-content: space-around;
-    font-family: "HK Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    font-size: 20px; }
-    * .header .navigation ul.item > li {
-      margin-right: 40px; }
-      * .header .navigation ul.item > li:last-child {
-        margin-right: 0; }
-      * .header .navigation ul.item > li:hover {
-        color: #00264B; }
-  * .header .navigation > ul {
-    margin-top: 5px; }
-    * .header .navigation > ul > li {
-      color: #BEBFBE; }
-  * .header .navigation > img {
-    margin-left: 40px;
-    margin-right: 70px; }
-  * .header .navigation .profile {
+    justify-content: center;
+    align-items: center;
+    min-height: 71px;
+    background-color: #3A5041; }
+    * .header .sale > a {
+      font-family: "HK Grotesk", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+  * .header .navigation {
+    min-height: 139px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 5px; }
-    * .header .navigation .profile > ul > li {
-      color: #888887; }
-    * .header .navigation .profile img {
-      width: 30px;
-      height: 30px; }
-    * .header .navigation .profile .marg-l {
-      margin-left: 30px; }
-    * .header .navigation .profile .cart {
-      position: relative; }
-      * .header .navigation .profile .cart .goods-count {
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background: #B58269;
-        color: #FFFFFF;
-        bottom: -11px;
-        left: 12px;
-        text-align: center; }
-        * .header .navigation .profile .cart .goods-count > p {
-          font-size: 14px;
-          padding-top: 2px; }
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 101px; }
+    * .header .navigation ul.item {
+      display: flex;
+      justify-content: space-around;
+      font-family: "HK Grotesk", sans-serif;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+      font-size: 20px; }
+      * .header .navigation ul.item > li {
+        margin-right: 40px; }
+        * .header .navigation ul.item > li:last-child {
+          margin-right: 0; }
+        * .header .navigation ul.item > li:hover {
+          color: #00264B; }
+    * .header .navigation > ul {
+      margin-top: 5px; }
+      * .header .navigation > ul > li {
+        color: #BEBFBE; }
+    * .header .navigation > img {
+      margin-left: 40px;
+      margin-right: 70px; }
+    * .header .navigation .profile {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px; }
+      * .header .navigation .profile > ul > li {
+        color: #888887; }
+      * .header .navigation .profile img {
+        width: 30px;
+        height: 30px; }
+      * .header .navigation .profile .marg-l {
+        margin-left: 30px; }
+      * .header .navigation .profile .cart {
+        position: relative; }
+        * .header .navigation .profile .cart .goods-count {
+          position: absolute;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background: #B58269;
+          color: #FFFFFF;
+          bottom: -11px;
+          left: 12px;
+          text-align: center; }
+          * .header .navigation .profile .cart .goods-count > p {
+            font-size: 14px;
+            padding-top: 2px; }
 * .shop-collect {
   background: url("../img/BlackSecWide.png") top center no-repeat;
   width: 100%;
@@ -269,7 +276,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-    * .preview .collection > .card {
+    * .preview .collection > a > .card {
       display: flex;
       flex-direction: column-reverse;
       text-align: center;
@@ -277,15 +284,13 @@
       margin: 12px 13px;
       width: 555px;
       height: 555px; }
-      * .preview .collection > .card:hover {
+      * .preview .collection > a > .card:hover {
         cursor: pointer;
         transition: 0.25s;
-        transform: scale(1.1);
+        transform: scale(1.05);
         z-index: 1;
-        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6); }
-      * .preview .collection > .card:first-child {
-        width: 1137px; }
-      * .preview .collection > .card > p {
+        box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
+      * .preview .collection > a > .card > p {
         display: flex;
         width: 100%;
         height: 96px;
@@ -299,6 +304,8 @@
         letter-spacing: 0.265em;
         text-transform: uppercase;
         color: #FFFFFF; }
+    * .preview .collection > a:first-child > .card {
+      width: 1137px; }
   * .preview .guarantee {
     margin-top: 102px;
     background: #3A5041;
@@ -451,7 +458,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-    * .explore .collection > .card {
+    * .explore .collection > a > .card {
       display: flex;
       flex-direction: column-reverse;
       text-align: center;
@@ -459,15 +466,13 @@
       margin: 12px 13px;
       width: 555px;
       height: 555px; }
-      * .explore .collection > .card:hover {
+      * .explore .collection > a > .card:hover {
         cursor: pointer;
         transition: 0.25s;
-        transform: scale(1.1);
+        transform: scale(1.05);
         z-index: 1;
-        box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6); }
-      * .explore .collection > .card:first-child {
-        width: 1137px; }
-      * .explore .collection > .card > p {
+        box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
+      * .explore .collection > a > .card > p {
         display: flex;
         width: 100%;
         height: 96px;
@@ -481,6 +486,8 @@
         letter-spacing: 0.265em;
         text-transform: uppercase;
         color: #FFFFFF; }
+    * .explore .collection > a:first-child > .card {
+      width: 1137px; }
   * .explore .furniture {
     display: flex;
     justify-content: space-between; }
@@ -524,16 +531,35 @@
       position: relative;
       margin-top: 100px;
       margin-left: 170px;
-      width: 705px;
-      height: 836px; }
+      width: 40%; }
       * .explore .furniture #furniture-carousel .button-panel {
         height: 50px;
         width: 180px;
         position: absolute;
         bottom: -75px;
-        left: calc(0.5*705px - 90px);
+        left: calc(0.5*100% - 90px);
         display: flex;
         justify-content: space-between; }
+        * .explore .furniture #furniture-carousel .button-panel > button {
+          border: none;
+          background: transparent; }
+        * .explore .furniture #furniture-carousel .button-panel .carousel-indicators {
+          margin-top: 3px;
+          width: 65px;
+          height: 47px;
+          position: relative; }
+          * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .cntr {
+            font-family: "HK Grotesk", sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 156.84%;
+            color: #000000;
+            display: none; }
+          * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .active {
+            position: absolute;
+            display: block;
+            right: -504px;
+            top: -10px; }
   * .explore .insp > p {
     margin: 175px 0 27px;
     text-align: left;
@@ -637,6 +663,8 @@
         line-height: 33px;
         color: rgba(255, 255, 255, 0.58);
         margin-bottom: 20px; }
+        * .footer-cont .footer .info > ul > li a:hover {
+          color: #FFFFFF; }
         * .footer-cont .footer .info > ul > li:first-child {
           font-family: "Outfit", sans-serif;
           font-weight: 300;
