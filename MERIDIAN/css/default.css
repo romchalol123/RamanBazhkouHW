@@ -60,17 +60,37 @@
   background: url("../img/coll4.png") center no-repeat;
   background-size: cover; }
 
-.footer .financies > a:nth-child(1) .pay-block .method {
+.financies > a:nth-child(1) .pay-block .method {
   background: url("../img/purchase1.png") center no-repeat; }
 
-.footer .financies > a:nth-child(2) .pay-block .method {
+.financies > a:nth-child(2) .pay-block .method {
   background: url("../img/purchase2.png") center no-repeat; }
 
-.footer .financies > a:nth-child(3) .pay-block .method {
+.financies > a:nth-child(3) .pay-block .method {
   background: url("../img/purchase3.png") center no-repeat; }
 
-.footer .financies > a:nth-child(4) .pay-block .method {
+.financies > a:nth-child(4) .pay-block .method {
   background: url("../img/purchase4.png") center no-repeat; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(1) {
+  background: url("../img/ProdNaviPoint1.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(2) {
+  background: url("../img/ProdNaviPoint2.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(3) {
+  background: url("../img/ProdNaviPoint3.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(4) {
+  background: url("../img/ProdNaviPoint4.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(5) {
+  background: url("../img/ProdNaviPoint5.png") center no-repeat;
+  background-size: cover; }
 
 * {
   margin: 0;

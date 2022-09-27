@@ -56,17 +56,37 @@
   background: url("../img/coll4.png") center no-repeat;
   background-size: cover; }
 
-.footer .financies > a:nth-child(1) .pay-block .method {
+.financies > a:nth-child(1) .pay-block .method {
   background: url("../img/purchase1.png") center no-repeat; }
 
-.footer .financies > a:nth-child(2) .pay-block .method {
+.financies > a:nth-child(2) .pay-block .method {
   background: url("../img/purchase2.png") center no-repeat; }
 
-.footer .financies > a:nth-child(3) .pay-block .method {
+.financies > a:nth-child(3) .pay-block .method {
   background: url("../img/purchase3.png") center no-repeat; }
 
-.footer .financies > a:nth-child(4) .pay-block .method {
+.financies > a:nth-child(4) .pay-block .method {
   background: url("../img/purchase4.png") center no-repeat; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(1) {
+  background: url("../img/ProdNaviPoint1.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(2) {
+  background: url("../img/ProdNaviPoint2.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(3) {
+  background: url("../img/ProdNaviPoint3.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(4) {
+  background: url("../img/ProdNaviPoint4.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(5) {
+  background: url("../img/ProdNaviPoint5.png") center no-repeat;
+  background-size: cover; }
 
 /*  fonts  */
 /*  font-weight  */
@@ -134,17 +154,37 @@
   background: url("../img/coll4.png") center no-repeat;
   background-size: cover; }
 
-.footer .financies > a:nth-child(1) .pay-block .method {
+.financies > a:nth-child(1) .pay-block .method {
   background: url("../img/purchase1.png") center no-repeat; }
 
-.footer .financies > a:nth-child(2) .pay-block .method {
+.financies > a:nth-child(2) .pay-block .method {
   background: url("../img/purchase2.png") center no-repeat; }
 
-.footer .financies > a:nth-child(3) .pay-block .method {
+.financies > a:nth-child(3) .pay-block .method {
   background: url("../img/purchase3.png") center no-repeat; }
 
-.footer .financies > a:nth-child(4) .pay-block .method {
+.financies > a:nth-child(4) .pay-block .method {
   background: url("../img/purchase4.png") center no-repeat; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(1) {
+  background: url("../img/ProdNaviPoint1.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(2) {
+  background: url("../img/ProdNaviPoint2.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(3) {
+  background: url("../img/ProdNaviPoint3.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(4) {
+  background: url("../img/ProdNaviPoint4.png") center no-repeat;
+  background-size: cover; }
+
+#carouselProdSS .control .carousel-indicators div:nth-child(5) {
+  background: url("../img/ProdNaviPoint5.png") center no-repeat;
+  background-size: cover; }
 
 * {
   margin: 0;
@@ -163,430 +203,108 @@
       * body a:hover {
         color: inherit; }
 
-* .header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  background: #FFFFFF;
-  margin-top: -210px;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15); }
-  * .header .sale {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 71px;
-    background-color: #3A5041; }
-    * .header .sale > a {
-      font-family: "HK Grotesk", sans-serif;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #FFFFFF; }
-  * .header .navigation {
-    min-height: 139px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 101px; }
-    * .header .navigation ul.item {
+* {
+  /* main page */
+  /* product.html*/ }
+  * .header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: -210px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15); }
+    * .header .sale {
       display: flex;
-      justify-content: space-around;
-      font-family: "HK Grotesk", sans-serif;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 33px;
-      font-size: 20px; }
-      * .header .navigation ul.item > li {
-        margin-right: 40px; }
-        * .header .navigation ul.item > li:last-child {
-          margin-right: 0; }
-        * .header .navigation ul.item > li:hover {
-          color: #00264B; }
-    * .header .navigation > ul {
-      margin-top: 5px; }
-      * .header .navigation > ul > li {
-        color: #BEBFBE; }
-    * .header .navigation > img {
-      margin-left: 40px;
-      margin-right: 70px; }
-    * .header .navigation .profile {
+      justify-content: center;
+      align-items: center;
+      min-height: 71px;
+      background-color: #3A5041; }
+      * .header .sale > a {
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+    * .header .navigation {
+      min-height: 139px;
       display: flex;
-      justify-content: space-around;
-      margin-top: 5px; }
-      * .header .navigation .profile > ul > li {
-        color: #888887; }
-      * .header .navigation .profile img {
-        width: 30px;
-        height: 30px; }
-      * .header .navigation .profile .marg-l {
-        margin-left: 30px; }
-      * .header .navigation .profile .cart {
-        position: relative; }
-        * .header .navigation .profile .cart .goods-count {
-          position: absolute;
-          width: 25px;
-          height: 25px;
-          border-radius: 50%;
-          background: #B58269;
-          color: #FFFFFF;
-          bottom: -11px;
-          left: 12px;
-          text-align: center; }
-          * .header .navigation .profile .cart .goods-count > p {
-            font-size: 14px;
-            padding-top: 2px; }
-* .shop-collect {
-  background: url("../img/BlackSecWide.png") top center no-repeat;
-  width: 100%;
-  background-size: cover;
-  padding: 214px 97px 0;
-  min-height: 984px; }
-  * .shop-collect h1 {
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    font-size: 75px;
-    line-height: 94px;
-    color: #FFFFFF; }
-  * .shop-collect p {
-    margin-top: 18px;
-    font-family: "HK Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 42px;
-    color: #FFFFFF; }
-  * .shop-collect button {
-    margin-top: 55px;
-    width: 442px;
-    height: 97px;
-    background: #B58269;
-    border: none;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 32px;
-    letter-spacing: 0.265em;
-    text-transform: uppercase;
-    color: #FFFFFF; }
-* .preview {
-  margin: 101px; }
-  * .preview .collection {
-    margin: -12px -13px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
-    * .preview .collection > a > .card {
-      display: flex;
-      flex-direction: column-reverse;
-      text-align: center;
-      border: none;
-      margin: 12px 13px;
-      width: 555px;
-      height: 555px; }
-      * .preview .collection > a > .card:hover {
-        cursor: pointer;
-        transition: 0.25s;
-        transform: scale(1.05);
-        z-index: 1;
-        box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
-      * .preview .collection > a > .card > p {
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 101px; }
+      * .header .navigation ul.item {
         display: flex;
-        width: 100%;
-        height: 96px;
-        justify-content: center;
-        align-items: center;
-        background: #636A6A;
-        font-family: "Outfit", sans-serif;
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.265em;
-        text-transform: uppercase;
-        color: #FFFFFF; }
-    * .preview .collection > a:first-child > .card {
-      width: 1137px; }
-  * .preview .guarantee {
-    margin-top: 102px;
-    background: #3A5041;
-    padding: 77px 40px 78px;
-    display: flex;
-    justify-content: space-between; }
-    * .preview .guarantee .description {
-      width: 33%;
-      text-align: center; }
-      * .preview .guarantee .description h6 {
-        margin-top: 27px;
-        font-family: "Outfit", sans-serif;
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.265em;
-        text-transform: uppercase;
-        color: #FFFFFF; }
-      * .preview .guarantee .description p {
-        margin-top: 17px;
+        justify-content: space-around;
         font-family: "HK Grotesk", sans-serif;
         font-weight: 400;
         font-size: 25px;
         line-height: 33px;
-        text-align: center;
-        color: #FFFFFF; }
-    * .preview .guarantee .line {
-      border-right: 1.79259px solid rgba(255, 255, 255, 0.3);
-      background: none; }
-      * .preview .guarantee .line:nth-child(2) {
-        margin-right: 20px; }
-      * .preview .guarantee .line:nth-child(4) {
-        margin-left: 20px; }
-  * .preview .ship {
-    text-align: center; }
-    * .preview .ship > h2 {
-      margin-top: 100px;
-      font-family: 'Outfit';
+        font-size: 20px; }
+        * .header .navigation ul.item > li {
+          margin-right: 40px; }
+          * .header .navigation ul.item > li:last-child {
+            margin-right: 0; }
+          * .header .navigation ul.item > li:hover {
+            color: #00264B; }
+      * .header .navigation > ul {
+        margin-top: 5px; }
+        * .header .navigation > ul > li {
+          color: #BEBFBE; }
+      * .header .navigation > img {
+        margin-left: 40px;
+        margin-right: 70px; }
+      * .header .navigation .profile {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5px; }
+        * .header .navigation .profile > ul > li {
+          color: #888887; }
+        * .header .navigation .profile img {
+          width: 30px;
+          height: 30px; }
+        * .header .navigation .profile .marg-l {
+          margin-left: 30px; }
+        * .header .navigation .profile .cart {
+          position: relative; }
+          * .header .navigation .profile .cart .goods-count {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #B58269;
+            color: #FFFFFF;
+            bottom: -11px;
+            left: 12px;
+            text-align: center; }
+            * .header .navigation .profile .cart .goods-count > p {
+              font-size: 14px;
+              padding-top: 2px; }
+  * .shop-collect {
+    background: url("../img/BlackSecWide.png") top center no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 214px 97px 0;
+    min-height: 984px; }
+    * .shop-collect h1 {
+      font-family: "Outfit", sans-serif;
       font-weight: 500;
       font-size: 75px;
       line-height: 94px;
-      color: #161616; }
-    * .preview .ship > p {
-      margin-top: 17px;
+      color: #FFFFFF; }
+    * .shop-collect p {
+      margin-top: 18px;
       font-family: "HK Grotesk", sans-serif;
       font-weight: 400;
       font-size: 25px;
-      line-height: 33px;
-      color: #161616; }
-    * .preview .ship #prod-carousel {
-      display: flex;
-      justify-content: space-between;
-      margin: 10px 10px 0; }
-      * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0 50px; }
-        * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card {
-          width: 362px;
-          height: 517px;
-          margin: 8px;
-          text-align: left; }
-          * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card .prod-wall {
-            width: 361px;
-            height: 361px; }
-          * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > h6 {
-            font-family: "Outfit", sans-serif;
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 32px;
-            color: #000000; }
-          * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > p {
-            font-family: "HK Grotesk", sans-serif;
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 33px;
-            color: #888887;
-            margin-top: 11px; }
-          * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > button {
-            margin-top: 14px;
-            width: 361px;
-            height: 75px;
-            border: none;
-            background: #B58269;
-            font-family: "HK Grotesk", sans-serif;
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 33px;
-            text-align: center;
-            color: #FFFFFF; }
-      * .preview .ship #prod-carousel .carousel-control-prev, * .preview .ship #prod-carousel .carousel-control-next {
-        position: relative;
-        width: 20px;
-        margin: 0 10px; }
-        * .preview .ship #prod-carousel .carousel-control-prev svg, * .preview .ship #prod-carousel .carousel-control-next svg {
-          opacity: 0.25; }
-        * .preview .ship #prod-carousel .carousel-control-prev:hover svg, * .preview .ship #prod-carousel .carousel-control-next:hover svg {
-          opacity: 1; }
-          * .preview .ship #prod-carousel .carousel-control-prev:hover svg path, * .preview .ship #prod-carousel .carousel-control-next:hover svg path {
-            fill: #545454; }
-* .hq-fabric {
-  margin-top: 110px;
-  width: 100%;
-  background: url("../img/bg-hq-fabric.png") center no-repeat;
-  background-size: cover; }
-  * .hq-fabric .cover-hqf {
-    background: rgba(0, 0, 0, 0.6);
-    text-align: center; }
-    * .hq-fabric .cover-hqf > img {
-      margin-top: 109px; }
-    * .hq-fabric .cover-hqf > p {
-      font-family: 'Outfit';
-      font-weight: 500;
-      font-size: 26px;
       line-height: 42px;
-      letter-spacing: 7px;
-      color: #F5F3ED;
-      margin-top: 50px; }
-    * .hq-fabric .cover-hqf > h2 {
-      font-family: "Outfit", sans-serif;
-      font-weight: 400;
-      font-size: 75px;
-      line-height: 112px;
-      text-transform: capitalize;
-      color: #F5F3ED;
-      margin-top: 12px;
-      padding-bottom: 110px; }
-      * .hq-fabric .cover-hqf > h2 > span {
-        font-weight: 600;
-        text-transform: uppercase; }
-* .explore {
-  text-align: center;
-  margin: 94px 101px 0; }
-  * .explore > h2 {
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    font-size: 75px;
-    line-height: 94px;
-    color: #161616; }
-  * .explore > p {
-    margin: 17px 0 35px;
-    font-family: "HK Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    color: #161616; }
-  * .explore .collection {
-    margin: -12px -13px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
-    * .explore .collection > a > .card {
-      display: flex;
-      flex-direction: column-reverse;
-      text-align: center;
+      color: #FFFFFF; }
+    * .shop-collect button {
+      margin-top: 55px;
+      width: 442px;
+      height: 97px;
+      background: #B58269;
       border: none;
-      margin: 12px 13px;
-      width: 555px;
-      height: 555px; }
-      * .explore .collection > a > .card:hover {
-        cursor: pointer;
-        transition: 0.25s;
-        transform: scale(1.05);
-        z-index: 1;
-        box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
-      * .explore .collection > a > .card > p {
-        display: flex;
-        width: 100%;
-        height: 96px;
-        justify-content: center;
-        align-items: center;
-        background: #636A6A;
-        font-family: "Outfit", sans-serif;
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 32px;
-        letter-spacing: 0.265em;
-        text-transform: uppercase;
-        color: #FFFFFF; }
-    * .explore .collection > a:first-child > .card {
-      width: 1137px; }
-  * .explore .furniture {
-    display: flex;
-    justify-content: space-between; }
-    * .explore .furniture .text-cont {
-      text-align: left; }
-      * .explore .furniture .text-cont > h2 {
-        margin-left: 2px;
-        margin-top: 173px;
-        font-family: "Outfit", sans-serif;
-        font-weight: 500;
-        font-size: 75px;
-        line-height: 156.84%;
-        color: #161616; }
-      * .explore .furniture .text-cont > p {
-        margin-left: -4px;
-        margin-top: 70px;
-        font-family: "HK Grotesk", sans-serif;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 43px;
-        color: #000000; }
-      * .explore .furniture .text-cont .rate {
-        margin-top: 85px;
-        display: flex;
-        justify-content: flex-start; }
-        * .explore .furniture .text-cont .rate .star-block {
-          height: 45px;
-          width: 225px;
-          background: url("../img/goldStar.svg") top left repeat-x; }
-        * .explore .furniture .text-cont .rate .rate-name {
-          padding-top: 6px;
-          margin-left: 30px;
-          font-family: "Outfit", sans-serif;
-          font-weight: 300;
-          font-size: 25px;
-          line-height: 32px;
-          letter-spacing: 0.265em;
-          text-transform: uppercase;
-          color: #000000; }
-    * .explore .furniture #furniture-carousel {
-      position: relative;
-      margin-top: 100px;
-      margin-left: 170px;
-      width: 40%; }
-      * .explore .furniture #furniture-carousel .button-panel {
-        height: 50px;
-        width: 180px;
-        position: absolute;
-        bottom: -75px;
-        left: calc(0.5*100% - 90px);
-        display: flex;
-        justify-content: space-between; }
-        * .explore .furniture #furniture-carousel .button-panel > button {
-          border: none;
-          background: transparent; }
-        * .explore .furniture #furniture-carousel .button-panel .carousel-indicators {
-          margin-top: 3px;
-          width: 65px;
-          height: 47px;
-          position: relative; }
-          * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .cntr {
-            font-family: "HK Grotesk", sans-serif;
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 156.84%;
-            color: #000000;
-            display: none; }
-          * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .active {
-            position: absolute;
-            display: block;
-            right: -504px;
-            top: -10px; }
-  * .explore .insp > p {
-    margin: 175px 0 27px;
-    text-align: left;
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    font-size: 75px;
-    line-height: 82px;
-    color: #545454; }
-* .coll {
-  width: 100%;
-  height: 480px;
-  display: flex;
-  justify-content: space-between; }
-  * .coll .card {
-    width: 25%;
-    height: 100%;
-    border: none;
-    border-radius: 0;
-    position: relative; }
-    * .coll .card > button {
-      position: absolute;
-      left: calc(50% - 180px);
-      top: calc(50% - 46px);
-      background: none;
-      width: 360px;
-      height: 92px;
-      border: 4px solid #FFFFFF;
       font-family: "Outfit", sans-serif;
       font-weight: 300;
       font-size: 25px;
@@ -594,171 +312,761 @@
       letter-spacing: 0.265em;
       text-transform: uppercase;
       color: #FFFFFF; }
-* .footer-cont .help {
-  background: url("../img/helpBG.png") center no-repeat;
-  background-size: cover;
-  padding: 131px 106px 104px;
-  display: flex;
-  justify-content: space-between; }
-  * .footer-cont .help .left-part h2 {
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    font-size: 75px;
-    line-height: 94px;
-    color: #FFFFFF; }
-  * .footer-cont .help .left-part p {
-    margin-top: 10px;
-    font-family: "HK Grotesk", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 32px;
-    color: #C1C1C1; }
-  * .footer-cont .help .left-part .mail {
-    margin-top: 35px;
-    color: #FFFFFF; }
-  * .footer-cont .help .right-part {
-    text-align: center;
-    margin-right: 18px; }
-    * .footer-cont .help .right-part button {
-      margin-top: 50px;
-      width: 284px;
-      height: 80px;
-      background: #FFFFFF;
-      padding-top: 7px;
-      font-family: "HK Grotesk", sans-serif;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 33px;
-      color: #232323;
-      border: none; }
-      * .footer-cont .help .right-part button > img {
-        margin-right: 10px; }
-    * .footer-cont .help .right-part p {
-      margin-top: 28px;
-      font-family: "HK Grotesk", sans-serif;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 33px;
-      color: #FFFFFF; }
-* .footer-cont .footer {
-  padding: 56px 100px 48px;
-  background: #232323; }
-  * .footer-cont .footer > img {
-    margin-bottom: 36px;
-    margin-left: 5px; }
-  * .footer-cont .footer > hr {
-    border: none;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0 0 43px; }
-  * .footer-cont .footer .info {
-    display: flex;
-    justify-content: flex-end; }
-    * .footer-cont .footer .info > ul {
-      margin-top: 10px;
-      margin-right: 85px; }
-      * .footer-cont .footer .info > ul > li {
+  * .preview {
+    margin: 101px; }
+    * .preview .collection {
+      margin: -12px -13px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      * .preview .collection > a > .card {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        border: none;
+        margin: 12px 13px;
+        width: 555px;
+        height: 555px; }
+        * .preview .collection > a > .card:hover {
+          cursor: pointer;
+          transition: 0.25s;
+          transform: scale(1.05);
+          z-index: 1;
+          box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
+        * .preview .collection > a > .card > p {
+          display: flex;
+          width: 100%;
+          height: 96px;
+          justify-content: center;
+          align-items: center;
+          background: #636A6A;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 32px;
+          letter-spacing: 0.265em;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+      * .preview .collection > a:first-child > .card {
+        width: 1137px; }
+    * .preview .guarantee {
+      margin-top: 102px;
+      background: #3A5041;
+      padding: 77px 40px 78px;
+      display: flex;
+      justify-content: space-between; }
+      * .preview .guarantee .description {
+        width: 33%;
+        text-align: center; }
+        * .preview .guarantee .description h6 {
+          margin-top: 27px;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 32px;
+          letter-spacing: 0.265em;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+        * .preview .guarantee .description p {
+          margin-top: 17px;
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 33px;
+          text-align: center;
+          color: #FFFFFF; }
+      * .preview .guarantee .line {
+        border-right: 1.79259px solid rgba(255, 255, 255, 0.3);
+        background: none; }
+        * .preview .guarantee .line:nth-child(2) {
+          margin-right: 20px; }
+        * .preview .guarantee .line:nth-child(4) {
+          margin-left: 20px; }
+    * .preview .ship {
+      text-align: center; }
+      * .preview .ship > h2 {
+        margin-top: 100px;
+        font-family: 'Outfit';
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 94px;
+        color: #161616; }
+      * .preview .ship > p {
+        margin-top: 17px;
         font-family: "HK Grotesk", sans-serif;
         font-weight: 400;
         font-size: 25px;
         line-height: 33px;
-        color: rgba(255, 255, 255, 0.58);
-        margin-bottom: 20px; }
-        * .footer-cont .footer .info > ul > li a:hover {
-          color: #FFFFFF; }
-        * .footer-cont .footer .info > ul > li:first-child {
-          font-family: "Outfit", sans-serif;
-          font-weight: 300;
-          line-height: 32px;
-          letter-spacing: -0.309091px;
-          color: #FFFFFF;
-          margin-bottom: 24px; }
-      * .footer-cont .footer .info > ul:first-child {
-        margin-right: auto; }
-        * .footer-cont .footer .info > ul:first-child > li {
-          margin-bottom: 16px; }
-          * .footer-cont .footer .info > ul:first-child > li > img {
-            margin-right: 20px;
-            margin-left: 18px; }
-          * .footer-cont .footer .info > ul:first-child > li:nth-child(2) {
-            line-height: 42px;
-            margin-bottom: 38px; }
-      * .footer-cont .footer .info > ul:nth-child(2) > li {
-        font-weight: 500; }
-    * .footer-cont .footer .info .cont-us {
-      margin-left: 10px; }
-      * .footer-cont .footer .info .cont-us .hd {
-        margin-bottom: 66px;
-        font-family: "Outfit", sans-serif;
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 42px;
-        letter-spacing: -0.4px;
-        color: #FFFFFF; }
-      * .footer-cont .footer .info .cont-us .notice {
-        font-family: "Outfit", sans-serif;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 35px;
-        color: #FFFFFF; }
-      * .footer-cont .footer .info .cont-us .mail-us {
+        color: #161616; }
+      * .preview .ship #prod-carousel {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px; }
-        * .footer-cont .footer .info .cont-us .mail-us input {
+        margin: 10px 10px 0; }
+        * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          margin: 0 50px; }
+          * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card {
+            width: 362px;
+            height: 517px;
+            margin: 8px;
+            text-align: left; }
+            * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card .prod-wall {
+              width: 361px;
+              height: 361px; }
+            * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > h6 {
+              font-family: "Outfit", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 32px;
+              color: #000000; }
+            * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > p {
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 33px;
+              color: #888887;
+              margin-top: 11px; }
+            * .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card > button {
+              margin-top: 14px;
+              width: 361px;
+              height: 75px;
+              border: none;
+              background: #B58269;
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 33px;
+              text-align: center;
+              color: #FFFFFF; }
+        * .preview .ship #prod-carousel .carousel-control-prev, * .preview .ship #prod-carousel .carousel-control-next {
+          position: relative;
+          width: 20px;
+          margin: 0 10px; }
+          * .preview .ship #prod-carousel .carousel-control-prev svg, * .preview .ship #prod-carousel .carousel-control-next svg {
+            opacity: 0.25; }
+          * .preview .ship #prod-carousel .carousel-control-prev:hover svg, * .preview .ship #prod-carousel .carousel-control-next:hover svg {
+            opacity: 1; }
+            * .preview .ship #prod-carousel .carousel-control-prev:hover svg path, * .preview .ship #prod-carousel .carousel-control-next:hover svg path {
+              fill: #545454; }
+  * .hq-fabric {
+    margin-top: 110px;
+    width: 100%;
+    background: url("../img/bg-hq-fabric.png") center no-repeat;
+    background-size: cover; }
+    * .hq-fabric .cover-hqf {
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center; }
+      * .hq-fabric .cover-hqf > img {
+        margin-top: 109px; }
+      * .hq-fabric .cover-hqf > p {
+        font-family: 'Outfit';
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 42px;
+        letter-spacing: 7px;
+        color: #F5F3ED;
+        margin-top: 50px; }
+      * .hq-fabric .cover-hqf > h2 {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 112px;
+        text-transform: capitalize;
+        color: #F5F3ED;
+        margin-top: 12px;
+        padding-bottom: 110px; }
+        * .hq-fabric .cover-hqf > h2 > span {
+          font-weight: 600;
+          text-transform: uppercase; }
+  * .explore {
+    text-align: center;
+    margin: 94px 101px 0; }
+    * .explore > h2 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 75px;
+      line-height: 94px;
+      color: #161616; }
+    * .explore > p {
+      margin: 17px 0 35px;
+      font-family: "HK Grotesk", sans-serif;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+      color: #161616; }
+    * .explore .collection {
+      margin: -12px -13px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      * .explore .collection > a > .card {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        border: none;
+        margin: 12px 13px;
+        width: 555px;
+        height: 555px; }
+        * .explore .collection > a > .card:hover {
+          cursor: pointer;
+          transition: 0.25s;
+          transform: scale(1.05);
+          z-index: 1;
+          box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6); }
+        * .explore .collection > a > .card > p {
+          display: flex;
+          width: 100%;
+          height: 96px;
+          justify-content: center;
+          align-items: center;
+          background: #636A6A;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 32px;
+          letter-spacing: 0.265em;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+      * .explore .collection > a:first-child > .card {
+        width: 1137px; }
+    * .explore .furniture {
+      display: flex;
+      justify-content: space-between; }
+      * .explore .furniture .text-cont {
+        text-align: left; }
+        * .explore .furniture .text-cont > h2 {
+          margin-left: 2px;
+          margin-top: 173px;
+          font-family: "Outfit", sans-serif;
+          font-weight: 500;
+          font-size: 75px;
+          line-height: 156.84%;
+          color: #161616; }
+        * .explore .furniture .text-cont > p {
+          margin-left: -4px;
+          margin-top: 70px;
           font-family: "HK Grotesk", sans-serif;
           font-weight: 400;
           font-size: 25px;
-          width: 353px;
-          background: none;
-          border: none;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-          line-height: 33px;
-          letter-spacing: -0.272727px;
-          color: #FFFFFF;
-          mix-blend-mode: normal; }
-        * .footer-cont .footer .info .cont-us .mail-us button {
-          margin-left: 28px;
-          width: 67px;
-          height: 67px;
-          background: #FFFFFF;
-          border: none;
-          border-radius: 11px 11px 0px 0px; }
-  * .footer-cont .footer .comm-with-us {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+          line-height: 43px;
+          color: #000000; }
+        * .explore .furniture .text-cont .rate {
+          margin-top: 85px;
+          display: flex;
+          justify-content: flex-start; }
+          * .explore .furniture .text-cont .rate .star-block {
+            height: 45px;
+            width: 225px;
+            background: url("../img/goldStar.svg") top left repeat-x; }
+          * .explore .furniture .text-cont .rate .rate-name {
+            padding-top: 6px;
+            margin-left: 30px;
+            font-family: "Outfit", sans-serif;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 32px;
+            letter-spacing: 0.265em;
+            text-transform: uppercase;
+            color: #000000; }
+      * .explore .furniture #furniture-carousel {
+        position: relative;
+        margin-top: 100px;
+        margin-left: 170px;
+        width: 40%; }
+        * .explore .furniture #furniture-carousel .button-panel {
+          height: 50px;
+          width: 180px;
+          position: absolute;
+          bottom: -75px;
+          left: calc(0.5*100% - 90px);
+          display: flex;
+          justify-content: space-between; }
+          * .explore .furniture #furniture-carousel .button-panel > button {
+            border: none;
+            background: transparent; }
+          * .explore .furniture #furniture-carousel .button-panel .carousel-indicators {
+            margin-top: 3px;
+            width: 65px;
+            height: 47px;
+            position: relative; }
+            * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .cntr {
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 30px;
+              line-height: 156.84%;
+              color: #000000;
+              display: none; }
+            * .explore .furniture #furniture-carousel .button-panel .carousel-indicators .active {
+              position: absolute;
+              display: block;
+              right: -504px;
+              top: -10px; }
+    * .explore .insp > p {
+      margin: 175px 0 27px;
+      text-align: left;
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 75px;
+      line-height: 82px;
+      color: #545454; }
+  * .coll {
     width: 100%;
-    margin-top: 66px; }
-    * .footer-cont .footer .comm-with-us .comm-text {
-      display: none;
+    height: 480px;
+    display: flex;
+    justify-content: space-between; }
+    * .coll .card {
+      width: 25%;
+      height: 100%;
+      border: none;
+      border-radius: 0;
+      position: relative; }
+      * .coll .card > button {
+        position: absolute;
+        left: calc(50% - 180px);
+        top: calc(50% - 46px);
+        background: none;
+        width: 360px;
+        height: 92px;
+        border: 4px solid #FFFFFF;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.265em;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+  * .footer-cont .help {
+    background: url("../img/helpBG.png") center no-repeat;
+    background-size: cover;
+    padding: 131px 106px 104px;
+    display: flex;
+    justify-content: space-between; }
+    * .footer-cont .help .left-part h2 {
       font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 75px;
+      line-height: 94px;
+      color: #FFFFFF; }
+    * .footer-cont .help .left-part p {
+      margin-top: 10px;
+      font-family: "HK Grotesk", sans-serif;
       font-weight: 400;
-      font-size: 26px;
-      line-height: 33px;
-      color: #F5F3ED; }
-    * .footer-cont .footer .comm-with-us .communicate > a {
-      margin-left: 30px; }
-    * .footer-cont .footer .comm-with-us .cond-n-policy {
-      font-family: "Outfit", sans-serif;
-      font-weight: 300;
       font-size: 25px;
       line-height: 32px;
-      letter-spacing: -0.272727px;
-      color: #FFFFFF;
-      margin-right: auto; }
-      * .footer-cont .footer .comm-with-us .cond-n-policy > a {
-        margin-right: 24px; }
-  * .footer-cont .footer .financies {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 35px; }
-    * .footer-cont .footer .financies .pay-block {
-      width: 72px;
-      height: 72px;
-      margin-right: 27px;
-      background: #FFFFFF; }
-      * .footer-cont .footer .financies .pay-block .method {
-        width: 100%;
-        height: 100%; }
+      color: #C1C1C1; }
+    * .footer-cont .help .left-part .mail {
+      margin-top: 35px;
+      color: #FFFFFF; }
+    * .footer-cont .help .right-part {
+      text-align: center;
+      margin-right: 18px; }
+      * .footer-cont .help .right-part button {
+        margin-top: 50px;
+        width: 284px;
+        height: 80px;
+        background: #FFFFFF;
+        padding-top: 7px;
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #232323;
+        border: none; }
+        * .footer-cont .help .right-part button > img {
+          margin-right: 10px; }
+      * .footer-cont .help .right-part p {
+        margin-top: 28px;
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #FFFFFF; }
+  * .footer-cont .footer {
+    padding: 56px 100px 48px;
+    background: #232323; }
+    * .footer-cont .footer > img {
+      margin-bottom: 36px;
+      margin-left: 5px; }
+    * .footer-cont .footer > hr {
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 0 0 43px; }
+    * .footer-cont .footer .info {
+      display: flex;
+      justify-content: flex-end; }
+      * .footer-cont .footer .info > ul {
+        margin-top: 10px;
+        margin-right: 85px; }
+        * .footer-cont .footer .info > ul > li {
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 33px;
+          color: rgba(255, 255, 255, 0.58);
+          margin-bottom: 20px; }
+          * .footer-cont .footer .info > ul > li a:hover {
+            color: #FFFFFF; }
+          * .footer-cont .footer .info > ul > li:first-child {
+            font-family: "Outfit", sans-serif;
+            font-weight: 300;
+            line-height: 32px;
+            letter-spacing: -0.309091px;
+            color: #FFFFFF;
+            margin-bottom: 24px; }
+        * .footer-cont .footer .info > ul:first-child {
+          margin-right: auto; }
+          * .footer-cont .footer .info > ul:first-child > li {
+            margin-bottom: 16px; }
+            * .footer-cont .footer .info > ul:first-child > li > img {
+              margin-right: 20px;
+              margin-left: 18px; }
+            * .footer-cont .footer .info > ul:first-child > li:nth-child(2) {
+              line-height: 42px;
+              margin-bottom: 38px; }
+        * .footer-cont .footer .info > ul:nth-child(2) > li {
+          font-weight: 500; }
+      * .footer-cont .footer .info .cont-us {
+        margin-left: 10px; }
+        * .footer-cont .footer .info .cont-us .hd {
+          margin-bottom: 66px;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 42px;
+          letter-spacing: -0.4px;
+          color: #FFFFFF; }
+        * .footer-cont .footer .info .cont-us .notice {
+          font-family: "Outfit", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 35px;
+          color: #FFFFFF; }
+        * .footer-cont .footer .info .cont-us .mail-us {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px; }
+          * .footer-cont .footer .info .cont-us .mail-us input {
+            font-family: "HK Grotesk", sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            width: 353px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            line-height: 33px;
+            letter-spacing: -0.272727px;
+            color: #FFFFFF;
+            mix-blend-mode: normal; }
+          * .footer-cont .footer .info .cont-us .mail-us button {
+            margin-left: 28px;
+            width: 67px;
+            height: 67px;
+            background: #FFFFFF;
+            border: none;
+            border-radius: 11px 11px 0px 0px; }
+    * .footer-cont .footer .comm-with-us {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 66px; }
+      * .footer-cont .footer .comm-with-us .comm-text {
+        display: none;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 33px;
+        color: #F5F3ED; }
+      * .footer-cont .footer .comm-with-us .communicate > a {
+        margin-left: 30px; }
+      * .footer-cont .footer .comm-with-us .cond-n-policy {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: -0.272727px;
+        color: #FFFFFF;
+        margin-right: auto; }
+        * .footer-cont .footer .comm-with-us .cond-n-policy > a {
+          margin-right: 24px; }
+    * .footer-cont .footer .financies {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 35px; }
+      * .footer-cont .footer .financies > a {
+        margin-right: 27px; }
+        * .footer-cont .footer .financies > a .pay-block {
+          width: 72px;
+          height: 72px;
+          border: 1px solid #D3D3D3;
+          background: #FFFFFF; }
+          * .footer-cont .footer .financies > a .pay-block .method {
+            width: 100%;
+            height: 100%; }
+        * .footer-cont .footer .financies > a:last-child {
+          margin-right: 0; }
+  * .container-prod {
+    padding-top: 40px;
+    margin: 0 101px; }
+    * .container-prod > p {
+      font-family: "HK Grotesk", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: 0.015em;
+      text-transform: uppercase;
+      color: #272727; }
+      * .container-prod > p span {
+        color: #BEBFBE;
+        margin: 0 8px; }
+      * .container-prod > p a {
+        color: #BEBFBE; }
+        * .container-prod > p a:hover {
+          color: #272727; }
+    * .container-prod .sofa {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 42px; }
+      * .container-prod .sofa #carouselProdSS {
+        flex: 1; }
+        * .container-prod .sofa #carouselProdSS .control {
+          margin-top: 30px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          position: relative; }
+          * .container-prod .sofa #carouselProdSS .control > button {
+            width: 130px;
+            height: 130px;
+            background: transparent;
+            border: none; }
+            * .container-prod .sofa #carouselProdSS .control > button svg {
+              width: 37px;
+              height: 73px; }
+            * .container-prod .sofa #carouselProdSS .control > button.next svg {
+              transform: rotate(180deg); }
+          * .container-prod .sofa #carouselProdSS .control > .carousel-indicators {
+            margin: 0 auto;
+            width: auto;
+            height: 130px;
+            display: flex;
+            justify-content: space-between;
+            position: relative; }
+            * .container-prod .sofa #carouselProdSS .control > .carousel-indicators > div {
+              border: none;
+              width: 130px;
+              height: 130px;
+              padding: 0;
+              margin: 0;
+              margin-right: 20px; }
+              * .container-prod .sofa #carouselProdSS .control > .carousel-indicators > div:last-child {
+                margin-right: 0; }
+      * .container-prod .sofa .sofa-menu {
+        width: 659px;
+        margin-left: 66px;
+        flex: none; }
+        * .container-prod .sofa .sofa-menu h2 {
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 55px;
+          line-height: 56px;
+          color: #272727; }
+        * .container-prod .sofa .sofa-menu .cost {
+          margin-top: 20px;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 56px;
+          color: #FF5B5B; }
+          * .container-prod .sofa .sofa-menu .cost span {
+            text-decoration-line: line-through;
+            color: #C4C4C4; }
+        * .container-prod .sofa .sofa-menu .rating {
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-start; }
+          * .container-prod .sofa .sofa-menu .rating .stars {
+            height: 47px;
+            width: 235px;
+            background: url("../img/ProdNaviStar.svg") top left repeat-x; }
+          * .container-prod .sofa .sofa-menu .rating > p {
+            margin-left: 15px;
+            padding-top: 7px;
+            font-family: "HK Grotesk", sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 40px;
+            color: #A9A9A9; }
+        * .container-prod .sofa .sofa-menu .col {
+          margin-top: 30px;
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 33px;
+          color: #000000; }
+        * .container-prod .sofa .sofa-menu .colors {
+          margin-top: 11px;
+          display: flex;
+          justify-content: flex-start; }
+          * .container-prod .sofa .sofa-menu .colors > div {
+            margin-right: 14px; }
+            * .container-prod .sofa .sofa-menu .colors > div > input[type=radio] {
+              display: none; }
+            * .container-prod .sofa .sofa-menu .colors > div > label {
+              cursor: pointer;
+              display: inline-block;
+              position: relative; }
+              * .container-prod .sofa .sofa-menu .colors > div > label:before {
+                cursor: pointer;
+                display: inline-block;
+                content: '';
+                width: 52px;
+                height: 52px;
+                border-radius: 50%; }
+            * .container-prod .sofa .sofa-menu .colors > div input[type=radio]:checked + label:before {
+              border: 4px solid #636A6A;
+              border-radius: 50%; }
+            * .container-prod .sofa .sofa-menu .colors > div input[type=radio]:hover + label:before {
+              border: 4px solid #C1C1C1;
+              border-radius: 50%; }
+            * .container-prod .sofa .sofa-menu .colors > div input[type=radio]:active + label:before {
+              border: 4px solid #C1C1C1;
+              border-radius: 50%;
+              transform: scale(0.95); }
+            * .container-prod .sofa .sofa-menu .colors > div:nth-child(1) label:before {
+              background: #000000; }
+            * .container-prod .sofa .sofa-menu .colors > div:nth-child(2) label:before {
+              background: #B58269; }
+            * .container-prod .sofa .sofa-menu .colors > div:nth-child(3) label:before {
+              background: #A7A7A7; }
+            * .container-prod .sofa .sofa-menu .colors > div:nth-child(4) label:before {
+              background: #016262; }
+            * .container-prod .sofa .sofa-menu .colors > div:nth-child(5) {
+              margin-right: 0; }
+              * .container-prod .sofa .sofa-menu .colors > div:nth-child(5) label:before {
+                background: #F8796B; }
+        * .container-prod .sofa .sofa-menu > button {
+          margin-top: 30px;
+          width: 100%;
+          height: 103px;
+          background: #B58269;
+          border: none;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 25px;
+          line-height: 32px;
+          letter-spacing: 0.265em;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+        * .container-prod .sofa .sofa-menu .safety {
+          margin-top: 30px;
+          display: flex;
+          justify-content: center; }
+          * .container-prod .sofa .sofa-menu .safety p {
+            margin-right: 10px;
+            font-family: "HK Grotesk", sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 40px;
+            color: #000000; }
+        * .container-prod .sofa .sofa-menu .credit {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: -9px; }
+          * .container-prod .sofa .sofa-menu .credit .financies {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 35px; }
+            * .container-prod .sofa .sofa-menu .credit .financies > a {
+              margin-right: 27px; }
+              * .container-prod .sofa .sofa-menu .credit .financies > a .pay-block {
+                width: 72px;
+                height: 72px;
+                border: 1px solid #D3D3D3;
+                background: #FFFFFF; }
+                * .container-prod .sofa .sofa-menu .credit .financies > a .pay-block .method {
+                  width: 100%;
+                  height: 100%; }
+              * .container-prod .sofa .sofa-menu .credit .financies > a:last-child {
+                margin-right: 0; }
+        * .container-prod .sofa .sofa-menu .delivery-notice {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          background: #F3F3F3;
+          padding: 30px;
+          margin-top: 27px; }
+          * .container-prod .sofa .sofa-menu .delivery-notice > .cont {
+            margin-left: 30px; }
+            * .container-prod .sofa .sofa-menu .delivery-notice > .cont h5 {
+              font-family: "Outfit", sans-serif;
+              font-weight: 300;
+              font-size: 25px;
+              line-height: 32px;
+              letter-spacing: 0.265em;
+              text-transform: uppercase;
+              color: #545454; }
+            * .container-prod .sofa .sofa-menu .delivery-notice > .cont p {
+              margin-top: 11px;
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 42px;
+              color: #545454; }
+        * .container-prod .sofa .sofa-menu .advantages {
+          width: 100%;
+          display: flex;
+          flex-direction: column; }
+          * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade {
+            margin-top: 40px; }
+            * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-indicators {
+              display: flex;
+              position: relative;
+              justify-content: flex-start;
+              width: 100%;
+              margin: 0 auto;
+              box-shadow: inset 0px -1px 0px #EEEEEE; }
+              * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-indicators > button {
+                background: transparent;
+                width: fit-content;
+                margin: 0;
+                margin-right: 40px;
+                border: none;
+                position: relative;
+                display: block;
+                width: fit-content;
+                height: 48px;
+                text-indent: unset;
+                font-family: "Outfit", sans-serif;
+                font-weight: 300;
+                font-size: 25px;
+                line-height: 22px;
+                color: #9E9E9E;
+                /*
+                What&#8217;s Included?
+                Delivery
+                Dimensions
+                Finance
+                */ }
+                * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-indicators > button.active {
+                  color: #333333;
+                  border-bottom: 1px solid #333333; }
+            * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-inner .carousel-item h4 {
+              margin-top: 30px;
+              font-family: "Outfit", sans-serif;
+              font-weight: 300;
+              font-size: 25px;
+              line-height: 33px;
+              color: #333333; }
+            * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-inner .carousel-item p {
+              margin-top: 20px;
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 40px;
+              color: #848484; }
 
 /*# sourceMappingURL=style.css.map */

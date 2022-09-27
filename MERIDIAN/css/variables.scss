@@ -29,7 +29,16 @@ $fsz75: 75px;
 
 $white: #FFFFFF;
 $dkwhite:#F5F3ED;
+$semiwhite: #F3F3F3;
+$semiwhite2: #EEEEEE;
 
+$gray14: #9E9E9E;
+$gray13: #848484;
+$gray12: #333333;
+$gray11: #D3D3D3;
+$gray10: #A7A7A7;
+$gray9: #AAADAE;
+$gray8: #C4C4C4;
 $gray7: #232323;
 $gray6: #636A6A;
 $gray5: #888887;
@@ -58,3 +67,9 @@ $white-op10: rgba(255, 255, 255, 0.1);
 $white-op50: rgba(255, 255, 255, 0.5);
 $white-op58: rgba(255, 255, 255, 0.58);
 $black-op60: rgba(0, 0, 0, 0.6);
+
+$palette1: $black;
+$palette2: $beige;
+$palette3: $gray10;
+$palette4: $aqua;
+$palette5: $peach;
