@@ -259,3 +259,16 @@
         }
     }
 }
+
+@for $item from 1 through 4{
+    .sets{
+        .set-card{
+            &:nth-child(#{$item}){
+                .wall{
+                    background: url('../img/popSet#{$item}.png');
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
