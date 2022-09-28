@@ -208,7 +208,7 @@
   /* product.html*/ }
   * .header {
     position: fixed;
-    z-index: 2;
+    z-index: 10;
     width: 100%;
     background: #FFFFFF;
     margin-top: -210px;
@@ -1057,7 +1057,7 @@
             * .container-prod .sofa .sofa-menu .advantages #advantagesCarouselFade > .carousel-inner .carousel-item h4 {
               margin-top: 30px;
               font-family: "Outfit", sans-serif;
-              font-weight: 300;
+              font-weight: 500;
               font-size: 25px;
               line-height: 33px;
               color: #333333; }
@@ -1068,5 +1068,66 @@
               font-size: 25px;
               line-height: 40px;
               color: #848484; }
+    * .container-prod .alum-furn {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between; }
+      * .container-prod .alum-furn .bed {
+        width: 50%;
+        height: 37vw;
+        background: url("../img/alumFurnBed.png") top left no-repeat;
+        background-size: cover; }
+      * .container-prod .alum-furn .text-box {
+        width: 44.5%;
+        margin-top: 70px; }
+        * .container-prod .alum-furn .text-box h2 {
+          font-family: "Outfit", sans-serif;
+          font-weight: 400;
+          font-size: 65px;
+          line-height: 82px;
+          color: #000000; }
+        * .container-prod .alum-furn .text-box p {
+          margin-top: 30px;
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 40px;
+          color: #848484; }
+    * .container-prod .questions > h2 {
+      margin-top: 100px;
+      margin-bottom: 28px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 55px;
+      line-height: 69px;
+      color: #000000; }
+    * .container-prod .questions #accordionQuestions .accordion-item {
+      border: none;
+      border-radius: 0;
+      border-top: 1px solid #BEBFBE; }
+      * .container-prod .questions #accordionQuestions .accordion-item:last-child {
+        border-bottom: 1px solid #BEBFBE; }
+      * .container-prod .questions #accordionQuestions .accordion-item > h2 .accordion-button {
+        padding: 38px 0;
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #272727; }
+        * .container-prod .questions #accordionQuestions .accordion-item > h2 .accordion-button::after {
+          width: 50px;
+          height: 50px;
+          background: url("../img/accordionQuestAfter.svg") center no-repeat;
+          background-size: cover; }
+        * .container-prod .questions #accordionQuestions .accordion-item > h2 .accordion-button:focus {
+          box-shadow: none; }
+        * .container-prod .questions #accordionQuestions .accordion-item > h2 .accordion-button:not(.collapsed) {
+          background: none; }
+      * .container-prod .questions #accordionQuestions .accordion-item.collapse.show.accordion-body {
+        font-family: "HK Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 41px;
+        color: #888887; }
 
 /*# sourceMappingURL=style.css.map */

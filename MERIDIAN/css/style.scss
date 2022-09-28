@@ -7,7 +7,7 @@
 
     .header{
         position: fixed;
-        z-index: 2;
+        z-index: 10;
         width: 100%;
         background: $white;
         margin-top: -210px;
@@ -1093,7 +1093,7 @@ Finance
                                 h4{
                                     margin-top: 30px;
                                     font-family: $outfit;
-                                    font-weight: $lite;
+                                    font-weight: $medium;
                                     font-size: $fsz_default;
                                     line-height: 33px;
                                     color: $gray12;
@@ -1117,6 +1117,119 @@ Finance
                 }
 
             }
+
+        }
+
+        .alum-furn{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+
+            .bed{
+                width: 50%;
+                height: 37vw;
+                background: url('../img/alumFurnBed.png') top left no-repeat;
+                background-size: cover;
+            }
+
+            .text-box{
+                width: 44.5%;
+                margin-top: 70px;
+
+                h2{
+                    font-family: $outfit;
+                    font-weight: $regular;
+                    font-size: $fsz65;
+                    line-height: 82px;
+                    color: $black;
+                }
+
+                p{
+                    margin-top: 30px;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz_default;
+                    line-height: 40px;
+                    color: $gray13;
+                }
+
+            }
+
+        }
+
+        .questions{
+            
+            & > h2{
+                margin-top: 100px;
+                margin-bottom: 28px;
+                font-family: $outfit;
+                font-weight: $lite;
+                font-size: $fsz55;
+                line-height: 69px;
+                color: $black
+            }
+
+            #accordionQuestions{
+
+                .accordion-item{
+                    border: none;
+                    border-radius: 0;
+                    border-top: 1px solid $gray2;
+
+                    &:last-child{
+                        border-bottom: 1px solid $gray2;
+                    }
+
+                    & > h2{
+                        
+
+                        .accordion-button{
+                            padding: 38px 0;
+                            font-family: $grotesk;
+                            font-weight: $regular;
+                            font-size: $fsz_default;
+                            line-height: 33px;
+                            color: $gray0;
+
+                            &::after{
+                                width: 50px;
+                                height: 50px;
+                                background: url('../img/accordionQuestAfter.svg') center no-repeat;
+                                background-size: cover;
+                            }
+
+                            &:focus{
+                                box-shadow: none;
+                            }
+
+                            &:not(.collapsed){
+                                background: none;
+
+                                
+                            }
+
+                        }
+
+                    }
+
+                    &.collapse.show{
+
+                        &.accordion-body{
+                            font-family: $grotesk;
+                            font-weight: $regular;
+                            font-size: $fsz_default;
+                            line-height: 41px;
+                            color: $gray5;
+                        }
+
+
+                    }
+
+
+                }
+
+            }
+
 
         }
 
