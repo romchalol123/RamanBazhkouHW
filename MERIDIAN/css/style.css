@@ -841,7 +841,7 @@
           margin-right: 0; }
   * .container-prod {
     padding-top: 40px;
-    margin: 0 101px; }
+    margin: 0 101px 100px; }
     * .container-prod nav .breadcrumb {
       margin-bottom: 40px; }
       * .container-prod nav .breadcrumb .breadcrumb-item {
@@ -1221,5 +1221,129 @@
           font-size: 25px;
           line-height: 33px;
           color: #FFFFFF; }
+    * .container-prod .review {
+      margin-top: 100px;
+      width: 100%; }
+      * .container-prod .review .rev-top {
+        display: flex;
+        justify-content: space-between; }
+        * .container-prod .review .rev-top h2 {
+          margin-top: 18px;
+          font-family: "Outfit", sans-serif;
+          font-weight: 300;
+          font-size: 55px;
+          line-height: 69px;
+          color: #1D1F1F; }
+        * .container-prod .review .rev-top button {
+          border: none;
+          width: 250px;
+          height: 103px;
+          background: #3A5040;
+          font-family: "HK Grotesk", sans-serif;
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 40px;
+          color: #FFFFFF; }
+      * .container-prod .review #carouselReview {
+        margin-top: 45px; }
+        * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row {
+          margin-bottom: 65px;
+          padding-bottom: 45px;
+          display: flex;
+          justify-content: flex-start;
+          border-bottom: 1px solid #E2E2E2; }
+          * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row:last-child {
+            border: none; }
+          * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row > div {
+            margin-right: 10%; }
+          * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col {
+            min-width: 260px; }
+            * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col h6 {
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 33px;
+              color: #888887;
+              margin-bottom: 23px; }
+            * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col p {
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 44px;
+              color: #B6B8B8;
+              margin-bottom: 10px; }
+              * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col p img {
+                margin-top: -12px;
+                margin-left: 9px; }
+            * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col .rate-stars {
+              display: flex;
+              justify-content: flex-start; }
+              * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .rating-col .rate-stars img {
+                margin-right: 6px; }
+          * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .feedback {
+            width: 53%; }
+            * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .feedback p {
+              font-family: "HK Grotesk", sans-serif;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 33px;
+              color: #888887; }
+              * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .feedback p:last-child {
+                margin-top: 22px;
+                line-height: 36px; }
+          * .container-prod .review #carouselReview > .carousel-inner .carousel-item > .rate-row .data p {
+            font-family: "HK Grotesk", sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 39px;
+            color: #888887;
+            min-width: 110px; }
+        * .container-prod .review #carouselReview > .control-btns {
+          display: flex;
+          justify-content: center; }
+          * .container-prod .review #carouselReview > .control-btns button {
+            position: relative;
+            width: 82px;
+            height: 82px;
+            border-radius: 6px;
+            border: 1px solid #848484;
+            margin: 15px 25px;
+            padding: 0;
+            opacity: 1;
+            background: transparent; }
+            * .container-prod .review #carouselReview > .control-btns button:hover {
+              background: #BCBCBC;
+              border: 1px solid #BCBCBC; }
+              * .container-prod .review #carouselReview > .control-btns button:hover svg path {
+                fill: #FFFFFF; }
+            * .container-prod .review #carouselReview > .control-btns button:active {
+              transform: scale(0.95); }
+            * .container-prod .review #carouselReview > .control-btns button svg {
+              width: 9px;
+              height: 15px; }
+              * .container-prod .review #carouselReview > .control-btns button svg path {
+                fill: #BCBCBC; }
+            * .container-prod .review #carouselReview > .control-btns button:last-child svg {
+              transform: rotate(180deg); }
+          * .container-prod .review #carouselReview > .control-btns .carousel-indicators {
+            position: relative;
+            margin: 0; }
+            * .container-prod .review #carouselReview > .control-btns .carousel-indicators button {
+              width: 80px;
+              height: 80px;
+              text-indent: 0;
+              margin: 15px 25px;
+              padding-left: 5px;
+              font-family: "Outfit", sans-serif;
+              font-weight: 300;
+              font-size: 25px;
+              line-height: 32px;
+              letter-spacing: 0.265em;
+              text-transform: uppercase;
+              color: #000000; }
+              * .container-prod .review #carouselReview > .control-btns .carousel-indicators button.active {
+                background: #B58269;
+                border: 1px solid #B58269;
+                color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

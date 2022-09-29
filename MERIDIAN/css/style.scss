@@ -811,7 +811,7 @@
 
     .container-prod{
         padding-top: 40px;
-        margin: 0 101px;
+        margin: 0 101px 100px;
 
         nav{
             .breadcrumb{
@@ -1328,6 +1328,219 @@ Finance
 
 
                 }
+
+            }
+
+        }
+
+        .review{
+            margin-top: 100px;
+            width: 100%;
+
+            .rev-top{
+                display: flex;
+                justify-content: space-between;
+
+
+                h2{
+                    margin-top: 18px;
+                    font-family: $outfit;
+                    font-weight: $lite;
+                    font-size: $fsz55;
+                    line-height: 69px;
+                    color: $black-lite;
+                }
+
+                button{
+                    border: none;
+                    width: 250px;
+                    height: 103px;
+                    background: $green2;
+                    font-family: $grotesk;
+                    font-weight: $regular;
+                    font-size: $fsz26;
+                    line-height: 40px;
+                    color: $white;
+                }
+
+            }
+
+            #carouselReview{
+                margin-top: 45px;
+
+                & > .carousel-inner{
+
+                    .carousel-item{
+
+                        & > .rate-row{
+                            margin-bottom: 65px;
+                            padding-bottom: 45px;
+                            display: flex;
+                            justify-content: flex-start;
+                            border-bottom: 1px solid $semiwhite3;
+
+                            &:last-child{
+                                border: none;
+                            }
+
+                            & > div{
+                                margin-right: 10%;
+                            }
+
+                            .rating-col{
+                                min-width: 260px;
+
+                                h6{
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 33px;
+                                    color: $gray5;
+                                    margin-bottom: 23px;
+                                }
+
+                                p{
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz24;
+                                    line-height: 44px;
+                                    color: $gray15;
+                                    margin-bottom: 10px;
+
+                                    img{
+                                        margin-top: -12px;
+                                        margin-left: 9px;
+                                    }
+
+                                }
+
+                                .rate-stars{
+                                    display: flex;
+                                    justify-content: flex-start;
+
+                                    img{
+                                        margin-right: 6px;
+                                    }
+
+                                }
+
+                            }
+
+                            .feedback{
+                                width: 53%;
+
+                                p{
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 33px;
+                                    color: $gray5;
+
+                                    &:last-child{
+                                        margin-top: 22px;
+                                        line-height: 36px;
+                                    }
+
+                                }
+
+                            }
+
+                            .data{
+                                
+
+                                p{
+                                    font-family: $grotesk;
+                                    font-weight: $regular;
+                                    font-size: $fsz_default;
+                                    line-height: 39px;
+                                    color: $gray5;   
+                                    min-width: 110px;
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                & > .control-btns{
+                    display: flex;
+                    justify-content: center;
+                    
+
+                    button{
+                        position: relative;
+                        width: 82px;
+                        height: 82px;
+                        border-radius: 6px;
+                        border: 1px solid $gray13;
+                        margin: 15px 25px;
+                        padding: 0;
+                        opacity: 1;
+                        background: transparent;
+
+                        &:hover{
+                            background: $gray16;
+                            border: 1px solid $gray16;
+
+                            svg{
+                                path{
+                                    fill: $white;
+                                }
+                            }
+                        }
+
+                        &:active{
+                            transform: scale(0.95);
+                        }
+
+                        svg{
+                            width: 9px;
+                            height: 15px;
+
+                            path{
+                                fill: $gray16;
+                            }
+                        }
+
+                        &:last-child{
+                            svg{
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+
+                    .carousel-indicators{
+                        position: relative;
+                        margin: 0;
+                        
+
+                        button{
+                            width: 80px;
+                            height: 80px;
+                            text-indent: 0;
+                            margin: 15px 25px;
+                            padding-left: 5px;
+                            font-family: $outfit;
+                            font-weight: $lite;
+                            font-size: $fsz_default;
+                            line-height: 32px;
+                            letter-spacing: 0.265em;
+                            text-transform: uppercase;
+                            color: $black;
+
+                            &.active{
+                                background: $beige;
+                                border: 1px solid $beige;
+                                color: $white;
+                            }
+                        }
+                    }
+
+                }
+
 
             }
 
