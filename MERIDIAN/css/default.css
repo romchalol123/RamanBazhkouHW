@@ -3,34 +3,44 @@
 /*  font-size  */
 /*  colors  */
 .preview > .collection > a:nth-child(1) .card {
-  background: url("../img/PrevCol1.png") top center no-repeat; }
+  background: url("../img/PrevCol1.png") center no-repeat;
+  background-size: cover; }
 
 .preview > .collection > a:nth-child(2) .card {
-  background: url("../img/PrevCol2.png") top center no-repeat; }
+  background: url("../img/PrevCol2.png") center no-repeat;
+  background-size: cover; }
 
 .preview > .collection > a:nth-child(3) .card {
-  background: url("../img/PrevCol3.png") top center no-repeat; }
+  background: url("../img/PrevCol3.png") center no-repeat;
+  background-size: cover; }
 
 .preview > .collection > a:nth-child(4) .card {
-  background: url("../img/PrevCol4.png") top center no-repeat; }
+  background: url("../img/PrevCol4.png") center no-repeat;
+  background-size: cover; }
 
 .preview > .collection > a:nth-child(5) .card {
-  background: url("../img/PrevCol5.png") top center no-repeat; }
+  background: url("../img/PrevCol5.png") center no-repeat;
+  background-size: cover; }
 
 .explore > .collection > a:nth-child(1) .card {
-  background: url("../img/Prev2Col1.png") top center no-repeat; }
+  background: url("../img/Prev2Col1.png") center no-repeat;
+  background-size: cover; }
 
 .explore > .collection > a:nth-child(2) .card {
-  background: url("../img/Prev2Col2.png") top center no-repeat; }
+  background: url("../img/Prev2Col2.png") center no-repeat;
+  background-size: cover; }
 
 .explore > .collection > a:nth-child(3) .card {
-  background: url("../img/Prev2Col3.png") top center no-repeat; }
+  background: url("../img/Prev2Col3.png") center no-repeat;
+  background-size: cover; }
 
 .explore > .collection > a:nth-child(4) .card {
-  background: url("../img/Prev2Col4.png") top center no-repeat; }
+  background: url("../img/Prev2Col4.png") center no-repeat;
+  background-size: cover; }
 
 .explore > .collection > a:nth-child(5) .card {
-  background: url("../img/Prev2Col5.png") top center no-repeat; }
+  background: url("../img/Prev2Col5.png") center no-repeat;
+  background-size: cover; }
 
 .preview .ship #prod-carousel .carousel-inner .carousel-item .cards-group .prod-card:nth-child(1) .prod-wall {
   background: url("../img/1SS1.png") center no-repeat; }

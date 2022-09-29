@@ -175,7 +175,8 @@
         & > .collection{
             & > a:nth-child(#{$item}){
                 .card{
-                    background: url('../img/PrevCol#{$item}.png') top center no-repeat;
+                    background: url('../img/PrevCol#{$item}.png') center no-repeat;
+                    background-size: cover;
                 }
             }
         }
@@ -187,7 +188,8 @@
         & > .collection{
             & > a:nth-child(#{$item}){
                 .card{
-                    background: url('../img/Prev2Col#{$item}.png') top center no-repeat;
+                    background: url('../img/Prev2Col#{$item}.png') center no-repeat;
+                    background-size: cover;
                 }
             }
         }
