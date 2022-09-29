@@ -367,8 +367,10 @@
             height: 350px;
 
             button{
-                width: 300px;
-                left: calc(50% - 150px);
+                width: 30vw;
+                left: calc(50% - 15vw);
+                font-size: $fsz18;
+                line-height: 22px;
             }
 
         }
@@ -378,6 +380,8 @@
     @media all and (max-width: 794px){
 
         .card{
+            min-width: none;
+            min-height: none;
             width: 50vw;
             height: 50vw;
         }
@@ -385,4 +389,57 @@
     }
 
 
+}
+
+.explore{
+    .furniture{
+
+        @media all and (max-width: 1468px){
+            flex-direction: column-reverse;
+            margin-top: 45px;
+
+            .text-cont{
+                width: 100%;
+
+                h2{
+                    margin-top: 50px;
+                }
+            }
+
+            #furniture-carousel{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+
+                .carousel-inner{
+                    .carousel-item{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .button-panel{
+                    bottom: -810px;
+                }
+            }
+        }
+        
+        @media all and (max-width: 1216px){
+            #furniture-carousel{
+                .button-panel{
+                    bottom: -860px;
+                }
+            }
+        }
+
+        @media all and (max-width: 1052px){
+            #furniture-carousel{
+                .button-panel{
+                    bottom: -910px;
+                }
+            }
+        }
+
+    }
 }
